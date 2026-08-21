@@ -1,0 +1,20 @@
+Tribunals and regulators
+"Matters are distinct cases on the index. Documents are the files held for those matters and exceed the number of matters because a tribunal issues several documents in one case. Document mix varies sharply by forum: some are reasoned decisions, others are procedural order sheets or case status records. See the note below the table."
+Forum,Abbreviation,Type,Subject area,Matters,Documents on file,Reasoned decisions (est.),Size (GB),Earliest,Latest,Searchable
+Central Administrative Tribunal (case information system),CAT CIS,Tribunal,Public service and employment,181429,1260951,,10.9,2021,2025,Case index
+Central Administrative Tribunal,CAT,Tribunal,Public service and employment,162439,166919,65599,144.1,1985,2023,Case index
+"Customs, Excise and Service Tax Appellate Tribunal",CESTAT,Appellate tribunal,"Customs, excise and service tax",122612,122612,53949,35.4,2000,2025,Case index
+Income Tax Appellate Tribunal,ITAT,Appellate tribunal,Income tax,115074,136850,113216,78.9,2021,2026,Case index
+Debts Recovery Tribunal and Appellate Tribunal,DRT,Tribunal and appellate tribunal,Debt recovery and SARFAESI,108395,256411,75130,195.8,2000,2026,Case index
+National Company Law Tribunal,NCLT,Tribunal,Company law and insolvency,63487,108726,15222,45,1996,2026,Case index
+National Green Tribunal,NGT,Tribunal,Environment,34350,34350,12366,12.2,2011,2026,Case index
+Securities Appellate Tribunal,SAT,Appellate tribunal,Securities,9296,9296,3653,2.4,2006,2026,Case index
+Appellate Tribunal for Forfeited Property,ATFP,Appellate tribunal,Forfeited property,3359,3359,2956,1,2016,2026,Case index
+Competition Commission of India,CCI,Regulator,Competition,2944,2944,1295,1.6,2010,2026,Case index
+Appellate Tribunal for Electricity,APTEL,Appellate tribunal,Electricity,2707,2707,2328,0.7,2008,2026,Case index
+GST Authority for Advance Ruling,GST AAR,Advance ruling authority,Goods and services tax,2618,2618,961,8.2,2017,2025,Case index
+Insolvency and Bankruptcy Board of India,IBBI,Regulator,Insolvency and bankruptcy,1580,1580,853,2.9,2017,2026,Case index
+Real Estate Regulatory Authority,RERA,Regulator,Real estate,1530,1530,,2.2,2018,2026,Case index
+Telecom Disputes Settlement and Appellate Tribunal,TDSAT,Appellate tribunal,Telecom and broadcasting,1348,1348,988,0.9,2001,2026,Case index
+Total,,,,813168,2112201,348516,542
+"Searchable: 'Case index' means parties, case number, forum, bench and date are searchable, and the document is available to open and read. Full text search across tribunal material is in progress. Documents on file counts every file held for a matter, including procedural order sheets and case status records. Reasoned decisions is an estimate from a random sample of 150 documents per forum, accurate to about 8 percentage points either way. Matters and Documents on file are exact counts. For CAT CIS the cell is left blank because none of the 150 sampled documents was a reasoned decision: its files are order sheets recording listings and adjournments, so the share is too small for this sample to measure."

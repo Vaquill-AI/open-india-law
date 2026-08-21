@@ -1,0 +1,245 @@
+{
+ "sample_size": 150,
+ "forums": {
+  "cat_cis": {
+   "objects_in_prefix": 1260951,
+   "sampled": 150,
+   "median_text_chars": 548,
+   "classes": {
+    "procedural order sheet": 144,
+    "short order": 6
+   },
+   "pct": {
+    "procedural order sheet": 96.0,
+    "short order": 4.0
+   }
+  },
+  "drt": {
+   "objects_in_prefix": 256416,
+   "sampled": 150,
+   "median_text_chars": 3034,
+   "classes": {
+    "short procedural order": 31,
+    "short order": 26,
+    "substantive decision": 44,
+    "procedural order sheet": 13,
+    "no extractable text": 36
+   },
+   "pct": {
+    "short procedural order": 20.7,
+    "short order": 17.3,
+    "substantive decision": 29.3,
+    "procedural order sheet": 8.7,
+    "no extractable text": 24.0
+   }
+  },
+  "cat": {
+   "objects_in_prefix": 166919,
+   "sampled": 150,
+   "median_text_chars": 4021,
+   "classes": {
+    "no extractable text": 32,
+    "short procedural order": 9,
+    "substantive decision": 59,
+    "short order": 49,
+    "procedural order sheet": 1
+   },
+   "pct": {
+    "no extractable text": 21.3,
+    "short procedural order": 6.0,
+    "substantive decision": 39.3,
+    "short order": 32.7,
+    "procedural order sheet": 0.7
+   }
+  },
+  "itat": {
+   "objects_in_prefix": 136900,
+   "sampled": 150,
+   "median_text_chars": 9111,
+   "classes": {
+    "substantive decision": 124,
+    "short order": 26
+   },
+   "pct": {
+    "substantive decision": 82.7,
+    "short order": 17.3
+   }
+  },
+  "cestat": {
+   "objects_in_prefix": 122612,
+   "sampled": 150,
+   "median_text_chars": 3670,
+   "classes": {
+    "no extractable text": 15,
+    "substantive decision": 66,
+    "short order": 58,
+    "short procedural order": 10,
+    "procedural order sheet": 1
+   },
+   "pct": {
+    "no extractable text": 10.0,
+    "substantive decision": 44.0,
+    "short order": 38.7,
+    "short procedural order": 6.7,
+    "procedural order sheet": 0.7
+   }
+  },
+  "nclt": {
+   "objects_in_prefix": 108726,
+   "sampled": 150,
+   "median_text_chars": 1520,
+   "classes": {
+    "procedural order sheet": 32,
+    "short order": 27,
+    "substantive decision": 21,
+    "case status sheet": 24,
+    "no extractable text": 33,
+    "unreadable": 1,
+    "short procedural order": 12
+   },
+   "pct": {
+    "procedural order sheet": 21.3,
+    "short order": 18.0,
+    "substantive decision": 14.0,
+    "case status sheet": 16.0,
+    "no extractable text": 22.0,
+    "unreadable": 0.7,
+    "short procedural order": 8.0
+   }
+  },
+  "ngt": {
+   "objects_in_prefix": 34350,
+   "sampled": 150,
+   "median_text_chars": 2686,
+   "classes": {
+    "short order": 71,
+    "substantive decision": 54,
+    "short procedural order": 24,
+    "no extractable text": 1
+   },
+   "pct": {
+    "short order": 47.3,
+    "substantive decision": 36.0,
+    "short procedural order": 16.0,
+    "no extractable text": 0.7
+   }
+  },
+  "sat": {
+   "objects_in_prefix": 9296,
+   "sampled": 150,
+   "median_text_chars": 2580,
+   "classes": {
+    "substantive decision": 59,
+    "short order": 74,
+    "short procedural order": 17
+   },
+   "pct": {
+    "substantive decision": 39.3,
+    "short order": 49.3,
+    "short procedural order": 11.3
+   }
+  },
+  "atfp": {
+   "objects_in_prefix": 3359,
+   "sampled": 150,
+   "median_text_chars": 17373,
+   "classes": {
+    "substantive decision": 132,
+    "short order": 16,
+    "short procedural order": 2
+   },
+   "pct": {
+    "substantive decision": 88.0,
+    "short order": 10.7,
+    "short procedural order": 1.3
+   }
+  },
+  "cci": {
+   "objects_in_prefix": 2944,
+   "sampled": 150,
+   "median_text_chars": 3820,
+   "classes": {
+    "short procedural order": 19,
+    "short order": 52,
+    "substantive decision": 66,
+    "no extractable text": 13
+   },
+   "pct": {
+    "short procedural order": 12.7,
+    "short order": 34.7,
+    "substantive decision": 44.0,
+    "no extractable text": 8.7
+   }
+  },
+  "aptel": {
+   "objects_in_prefix": 2707,
+   "sampled": 150,
+   "median_text_chars": 34479,
+   "classes": {
+    "substantive decision": 129,
+    "short order": 12,
+    "short procedural order": 9
+   },
+   "pct": {
+    "substantive decision": 86.0,
+    "short order": 8.0,
+    "short procedural order": 6.0
+   }
+  },
+  "gst_aar": {
+   "objects_in_prefix": 2618,
+   "sampled": 150,
+   "median_text_chars": 13970,
+   "classes": {
+    "substantive decision": 55,
+    "no extractable text": 85,
+    "short procedural order": 5,
+    "short order": 5
+   },
+   "pct": {
+    "substantive decision": 36.7,
+    "no extractable text": 56.7,
+    "short procedural order": 3.3,
+    "short order": 3.3
+   }
+  },
+  "ibbi": {
+   "objects_in_prefix": 1580,
+   "sampled": 150,
+   "median_text_chars": 20094,
+   "classes": {
+    "substantive decision": 81,
+    "no extractable text": 58,
+    "short order": 4,
+    "unreadable": 6,
+    "short procedural order": 1
+   },
+   "pct": {
+    "substantive decision": 54.0,
+    "no extractable text": 38.7,
+    "short order": 2.7,
+    "unreadable": 4.0,
+    "short procedural order": 0.7
+   }
+  },
+  "tdsat": {
+   "objects_in_prefix": 1348,
+   "sampled": 150,
+   "median_text_chars": 17319,
+   "classes": {
+    "substantive decision": 110,
+    "no extractable text": 22,
+    "unreadable": 8,
+    "short order": 8,
+    "short procedural order": 2
+   },
+   "pct": {
+    "substantive decision": 73.3,
+    "no extractable text": 14.7,
+    "unreadable": 5.3,
+    "short order": 5.3,
+    "short procedural order": 1.3
+   }
+  }
+ }
+}

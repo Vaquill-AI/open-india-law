@@ -1,0 +1,21 @@
+court,cases_in_v1,cases_in_v2,cases_in_both,unique_after_dedup,wasted_duplicates,v2_fully_contained_in_v1
+Patna High Court,1615035,88315,88309,1615041,88309,no
+Bombay High Court,1595945,87101,87098,1595948,87098,no
+Madras High Court,1494952,81336,81336,1494952,81336,yes
+Telangana High Court,1004138,54445,54445,1004138,54445,yes
+Andhra Pradesh High Court,254482,35029,35029,254482,35029,yes
+Chhattisgarh High Court,508791,27411,27411,508791,27411,yes
+Gujarat High Court,411637,21969,21968,411638,21968,no
+Delhi High Court,322940,17214,17214,322940,17214,yes
+Gauhati High Court,285712,15544,15542,285714,15542,no
+Himachal Pradesh High Court,101766,87912,5503,184175,5503,no
+Allahabad High Court,1498161,2364,2275,1498250,2275,no
+Uttarakhand High Court,123643,453,243,123853,243,no
+Calcutta High Court,202310,497,242,202565,242,no
+Sikkim High Court,436,20,3,453,3,no
+Tripura High Court,18942,3,3,18942,3,yes
+Punjab and Haryana High Court,3,483251,1,483253,1,no
+Karnataka High Court,1,581275,0,581276,0,no
+Kerala High Court,3,916187,0,916190,0,no
+Madhya Pradesh High Court,1,402631,0,402632,0,no
+Rajasthan High Court,2,324565,0,324567,0,no

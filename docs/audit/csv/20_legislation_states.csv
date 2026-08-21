@@ -1,0 +1,38 @@
+state_key,state,level,instruments,provisions,provisions_per_instrument,in_force,repealed,spent,earliest_year,latest_year
+central,Central (Union of India),Central,13720,628863,45.8,613970,14609,284,1834,2026
+assam,Assam,State or territory,987,12429,12.6,12429,0,0,1806,2020
+west-bengal,West Bengal,State or territory,715,32238,45.1,32238,0,0,1947,2024
+rajasthan,Rajasthan,State or territory,383,26759,69.9,26759,0,0,1860,2025
+maharashtra,Maharashtra,State or territory,379,30271,79.9,30271,0,0,1866,2025
+chhattisgarh,Chhattisgarh,State or territory,359,25368,70.7,25368,0,0,1860,2023
+uttar-pradesh,Uttar Pradesh,State or territory,338,14308,42.3,14308,0,0,1885,2025
+kerala,Kerala,State or territory,322,19164,59.5,19164,0,0,1951,2025
+tamil-nadu,Tamil Nadu,State or territory,308,15524,50.4,15524,0,0,1864,2023
+punjab,Punjab,State or territory,303,18037,59.5,18037,0,0,1887,2025
+bihar,Bihar,State or territory,298,10910,36.6,10910,0,0,1894,2024
+odisha,Odisha,State or territory,282,11370,40.3,11370,0,0,1908,2025
+karnataka,Karnataka,State or territory,279,29485,105.7,29485,0,0,1899,2025
+telangana,Telangana,State or territory,259,16785,64.8,16785,0,0,1837,2024
+chandigarh,Chandigarh,State or territory,256,21805,85.2,21805,0,0,1860,2018
+uttarakhand,Uttarakhand,State or territory,244,10531,43.2,10531,0,0,1901,2022
+gujarat,Gujarat,State or territory,226,12868,56.9,12868,0,0,1867,2025
+madhya-pradesh,Madhya Pradesh,State or territory,216,17477,80.9,17477,0,0,1860,2023
+haryana,Haryana,State or territory,211,11787,55.9,11787,0,0,1897,2025
+nagaland,Nagaland,State or territory,202,4861,24.1,4861,0,0,1954,2024
+himachal-pradesh,Himachal Pradesh,State or territory,194,10765,55.5,10765,0,0,1952,2023
+andhra-pradesh,Andhra Pradesh,State or territory,190,12264,64.5,12264,0,0,1954,2023
+manipur,Manipur,State or territory,187,4560,24.4,4560,0,0,1924,2023
+dadra-nagar-haveli,Dadra and Nagar Haveli,State or territory,169,15619,92.4,15619,0,0,1860,2018
+goa,Goa,State or territory,154,14539,94.4,14539,0,0,1867,2024
+jharkhand,Jharkhand,State or territory,137,10831,79.1,10831,0,0,1887,2021
+jammu-kashmir,Jammu and Kashmir,State or territory,137,9223,67.3,9223,0,0,1945,2020
+tripura,Tripura,State or territory,121,8070,66.7,8070,0,0,1926,2023
+arunachal-pradesh,Arunachal Pradesh,State or territory,115,6996,60.8,6996,0,0,1891,2025
+sikkim,Sikkim,State or territory,111,4266,38.4,4266,0,0,1975,2022
+meghalaya,Meghalaya,State or territory,105,5550,52.9,5550,0,0,1970,2024
+delhi,Delhi,State or territory,96,8006,83.4,8006,0,0,1870,2019
+mizoram,Mizoram,State or territory,83,2015,24.3,2015,0,0,1988,2023
+puducherry,Puducherry,State or territory,78,7117,91.2,7117,0,0,1897,2019
+ladakh,Ladakh,State or territory,55,3119,56.7,3119,0,0,1945,2018
+andaman-nicobar,Andaman and Nicobar Islands,State or territory,45,4626,102.8,4626,0,0,1894,2016
+lakshadweep,Lakshadweep,State or territory,1,171,171.0,171,0,0,1995,1995

@@ -1,0 +1,186 @@
+{
+ "generated": "2026-07-28 18:50:12",
+ "total_acts": 22265,
+ "total_provisions": 1098577,
+ "acts_scanned": 0,
+ "acts_with_year": 0,
+ "issuers": {
+  "STATE": {
+   "name": "STATE",
+   "subject": "",
+   "kind": "State or UT legislation",
+   "instruments": 8545,
+   "provisions": 469714,
+   "earliest_year": null,
+   "latest_year": null,
+   "instruments_with_year": 0,
+   "years": {}
+  },
+  "MCA": {
+   "name": "Ministry of Corporate Affairs",
+   "subject": "Company law and corporate governance",
+   "kind": "regulator instrument",
+   "instruments": 2666,
+   "provisions": 46480,
+   "earliest_year": null,
+   "latest_year": null,
+   "instruments_with_year": 0,
+   "years": {}
+  },
+  "RBI": {
+   "name": "Reserve Bank of India",
+   "subject": "Banking, payments and foreign exchange",
+   "kind": "regulator instrument",
+   "instruments": 2640,
+   "provisions": 104143,
+   "earliest_year": null,
+   "latest_year": null,
+   "instruments_with_year": 0,
+   "years": {}
+  },
+  "MOEFCC": {
+   "name": "Ministry of Environment, Forest and Climate Change",
+   "subject": "Environment and forests",
+   "kind": "regulator instrument",
+   "instruments": 1399,
+   "provisions": 116227,
+   "earliest_year": null,
+   "latest_year": null,
+   "instruments_with_year": 0,
+   "years": {}
+  },
+  "DGFT": {
+   "name": "Directorate General of Foreign Trade",
+   "subject": "Import and export policy",
+   "kind": "regulator instrument",
+   "instruments": 1233,
+   "provisions": 4252,
+   "earliest_year": null,
+   "latest_year": null,
+   "instruments_with_year": 0,
+   "years": {}
+  },
+  "SEBI": {
+   "name": "Securities and Exchange Board of India",
+   "subject": "Securities and capital markets",
+   "kind": "regulator instrument",
+   "instruments": 1144,
+   "provisions": 88310,
+   "earliest_year": null,
+   "latest_year": null,
+   "instruments_with_year": 0,
+   "years": {}
+  },
+  "CENTRAL": {
+   "name": "CENTRAL",
+   "subject": "",
+   "kind": "Central Act",
+   "instruments": 848,
+   "provisions": 59616,
+   "earliest_year": null,
+   "latest_year": null,
+   "instruments_with_year": 0,
+   "years": {}
+  },
+  "TRAI": {
+   "name": "Telecom Regulatory Authority of India",
+   "subject": "Telecom and broadcasting",
+   "kind": "regulator instrument",
+   "instruments": 834,
+   "provisions": 22720,
+   "earliest_year": null,
+   "latest_year": null,
+   "instruments_with_year": 0,
+   "years": {}
+  },
+  "REPEALED": {
+   "name": "REPEALED",
+   "subject": "",
+   "kind": "repealed Act",
+   "instruments": 710,
+   "provisions": 14609,
+   "earliest_year": null,
+   "latest_year": null,
+   "instruments_with_year": 0,
+   "years": {}
+  },
+  "CPCB": {
+   "name": "Central Pollution Control Board",
+   "subject": "Pollution control",
+   "kind": "regulator instrument",
+   "instruments": 558,
+   "provisions": 13752,
+   "earliest_year": null,
+   "latest_year": null,
+   "instruments_with_year": 0,
+   "years": {}
+  },
+  "LAW": {
+   "name": "Ministry of Law and Justice",
+   "subject": "Law Commission reports and legal affairs",
+   "kind": "regulator instrument",
+   "instruments": 558,
+   "provisions": 77209,
+   "earliest_year": null,
+   "latest_year": null,
+   "instruments_with_year": 0,
+   "years": {}
+  },
+  "TRIB": {
+   "name": "State GST and tax authorities",
+   "subject": "State GST notifications",
+   "kind": "regulator instrument",
+   "instruments": 354,
+   "provisions": 41708,
+   "earliest_year": null,
+   "latest_year": null,
+   "instruments_with_year": 0,
+   "years": {}
+  },
+  "IRDAI": {
+   "name": "Insurance Regulatory and Development Authority of India",
+   "subject": "Insurance",
+   "kind": "regulator instrument",
+   "instruments": 314,
+   "provisions": 16238,
+   "earliest_year": null,
+   "latest_year": null,
+   "instruments_with_year": 0,
+   "years": {}
+  },
+  "DFS": {
+   "name": "Department of Financial Services",
+   "subject": "Banking and insurance policy",
+   "kind": "regulator instrument",
+   "instruments": 283,
+   "provisions": 18509,
+   "earliest_year": null,
+   "latest_year": null,
+   "instruments_with_year": 0,
+   "years": {}
+  },
+  "CBIC": {
+   "name": "Central Board of Indirect Taxes and Customs",
+   "subject": "GST, customs and excise",
+   "kind": "regulator instrument",
+   "instruments": 169,
+   "provisions": 4806,
+   "earliest_year": null,
+   "latest_year": null,
+   "instruments_with_year": 0,
+   "years": {}
+  },
+  "SPENT": {
+   "name": "SPENT",
+   "subject": "",
+   "kind": "spent Act",
+   "instruments": 10,
+   "provisions": 284,
+   "earliest_year": null,
+   "latest_year": null,
+   "instruments_with_year": 0,
+   "years": {}
+  }
+ },
+ "reconciles": true
+}

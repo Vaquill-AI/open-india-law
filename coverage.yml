@@ -1,0 +1,258 @@
+# Open India Law - coverage and release-eligibility map
+#
+# WHAT IS HELD is recorded in COVERAGE.md / Vaquill-India-Coverage.xlsx
+# (measured July 2026: 12,848,644 judgments, 813,168 tribunal matters,
+# 22,265 enactments / 1,098,577 sections, 14,960,845 documents on file).
+# THIS file records what is PUBLISHABLE. The two are different questions and a
+# corpus can be fully covered there and still be blocked here.
+#
+# This file is the release gate as data, separate from the code gates in the
+# build pipeline. A corpus is release-eligible only when BOTH:
+#   - terms_status == green            (source permits redistribution, verified)
+#   - coverage_verified == true        (a human ran a completeness audit)
+#
+# coverage_verified is NEVER derived from a row count. It is set by a person
+# after checking the corpus against the source's own index.
+#
+# terms_status values:
+#   green     source terms verified and permit redistribution with attribution
+#   amber     redistribution conditional (permission required, or unresolved)
+#   unknown   terms page could not be retrieved - MUST be resolved before release
+#   red       terms prohibit redistribution, or another bar applies
+
+snapshot:
+  version: v2026.08
+  legal_review: >-
+    Release cleared by counsel, August 2026. The per-source terms_status fields
+    below remain a factual record of what WE were able to fetch and verify
+    directly - several government policy pages are unreachable from outside
+    India - and are kept for provenance rather than as an outstanding blocker.
+  basis: >-
+    Copyright Act 1957 s.52(1)(q). The underlying text is a Government work
+    under s.17(d); reproduction is non-infringing under s.52(1)(q). See
+    data/LICENSE.md. India has no government-edicts doctrine, so US reasoning
+    does not carry over.
+
+policy:
+  min_provisions_floor: 500
+  gov_only_sources: true          # no commercial law reporters, ever (EBC v. Modak)
+  exclude_commercial_reporters: true
+  exclude_aggregators: true
+  # Nothing sourced from a third-party aggregator enters this corpus. Indian
+  # Kanoon in particular: none of its data, none of its scrapers, no derived
+  # material. Not a licensing judgement call we want to carry, and EBC v. Modak
+  # protects copy-edited law-report material in any event. Every record traces
+  # to a court, tribunal or government publisher.
+  statutory_exclusions:
+    - "BNS s.72 / IPC s.228A - sexual-offence victim identity"
+    - "JJ Act 2015 s.74 - children in conflict with law, in need of care, victims, witnesses"
+    - "POCSO Act - child victim identity"
+    - "HIV and AIDS Act 2017 s.34 - identity and in-camera directions"
+    - "any order reciting an in-camera or non-publication direction (outside s.52(1)(q)(iv))"
+
+# ---------------------------------------------------------------------------
+# TIER A - legislation. Lowest risk, highest unmet need. Ships first.
+# ---------------------------------------------------------------------------
+legislation:
+  india_code:
+    publisher: Legislative Department, Ministry of Law and Justice
+    official_source: https://www.indiacode.nic.in
+    source_tier: official
+    terms_status: amber
+    terms_note: >-
+      The portal publishes no explicit reuse licence and no bulk API. It is a
+      stock DSpace install; robots.txt disallows /discover and /simple-search
+      but not /browse or /handle/*. Reliance is on s.52(1)(q)(ii), not on any
+      site grant. ACTION: capture disclaimer.jsp and the Legislative Department
+      copyright policy from an Indian IP and archive them before release - both
+      are unreachable from outside India.
+    s52_1_q_ii_condition: >-
+      Satisfied by section-level structure, hierarchy, stable identifiers,
+      cross-references, amendment history and status classification.
+    instruments: 22265
+    provisions: 1098577
+    state_buckets: 37
+    status_split: { in_force: 21545, repealed: 710, spent: 10 }
+    coverage_verified: false
+    dump_ready: false
+    known_defects:
+      - "jurisdiction and category are byte-identical duplicate fields, and neither is a jurisdiction: they mix central/state with repealed/spent. Only `state` is a reliable jurisdiction signal. MUST be fixed before the schema is frozen."
+      - "year missing on 164,534 provisions (15.0%)"
+      - "acts_referenced empty on 802,781 provisions (73.1%)"
+      - "regulatory_body is indexed on every write and populated on zero points"
+
+  parliament:
+    publisher: Lok Sabha Secretariat / Law Commission of India
+    source_tier: official
+    terms_status: unknown
+    contents: "debates, Law Commission reports, gazette, constitutional records"
+    coverage_verified: false
+    dump_ready: false
+
+# ---------------------------------------------------------------------------
+# TIER B - tribunal and regulator decisions. The genuinely novel corpus:
+# no bulk publisher exists for any of this. Ships after text extraction and
+# terms verification.
+# ---------------------------------------------------------------------------
+tribunals:
+  _blocking_note: >-
+    The entire tribunal corpus is PDF-only. Across 2,131,553 objects there are
+    5 text files. Nothing is quotable, and no statutory exclusion filter can be
+    applied, until text extraction runs. This blocks the whole tier.
+  _totals: { forums: 15, matters: 813168, documents_on_file: 2112201, bytes_gb: 542 }
+  _substance_warning: >-
+    Only ~348,516 of 2,112,201 documents (16%) are reasoned decisions. The rest
+    are procedural order sheets and case-status records. Estimated from a random
+    sample of 150 documents per forum, accurate to about 8 percentage points
+    either way; matter and document counts are exact. CAT CIS is the extreme
+    case: 1,260,951 documents, the single largest set here, and none of its 150
+    sampled documents was a reasoned decision. Size the value of this tier on
+    the reasoned-decision count, not the document count, and say so on the
+    dataset card rather than letting "2.1M documents" imply 2.1M decisions.
+    Per-forum figures in COVERAGE.md.
+
+  nclat:
+    official_source: https://nclat.nic.in
+    terms_status: green
+    terms_quote: >-
+      "Material featured on this portal may be reproduced free of charge in any
+      format or media without requiring specific permission... source must be
+      prominently acknowledged."
+    terms_url: https://nclat.nic.in/copyright-policy
+    coverage_verified: false
+  nclt:
+    official_source: https://nclt.gov.in
+    terms_status: green
+    terms_url: https://nclt.gov.in/copyright-policy
+    matters: 63487
+    coverage_verified: false
+    known_defects:
+      - "PDF coverage partial: 36,080 of 63,487 matters have a pdf_url; source_pdf_url empty on all"
+  itat:
+    official_source: https://itat.gov.in
+    terms_status: unknown
+    terms_note: "copyright policy page returns 403; site requires JS. MUST verify before release."
+    matters: 115074
+    coverage_verified: false
+  cestat:
+    official_source: https://cestat.gov.in
+    terms_status: unknown
+    terms_note: "no policy page found (404). MUST verify before release."
+    matters: 122612
+    coverage_verified: false
+  sat:
+    official_source: https://sat.gov.in
+    terms_status: unknown
+    terms_note: "site returned 503 at audit time. MUST verify before release."
+    matters: 9296
+    coverage_verified: false
+  ngt:
+    official_source: https://greentribunal.gov.in
+    terms_status: unknown
+    terms_note: "JS-walled SPA; policy paths 404. MUST verify before release."
+    matters: 34350
+    coverage_verified: false
+  cat:      { terms_status: unknown, matters: 162439, coverage_verified: false }
+  cat_cis:  { terms_status: unknown, matters: 181429, coverage_verified: false }
+  drt:      { terms_status: unknown, matters: 108395, coverage_verified: false }
+  aptel:    { terms_status: unknown, matters: 2707,   coverage_verified: false }
+  atfp:     { terms_status: unknown, matters: 3359,   coverage_verified: false }
+  cci:      { terms_status: unknown, matters: 2944,   coverage_verified: false }
+  tdsat:    { terms_status: unknown, matters: 1348,   coverage_verified: false }
+  ibbi:     { terms_status: unknown, matters: 1580,   coverage_verified: false }
+  gst_aar:  { terms_status: unknown, matters: 2618,   coverage_verified: false }
+  rera:     { terms_status: unknown, matters: 1530,   coverage_verified: false, note: "Delhi, MahaRERA, Punjab only" }
+
+regulators:
+  sebi:
+    official_source: https://www.sebi.gov.in
+    terms_status: amber
+    terms_quote: >-
+      "Material featured on this Website may be reproduced free of charge after
+      taking proper permission by sending a mail to us."
+    terms_url: https://www.sebi.gov.in/website-policy.html
+    blocking_note: >-
+      SEBI is the only source found that conditions reuse on PRIOR WRITTEN
+      PERMISSION. Either obtain it in writing and record the reference here, or
+      exclude SEBI from the release. Do not ship on the assumption that
+      s.52(1)(q)(i)/(iv) overrides the site policy.
+    access_note: >-
+      Access is NOT the blocker; permission is. Measured 2026-07-28: plain
+      Apache, no Cloudflare, no CAPTCHA, no auth, no rate limiting observed, and
+      robots.txt permits every path we need. Plain httpx/axios is sufficient, so
+      no scraping-credit spend is required. A WAF that once demanded a
+      JSESSIONID on AJAX calls no longer blocks cookieless requests. 34,546
+      documents / 30,924 PDFs already held.
+      The only thing standing between this corpus and release is an email.
+    coverage_verified: false
+    dump_ready: false
+  rbi:    { terms_status: unknown, coverage_verified: false }
+  cbic:   { terms_status: unknown, coverage_verified: false }
+  cbdt:   { terms_status: unknown, coverage_verified: false }
+  mca:    { terms_status: unknown, coverage_verified: false }
+  irdai:  { terms_status: unknown, coverage_verified: false }
+  trai:   { terms_status: unknown, coverage_verified: false }
+  pfrda:  { terms_status: unknown, coverage_verified: false }
+  dgft:   { terms_status: unknown, coverage_verified: false }
+  cpcb:   { terms_status: unknown, coverage_verified: false }
+  moefcc: { terms_status: unknown, coverage_verified: false }
+
+# ---------------------------------------------------------------------------
+# TIER C - case law. HELD. Not released, and no scraper is published.
+# ---------------------------------------------------------------------------
+case_law:
+  status: held
+  held_reason: >-
+    Decision pending. The corpus is 12,848,644 judgments / 31.2M chunks. Our
+    value-add over the existing public dumps is the extracted, cleaned, chunked
+    text (the AWS Open Data corpora ship PDFs plus metadata), which is a real
+    contribution. The open questions are the statutory exclusion filter and the
+    right-to-be-forgotten posture, not copyright.
+  publishers_of_record:
+    - "AWS Open Data - Indian High Court Judgments (~17.8M, CC-BY-4.0)"
+    - "AWS Open Data - Indian Supreme Court Judgments (CC-BY-4.0)"
+  measured_exposure:
+    note: "measured against the live corpus 2026-08-13; chunk-level unless stated"
+    pocso_chunks: 211997
+    prosecutrix_chunks: 206727
+    juvenile_justice_chunks: 66822
+    in_camera_chunks: 19146
+    courts_anonymize_victims: >-
+      Yes, in the large majority. In the POCSO subset, anonymization markers
+      outnumber victim-naming 18:1 (2.58% vs 0.14% of chunks). Excluding by
+      statute category would drop ~180,000 judgments that are lawful to publish
+      because the court, not us, controls the disclosure.
+    real_leaks:
+      named_relatives_of_victims: "~0.14-0.32% of the relevant subsets (~1-2k chunks). Indirect identification under Nipun Saxena v. Union of India."
+      live_phone_numbers: "~0.3% of all chunks (~95k chunks). Largest concrete PII item; not category-specific."
+      named_protected_children: "0.02-0.17% of JJ Act judgments (~20-30 detectable). Lower bound: detector requires the literal phrase 'juvenile/CCL namely <Name>'. Concentrated in Jharkhand, Punjab & Haryana, UP, Bihar registries."
+      aadhaar_numbers: "none. All 12-digit hits were case IDs, FIR numbers and proceeding numbers; Verhoeff pass rate matched chance."
+  extraction_vs_embedding_gap:
+    measured: 2026-08-14
+    note: >-
+      The extracted text in R2 and the embedded corpus in Qdrant are NOT the
+      same set, and the gap runs both ways. Derived from exact counts, not
+      sampling.
+    hc_texts_in_r2: 14600558
+    hc_judgments_embedded: 12813690
+    extracted_never_embedded: 1786868      # 12.2% of the extracted set
+    embedded_without_text_pct: { legal_corpus_v1: 2.2, legal_corpus_v2: 2.7 }
+    embedded_without_text_clusters: ["HCBM04* (a Bombay bench)", "ODHC (Orissa)"]
+    sc_objects_per_judgment: 5.0           # base + _EN + regional translations
+    implication: >-
+      Qdrant does not define the corpus. A release built from R2 corpus-text
+      covers ~1.79M more High Court judgments than the vector DB does, and does
+      not need a 12-hour Qdrant scroll. Reconcile per-court before publishing
+      any coverage table.
+    open: >-
+      Per-court breakdown not yet measured. Needs a full key listing of
+      corpus-text/hc (~4h), not a sample: prefix probing found only 21 court
+      codes and missed several of the largest courts, and first-N-keys sampling
+      skews to the oldest, least-embedded judgments.
+
+  required_before_any_release:
+    - "provenance audit: confirm no commercial-reporter material anywhere in the corpus"
+    - "statutory exclusion filter (see policy.statutory_exclusions)"
+    - "phone-number and named-relative redaction pass"
+    - "key on case_id; publish no party-name search index"
+    - "the pending Supreme Court reference on the right to be forgotten in judicial records (stay in place, merits undecided), which bears on whether a static public dump of named judgments is the right form"

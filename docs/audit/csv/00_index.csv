@@ -1,0 +1,17 @@
+file,contents,how to use it in sheets
+01_summary_metrics.csv,"headline numbers, one metric per row","scorecard tiles, or filter by area"
+10_courts.csv,"one row per court with volume, span and depth",bar chart of cases by court; sort by any column
+11_court_year_long.csv,"tidy court x year, one row per court and year. cases_pre_dedup counts a judgment held in both collections twice; see 15_collection_overlap.csv","THE main file. Pivot: rows=year, cols=court, values=SUM(cases_pre_dedup)"
+12_court_year_matrix_cases.csv,"wide matrix, rows = year, columns = court, values = distinct cases (before cross-collection dedup)",select the block and Insert > Chart for a stacked area over time
+13_court_year_matrix_chunks.csv,"wide matrix, rows = year, columns = court, values = embedded chunks (before cross-collection dedup)",select the block and Insert > Chart for a stacked area over time
+14_court_raw_labels.csv,every raw court string and what it resolves to,filter unknown_to_application = yes to see the stranded cases
+15_collection_overlap.csv,exact duplication between the two case-law collections,bar chart of cases_in_both to size the cleanup
+16_qdrant_vs_supabase.csv,"searchable vectors against the metadata mirror, per court",sort by delta; negative means listed but not searchable
+20_legislation_states.csv,one row per state or territory,bar chart of instruments by state; exclude Central to see states only
+21_legislation_state_year_long.csv,tidy state x enactment year,"Pivot: rows=year, cols=state, values=SUM(provisions)"
+22_legislation_year.csv,enactment year profile,line chart of instruments over year
+23_legislation_dimensions.csv,"subject, status, category and provision type breakdowns stacked together","filter by dimension, then pie or bar chart"
+30_data_quality.csv,"every defect found, with how much it affects",sort by severity then affected
+31_missing_fields.csv,payload completeness per field,bar chart of pct_of_corpus
+32_case_law_distributions.csv,"section_type, court_type and disposition value counts","filter by dimension; disposition has 400+ raw variants, which is itself a finding"
+33_supabase_unattributed.csv,"the Supabase rows that carry no court, split by sub-population","note min_year and max_year, which prove the year was parsed from citation text"

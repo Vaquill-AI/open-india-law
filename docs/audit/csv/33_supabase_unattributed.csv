@@ -1,0 +1,3 @@
+population,rows,with_pdf,with_full_text,with_case_name,with_citation,min_year,max_year,first_date,last_date
+court_type also null,247479,14,11831,14,247479,13,9916,1974-01-08,2023-12-11
+court_type = high_court,62537,62530,62537,55018,62537,1997,2025,1910-05-25,2088-11-28

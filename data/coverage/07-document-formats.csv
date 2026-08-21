@@ -1,0 +1,15 @@
+Which formats we hold
+"For each body of material, the formats held. Original PDF is the authoritative document as published by the court, tribunal or government. Extracted text is what makes a document searchable."
+Material,Documents,Original PDF,Extracted text,HTML,Size (GB),Status
+Supreme Court and High Court judgments,12848644,Yes,Yes,No,,Fully searchable
+Tribunal and regulator documents,2112201,Yes,No,No,542,Case index searchable
+Regulator circulars and notifications,19352,Yes,No,No,17.6,Held
+Central and State legislation,22265,Yes,Yes,Partial,38.4,Fully searchable to section level
+"Parliamentary debates, Law Commission reports, gazette",12317,No,Yes,No,6.4,Held
+"Additional judgment archive, with citation data",69283,No,Yes,No,4,Held
+Notes
+Original PDF,"The document exactly as published by the issuing body, retained so that any answer can be traced to the authoritative source."
+Extracted text,Machine readable text taken from the document. Required for full text search and for citing a passage.
+Legislation formats,"22,074 enactments are held as PDF and 22,075 as extracted text. 841 also have an HTML version."
+Tribunal formats,"2,131,553 decision documents are held as original PDF. Extracted text for these is in progress."
+Size,Sizes are shown where measured. The judgments collection is stored separately and its size is not included above.

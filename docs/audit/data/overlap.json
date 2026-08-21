@@ -1,0 +1,226 @@
+{
+ "shared_courts": {
+  "Allahabad High Court": {
+   "v1_chunks": 1926088,
+   "v2_chunks": 3471,
+   "v1_cases": 1498161,
+   "v2_cases": 2364,
+   "probed_from": "legal_corpus_v2",
+   "probed_ids": 2364,
+   "case_ids_in_both": 2275,
+   "naive_sum": 1500525,
+   "deduped_cases": 1498250
+  },
+  "Andhra Pradesh High Court": {
+   "v1_chunks": 956506,
+   "v2_chunks": 75764,
+   "v1_cases": 254482,
+   "v2_cases": 35029,
+   "probed_from": "legal_corpus_v2",
+   "probed_ids": 35029,
+   "case_ids_in_both": 35029,
+   "naive_sum": 289511,
+   "deduped_cases": 254482
+  },
+  "Bombay High Court": {
+   "v1_chunks": 2820634,
+   "v2_chunks": 138168,
+   "v1_cases": 1595945,
+   "v2_cases": 87101,
+   "probed_from": "legal_corpus_v2",
+   "probed_ids": 87101,
+   "case_ids_in_both": 87098,
+   "naive_sum": 1683046,
+   "deduped_cases": 1595948
+  },
+  "Calcutta High Court": {
+   "v1_chunks": 322583,
+   "v2_chunks": 1023,
+   "v1_cases": 202310,
+   "v2_cases": 497,
+   "probed_from": "legal_corpus_v2",
+   "probed_ids": 497,
+   "case_ids_in_both": 242,
+   "naive_sum": 202807,
+   "deduped_cases": 202565
+  },
+  "Chhattisgarh High Court": {
+   "v1_chunks": 1743240,
+   "v2_chunks": 66363,
+   "v1_cases": 508791,
+   "v2_cases": 27411,
+   "probed_from": "legal_corpus_v2",
+   "probed_ids": 27411,
+   "case_ids_in_both": 27411,
+   "naive_sum": 536202,
+   "deduped_cases": 508791
+  },
+  "Delhi High Court": {
+   "v1_chunks": 1047481,
+   "v2_chunks": 45981,
+   "v1_cases": 322940,
+   "v2_cases": 17214,
+   "probed_from": "legal_corpus_v2",
+   "probed_ids": 17214,
+   "case_ids_in_both": 17214,
+   "naive_sum": 340154,
+   "deduped_cases": 322940
+  },
+  "Gauhati High Court": {
+   "v1_chunks": 662440,
+   "v2_chunks": 28951,
+   "v1_cases": 285712,
+   "v2_cases": 15544,
+   "probed_from": "legal_corpus_v2",
+   "probed_ids": 15544,
+   "case_ids_in_both": 15542,
+   "naive_sum": 301256,
+   "deduped_cases": 285714
+  },
+  "Gujarat High Court": {
+   "v1_chunks": 1415395,
+   "v2_chunks": 65468,
+   "v1_cases": 411637,
+   "v2_cases": 21969,
+   "probed_from": "legal_corpus_v2",
+   "probed_ids": 21969,
+   "case_ids_in_both": 21968,
+   "naive_sum": 433606,
+   "deduped_cases": 411638
+  },
+  "Himachal Pradesh High Court": {
+   "v1_chunks": 273169,
+   "v2_chunks": 479389,
+   "v1_cases": 101766,
+   "v2_cases": 87912,
+   "probed_from": "legal_corpus_v1",
+   "probed_ids": 101766,
+   "case_ids_in_both": 5503,
+   "naive_sum": 189678,
+   "deduped_cases": 184175
+  },
+  "Karnataka High Court": {
+   "v1_chunks": 3,
+   "v2_chunks": 1552336,
+   "v1_cases": 1,
+   "v2_cases": 581275,
+   "probed_from": "legal_corpus_v1",
+   "probed_ids": 1,
+   "case_ids_in_both": 0,
+   "naive_sum": 581276,
+   "deduped_cases": 581276
+  },
+  "Kerala High Court": {
+   "v1_chunks": 17,
+   "v2_chunks": 3125018,
+   "v1_cases": 3,
+   "v2_cases": 916187,
+   "probed_from": "legal_corpus_v1",
+   "probed_ids": 3,
+   "case_ids_in_both": 0,
+   "naive_sum": 916190,
+   "deduped_cases": 916190
+  },
+  "Madhya Pradesh High Court": {
+   "v1_chunks": 2,
+   "v2_chunks": 766920,
+   "v1_cases": 1,
+   "v2_cases": 402631,
+   "probed_from": "legal_corpus_v1",
+   "probed_ids": 1,
+   "case_ids_in_both": 0,
+   "naive_sum": 402632,
+   "deduped_cases": 402632
+  },
+  "Madras High Court": {
+   "v1_chunks": 2609137,
+   "v2_chunks": 137382,
+   "v1_cases": 1494952,
+   "v2_cases": 81336,
+   "probed_from": "legal_corpus_v2",
+   "probed_ids": 81336,
+   "case_ids_in_both": 81336,
+   "naive_sum": 1576288,
+   "deduped_cases": 1494952
+  },
+  "Patna High Court": {
+   "v1_chunks": 2563058,
+   "v2_chunks": 119686,
+   "v1_cases": 1615035,
+   "v2_cases": 88315,
+   "probed_from": "legal_corpus_v2",
+   "probed_ids": 88315,
+   "case_ids_in_both": 88309,
+   "naive_sum": 1703350,
+   "deduped_cases": 1615041
+  },
+  "Punjab and Haryana High Court": {
+   "v1_chunks": 9,
+   "v2_chunks": 1265180,
+   "v1_cases": 3,
+   "v2_cases": 483251,
+   "probed_from": "legal_corpus_v1",
+   "probed_ids": 3,
+   "case_ids_in_both": 1,
+   "naive_sum": 483254,
+   "deduped_cases": 483253
+  },
+  "Rajasthan High Court": {
+   "v1_chunks": 3,
+   "v2_chunks": 1357928,
+   "v1_cases": 2,
+   "v2_cases": 324565,
+   "probed_from": "legal_corpus_v1",
+   "probed_ids": 2,
+   "case_ids_in_both": 0,
+   "naive_sum": 324567,
+   "deduped_cases": 324567
+  },
+  "Sikkim High Court": {
+   "v1_chunks": 2554,
+   "v2_chunks": 124,
+   "v1_cases": 436,
+   "v2_cases": 20,
+   "probed_from": "legal_corpus_v2",
+   "probed_ids": 20,
+   "case_ids_in_both": 3,
+   "naive_sum": 456,
+   "deduped_cases": 453
+  },
+  "Telangana High Court": {
+   "v1_chunks": 2728100,
+   "v2_chunks": 115751,
+   "v1_cases": 1004138,
+   "v2_cases": 54445,
+   "probed_from": "legal_corpus_v2",
+   "probed_ids": 54445,
+   "case_ids_in_both": 54445,
+   "naive_sum": 1058583,
+   "deduped_cases": 1004138
+  },
+  "Tripura High Court": {
+   "v1_chunks": 138530,
+   "v2_chunks": 5,
+   "v1_cases": 18942,
+   "v2_cases": 3,
+   "probed_from": "legal_corpus_v2",
+   "probed_ids": 3,
+   "case_ids_in_both": 3,
+   "naive_sum": 18945,
+   "deduped_cases": 18942
+  },
+  "Uttarakhand High Court": {
+   "v1_chunks": 261025,
+   "v2_chunks": 1023,
+   "v1_cases": 123643,
+   "v2_cases": 453,
+   "probed_from": "legal_corpus_v2",
+   "probed_ids": 453,
+   "case_ids_in_both": 243,
+   "naive_sum": 124096,
+   "deduped_cases": 123853
+  }
+ },
+ "batch_size": 400,
+ "total_case_ids_in_both_collections": 436622
+}

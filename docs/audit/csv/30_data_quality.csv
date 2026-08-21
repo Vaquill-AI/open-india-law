@@ -1,0 +1,15 @@
+issue,area,unit,affected,severity,documented_in
+no tribunal content of any kind,case law,corpus,0,high,case-law/tribunals.md
+"Supreme Court decision_date stored as DD-MM-YYYY, unreadable by the datetime index",case law,chunks,371159,high,case-law/data-quality.md
+Supreme Court judgments with metadata but no vectors,case law,judgments,2925,high,case-law/data-quality.md
+judgments duplicated across legal_corpus_v1 and legal_corpus_v2,case law,judgments,436622,high,case-law/data-quality.md
+chunks carrying no court label at all,case law,chunks,201527,medium,case-law/README.md
+cases unreachable by court filter because the label is unknown to the app,case law,judgments,29,medium,case-law/court-name-variants.md
+chunks with an empty citation field,case law,chunks,31048312,medium,case-law/data-quality.md
+chunks with no judges recorded,case law,chunks,18959362,low,case-law/data-quality.md
+Supabase rows with no court_normalized,case law,rows,310016,medium,case-law/data-quality.md
+Supabase citation-only stubs with no PDF and no case name,case law,rows,247465,medium,case-law/data-quality.md
+provisions with no enactment year,legislation,provisions,164534,medium,legislation/data-quality.md
+provisions with an empty acts_referenced list,legislation,provisions,802781,low,legislation/data-quality.md
+"jurisdiction and category are duplicate fields, and neither is a jurisdiction",legislation,collection,1098577,medium,legislation/data-quality.md
+chunks reachable by a date range filter,case law,chunks,30962226,reference,case-law/data-quality.md

@@ -1,0 +1,27 @@
+court,cases_in_qdrant,rows_in_supabase,delta,delta_pct,direction
+Supreme Court of India,34954,37879,-2925,-7.722,supabase ahead
+Kerala High Court,916190,916195,-5,-0.0005,supabase ahead
+Jharkhand High Court,246374,246379,-5,-0.002,supabase ahead
+Manipur High Court,7903,7903,0,0.0,exact match
+Sikkim High Court,453,453,0,0.0,exact match
+Calcutta High Court,202565,202564,1,0.0005,qdrant ahead
+Madras High Court,1494952,1494950,2,0.0001,qdrant ahead
+Andhra Pradesh High Court,254482,254480,2,0.0008,qdrant ahead
+Uttarakhand High Court,123853,123851,2,0.0016,qdrant ahead
+Patna High Court,1615041,1615037,4,0.0002,qdrant ahead
+Delhi High Court,322940,322936,4,0.0012,qdrant ahead
+Allahabad High Court,1498250,1498245,5,0.0003,qdrant ahead
+Jammu & Kashmir High Court,40289,40282,7,0.0174,qdrant ahead
+Orissa High Court,283063,283055,8,0.0028,qdrant ahead
+Chhattisgarh High Court,508791,508771,20,0.0039,qdrant ahead
+Bombay High Court,1595948,1595927,21,0.0013,qdrant ahead
+Madhya Pradesh High Court,402632,402595,37,0.0092,qdrant ahead
+Meghalaya High Court,6261,6200,61,0.9839,qdrant ahead
+Tripura High Court,18942,18815,127,0.675,qdrant ahead
+Telangana High Court,1004138,1003990,148,0.0147,qdrant ahead
+Himachal Pradesh High Court,184175,183933,242,0.1316,qdrant ahead
+Rajasthan High Court,324567,324241,326,0.1005,qdrant ahead
+Karnataka High Court,581276,580888,388,0.0668,qdrant ahead
+Gauhati High Court,285714,285277,437,0.1532,qdrant ahead
+Punjab and Haryana High Court,483253,482424,829,0.1718,qdrant ahead
+Gujarat High Court,411638,410187,1451,0.3537,qdrant ahead

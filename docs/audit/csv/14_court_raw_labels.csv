@@ -1,0 +1,77 @@
+raw_label_in_qdrant,resolves_to,collection,chunks,cases,mapping_source,unknown_to_application
+High Court of Kerala,Kerala High Court,legal_corpus_v2,3125018,916187,COURT_NAME_VARIANTS in code,no
+Bombay High Court,Bombay High Court,legal_corpus_v1,2804382,1584031,already canonical,no
+High Court  for State of Telangana,Telangana High Court,legal_corpus_v1,2727633,1003962,COURT_NAME_VARIANTS in code,no
+Madras High Court,Madras High Court,legal_corpus_v1,2600953,1490354,already canonical,no
+Patna High Court,Patna High Court,legal_corpus_v1,2541141,1600414,already canonical,no
+Allahabad High Court,Allahabad High Court,legal_corpus_v1,1924170,1496558,already canonical,no
+High Court Of Chhattisgarh,Chhattisgarh High Court,legal_corpus_v1,1743234,508787,COURT_NAME_VARIANTS in code,no
+High Court of Karnataka,Karnataka High Court,legal_corpus_v2,1552336,581275,COURT_NAME_VARIANTS in code,no
+High Court of Gujarat,Gujarat High Court,legal_corpus_v1,1415395,411637,COURT_NAME_VARIANTS in code,no
+High Court Of Rajasthan,Rajasthan High Court,legal_corpus_v2,1356011,324089,COURT_NAME_VARIANTS in code,no
+High Court of Punjab and Haryana,Punjab and Haryana High Court,legal_corpus_v2,1265076,483223,COURT_NAME_VARIANTS in code,no
+High Court of Jharkhand,Jharkhand High Court,legal_corpus_v2,1234672,246374,COURT_NAME_VARIANTS in code,no
+High Court of Delhi,Delhi High Court,legal_corpus_v1,1047481,322940,COURT_NAME_VARIANTS in code,no
+High Court of Andhra Pradesh,Andhra Pradesh High Court,legal_corpus_v1,956462,254467,COURT_NAME_VARIANTS in code,no
+High Court of Madhya Pradesh,Madhya Pradesh High Court,legal_corpus_v2,766920,402631,COURT_NAME_VARIANTS in code,no
+Gauhati High Court,Gauhati High Court,legal_corpus_v1,656158,283697,already canonical,no
+Orissa High Court,Orissa High Court,legal_corpus_v2,500805,282976,already canonical,no
+High Court of Himachal Pradesh,Himachal Pradesh High Court,legal_corpus_v2,479389,87912,COURT_NAME_VARIANTS in code,no
+Supreme Court of India,Supreme Court of India,legal_corpus_v2,371159,34954,already canonical,no
+Calcutta High Court,Calcutta High Court,legal_corpus_v1,319981,200539,already canonical,no
+High Court of Himachal Pradesh,Himachal Pradesh High Court,legal_corpus_v1,273169,101766,COURT_NAME_VARIANTS in code,no
+High Court of Uttarakhand,Uttarakhand High Court,legal_corpus_v1,261025,123643,COURT_NAME_VARIANTS in code,no
+High Court of Jammu and Kashmir,Jammu & Kashmir High Court,legal_corpus_v2,240966,40288,COURT_NAME_VARIANTS in code,no
+High Court of Tripura,Tripura High Court,legal_corpus_v1,138530,18942,COURT_NAME_VARIANTS in code,no
+Bombay High Court,Bombay High Court,legal_corpus_v2,137344,86455,already canonical,no
+Madras High Court,Madras High Court,legal_corpus_v2,137003,81103,already canonical,no
+Patna High Court,Patna High Court,legal_corpus_v2,118468,87547,already canonical,no
+High Court  for State of Telangana,Telangana High Court,legal_corpus_v2,115721,54432,COURT_NAME_VARIANTS in code,no
+High Court of Andhra Pradesh,Andhra Pradesh High Court,legal_corpus_v2,75759,35028,COURT_NAME_VARIANTS in code,no
+High Court Of Chhattisgarh,Chhattisgarh High Court,legal_corpus_v2,66363,27411,COURT_NAME_VARIANTS in code,no
+High Court of Gujarat,Gujarat High Court,legal_corpus_v2,65468,21969,COURT_NAME_VARIANTS in code,no
+High Court of Delhi,Delhi High Court,legal_corpus_v2,45981,17214,COURT_NAME_VARIANTS in code,no
+High Court of Manipur,Manipur High Court,legal_corpus_v2,31643,7903,COURT_NAME_VARIANTS in code,no
+Gauhati High Court,Gauhati High Court,legal_corpus_v2,28669,15438,already canonical,no
+High Court of Meghalaya,Meghalaya High Court,legal_corpus_v2,22209,6261,COURT_NAME_VARIANTS in code,no
+High Court of Patna,Patna High Court,legal_corpus_v1,21917,14621,COURT_NAME_VARIANTS in code,no
+High Court of Bombay,Bombay High Court,legal_corpus_v1,16221,11903,COURT_NAME_VARIANTS in code,no
+High Court of Madras,Madras High Court,legal_corpus_v1,8183,4597,COURT_NAME_VARIANTS in code,no
+High Court of Gauhati,Gauhati High Court,legal_corpus_v1,6280,2014,COURT_NAME_VARIANTS in code,no
+Allahabad High Court,Allahabad High Court,legal_corpus_v2,3462,2357,already canonical,no
+High Court of Calcutta,Calcutta High Court,legal_corpus_v1,2602,1771,COURT_NAME_VARIANTS in code,no
+High Court of Sikkim,Sikkim High Court,legal_corpus_v1,2554,436,COURT_NAME_VARIANTS in code,no
+High Court of Allahabad,Allahabad High Court,legal_corpus_v1,1918,1603,COURT_NAME_VARIANTS in code,no
+High Court of Rajasthan,Rajasthan High Court,legal_corpus_v2,1917,476,COURT_NAME_VARIANTS in code,no
+High Court of Patna,Patna High Court,legal_corpus_v2,1218,768,COURT_NAME_VARIANTS in code,no
+High Court of Uttarakhand,Uttarakhand High Court,legal_corpus_v2,1023,453,COURT_NAME_VARIANTS in code,no
+Calcutta High Court,Calcutta High Court,legal_corpus_v2,1002,495,already canonical,no
+High Court of Bombay,Bombay High Court,legal_corpus_v2,824,646,COURT_NAME_VARIANTS in code,no
+High Court of Orissa,Orissa High Court,legal_corpus_v2,581,87,COURT_NAME_VARIANTS in code,no
+High Court of Hyderabad,Telangana High Court,legal_corpus_v1,462,173,COURT_NAME_VARIANTS in code,no
+High Court of Madras,Madras High Court,legal_corpus_v2,379,233,COURT_NAME_VARIANTS in code,no
+High Court of Gauhati,Gauhati High Court,legal_corpus_v2,282,106,COURT_NAME_VARIANTS in code,no
+High Court of Sikkim,Sikkim High Court,legal_corpus_v2,124,20,COURT_NAME_VARIANTS in code,no
+High Court of Haryana,Punjab and Haryana High Court,legal_corpus_v2,59,18,COURT_NAME_VARIANTS in code,no
+High Court of Chandigarh,Punjab and Haryana High Court,legal_corpus_v2,45,10,inferred for this report,yes
+High Court of Amaravati,Andhra Pradesh High Court,legal_corpus_v1,42,14,COURT_NAME_VARIANTS in code,no
+High Court of Hyderabad,Telangana High Court,legal_corpus_v2,30,13,COURT_NAME_VARIANTS in code,no
+High Court of Mumbai,Bombay High Court,legal_corpus_v1,27,9,inferred for this report,yes
+High Court of Calcutta,Calcutta High Court,legal_corpus_v2,21,2,COURT_NAME_VARIANTS in code,no
+High Court of Kerala,Kerala High Court,legal_corpus_v1,17,3,COURT_NAME_VARIANTS in code,no
+High Court of Chandigarh,Punjab and Haryana High Court,legal_corpus_v1,9,3,inferred for this report,yes
+High Court of Allahabad,Allahabad High Court,legal_corpus_v2,9,7,COURT_NAME_VARIANTS in code,no
+High Court of Chhattisgarh,Chhattisgarh High Court,legal_corpus_v1,6,4,COURT_NAME_VARIANTS in code,no
+High Court of Telangana,Telangana High Court,legal_corpus_v1,5,3,COURT_NAME_VARIANTS in code,no
+High Court of Amaravati,Andhra Pradesh High Court,legal_corpus_v2,5,1,COURT_NAME_VARIANTS in code,no
+High Court of Tripura,Tripura High Court,legal_corpus_v2,5,3,COURT_NAME_VARIANTS in code,no
+High Court,(unresolved court label),legal_corpus_v1,3,3,unresolvable,no
+High Court of Aurangabad,Bombay High Court,legal_corpus_v1,3,1,inferred for this report,yes
+High Court of Karnataka,Karnataka High Court,legal_corpus_v1,3,1,COURT_NAME_VARIANTS in code,no
+High Court of Rajasthan,Rajasthan High Court,legal_corpus_v1,3,2,COURT_NAME_VARIANTS in code,no
+High Court of Andhra,Andhra Pradesh High Court,legal_corpus_v1,2,1,inferred for this report,yes
+High Court of Guwahati,Gauhati High Court,legal_corpus_v1,2,1,inferred for this report,yes
+High Court of Jabalpur,Madhya Pradesh High Court,legal_corpus_v1,2,1,inferred for this report,yes
+High Court of Chennai,Madras High Court,legal_corpus_v1,1,1,inferred for this report,yes
+High Court of Nagpur,Bombay High Court,legal_corpus_v1,1,1,inferred for this report,yes
+High Court of Kashmir,Jammu & Kashmir High Court,legal_corpus_v2,1,1,inferred for this report,yes

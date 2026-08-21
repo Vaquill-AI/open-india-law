@@ -1,0 +1,30 @@
+Coverage by court
+"Judgments held for each court, and the period each one covers. The main period is the range containing 90% of that court's judgments, which is a better guide to usable depth than the single oldest judgment."
+Court,Type,Judgments,Share,Earliest judgment,Latest judgment,Main period (90% of judgments),Years covered
+Patna High Court,High Court,1615041,0.1256973887672505,1967,2025,2009 to 2025,28
+Bombay High Court,High Court,1595948,0.1242113953814893,1953,2025,2006 to 2024,40
+Allahabad High Court,High Court,1498250,0.1166076357940962,1992,2025,2018 to 2025,15
+Madras High Court,High Court,1494952,0.1163509550112837,1997,2025,2014 to 2025,27
+Telangana High Court,High Court,1004138,0.07815128195629048,1963,2025,2006 to 2024,35
+Kerala High Court,High Court,916190,0.07130635730898918,1950,2024,2007 to 2023,40
+Karnataka High Court,High Court,581276,0.04524026037300123,1998,2025,2013 to 2025,25
+Chhattisgarh High Court,High Court,508791,0.0395988090260731,1970,2025,2007 to 2025,31
+Punjab and Haryana High Court,High Court,483253,0.03761120628760514,2008,2025,2009 to 2022,17
+Gujarat High Court,High Court,411638,0.03203746636610058,1982,2025,1999 to 2022,36
+Madhya Pradesh High Court,High Court,402632,0.03133653636912969,2000,2024,2014 to 2023,17
+Rajasthan High Court,High Court,324567,0.02526079794879522,1989,2025,2008 to 2024,30
+Delhi High Court,High Court,322940,0.02513416980033068,1960,2025,2011 to 2025,28
+Gauhati High Court,High Court,285714,0.02223689908444813,2000,2025,2011 to 2025,26
+Orissa High Court,High Court,283063,0.02203057380996781,1992,2025,2016 to 2025,29
+Andhra Pradesh High Court,High Court,254482,0.0198061367409666,1995,2025,2019 to 2025,11
+Jharkhand High Court,High Court,246374,0.01917509738770877,1993,2025,2014 to 2025,20
+Calcutta High Court,High Court,202565,0.01576547688612121,1960,2025,2021 to 2025,18
+Himachal Pradesh High Court,High Court,184175,0.01433419744527127,1970,2025,2009 to 2025,28
+Uttarakhand High Court,High Court,123853,0.0096393829574545,1950,2025,2005 to 2024,30
+Jammu and Kashmir High Court,High Court,40289,0.003135661630908289,2003,2025,2017 to 2025,21
+Supreme Court of India,Supreme Court,34954,0.002720442717535018,1950,2025,1963 to 2023,76
+Tripura High Court,High Court,18942,0.001474241172842831,2013,2025,2014 to 2024,13
+Manipur High Court,High Court,7903,0.0006150843622097397,2017,2025,2018 to 2025,9
+Meghalaya High Court,High Court,6261,0.0004872887753758296,2010,2025,2014 to 2025,16
+Sikkim High Court,High Court,453,3.525663875503127e-05,2000,2025,2010 to 2024,25
+Total,,12848644

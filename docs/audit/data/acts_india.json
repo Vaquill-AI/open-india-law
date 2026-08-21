@@ -1,0 +1,6933 @@
+{
+ "collection": "acts_india",
+ "points_count": 1098577,
+ "segments_count": 16,
+ "facets": {
+  "jurisdiction": {
+   "regulatory": 554354,
+   "state": 469714,
+   "central": 59616,
+   "repealed": 14609,
+   "spent": 284
+  },
+  "state": {
+   "central": 628863,
+   "west-bengal": 32238,
+   "maharashtra": 30271,
+   "karnataka": 29485,
+   "rajasthan": 26759,
+   "chhattisgarh": 25368,
+   "chandigarh": 21805,
+   "kerala": 19164,
+   "punjab": 18037,
+   "madhya-pradesh": 17477,
+   "telangana": 16785,
+   "dadra-nagar-haveli": 15619,
+   "tamil-nadu": 15524,
+   "goa": 14539,
+   "uttar-pradesh": 14308,
+   "gujarat": 12868,
+   "assam": 12429,
+   "andhra-pradesh": 12264,
+   "haryana": 11787,
+   "odisha": 11370,
+   "bihar": 10910,
+   "jharkhand": 10831,
+   "himachal-pradesh": 10765,
+   "uttarakhand": 10531,
+   "jammu-kashmir": 9223,
+   "tripura": 8070,
+   "delhi": 8006,
+   "puducherry": 7117,
+   "arunachal-pradesh": 6996,
+   "meghalaya": 5550,
+   "nagaland": 4861,
+   "andaman-nicobar": 4626,
+   "manipur": 4560,
+   "sikkim": 4266,
+   "ladakh": 3119,
+   "mizoram": 2015,
+   "lakshadweep": 171
+  },
+  "category": {
+   "regulatory": 554354,
+   "state": 469714,
+   "central": 59616,
+   "repealed": 14609,
+   "spent": 284
+  },
+  "doc_type": {
+   "legislation": 1098577
+  },
+  "act_status": {
+   "in_force": 1083684,
+   "repealed": 14609,
+   "spent": 284
+  },
+  "section_status": {
+   "in_force": 1097900,
+   "omitted": 474,
+   "repealed": 157,
+   "substituted": 46
+  },
+  "is_repealed": {
+   "False": 1098520,
+   "True": 57
+  },
+  "language_code": {
+   "en": 1098577
+  },
+  "country_code": {
+   "IN": 1098577
+  },
+  "provision_type": {
+   "mandatory": 403847,
+   "prohibitory": 269973,
+   "general": 234424,
+   "overriding": 116626,
+   "discretionary": 73630,
+   "declaratory": 77
+  },
+  "section_type": {
+   "section": 765340,
+   "sub_section": 302226,
+   "definition_clause": 17638,
+   "short_title": 5668,
+   "definitions": 2372,
+   "amendment_provision": 2009,
+   "preamble": 1655,
+   "body": 657,
+   "article": 517,
+   "schedule": 383,
+   "chapter_heading": 61,
+   "part_heading": 51
+  },
+  "legal_subject": {
+   "general": 597478,
+   "administrative_law": 174629,
+   "tax_law": 162441,
+   "banking_finance": 98306,
+   "corporate_law": 92262,
+   "property_law": 56533,
+   "environmental_law": 35063,
+   "criminal_law": 23856,
+   "labour_law": 16550,
+   "family_law": 10220,
+   "civil_procedure": 9313,
+   "constitutional_law": 4000,
+   "information_technology": 2832,
+   "intellectual_property": 1293
+  },
+  "has_proviso": {
+   "False": 839636,
+   "True": 258941
+  },
+  "has_non_obstante": {
+   "False": 980663,
+   "True": 117914
+  },
+  "delegation_type": {
+   "notification": 35907,
+   "rules": 30659,
+   "order": 7970,
+   "regulations": 4827
+  },
+  "regulatory_body": {},
+  "year": {
+   "2025": 54469,
+   "2017": 47798,
+   "2016": 43786,
+   "2015": 42466,
+   "2018": 42209,
+   "2023": 39124,
+   "2024": 28606,
+   "2021": 25447,
+   "2019": 24741,
+   "2020": 24624,
+   "2014": 23245,
+   "1973": 22795,
+   "2022": 21484,
+   "2012": 20492,
+   "2013": 19921,
+   "2010": 15804,
+   "2011": 15095,
+   "2008": 14355,
+   "2005": 13387,
+   "1961": 12948,
+   "2007": 12787,
+   "2006": 12617,
+   "2009": 12179,
+   "1994": 11186,
+   "1948": 10642,
+   "1956": 9768,
+   "1976": 9336,
+   "2000": 9188,
+   "2003": 8198,
+   "1972": 8102,
+   "1968": 8065,
+   "2002": 7523,
+   "1959": 7115,
+   "1964": 6937,
+   "1993": 6757,
+   "1986": 6718,
+   "2004": 6218,
+   "1999": 6019,
+   "1960": 6002,
+   "1955": 5991,
+   "1995": 5971,
+   "1998": 5793,
+   "1974": 5522,
+   "2001": 5445,
+   "1975": 5354,
+   "1908": 5320,
+   "1979": 5026,
+   "1997": 5005,
+   "1958": 4706,
+   "1963": 4662,
+   "1966": 4610,
+   "1996": 4609,
+   "1965": 4537,
+   "1957": 4508,
+   "1980": 4378,
+   "1971": 4374,
+   "1987": 4342,
+   "1949": 4134,
+   "1981": 4080,
+   "2026": 3800,
+   "1985": 3756,
+   "1982": 3695,
+   "1951": 3663,
+   "1970": 3657,
+   "1962": 3637,
+   "1947": 3499,
+   "1950": 3476,
+   "1989": 3250,
+   "1969": 3213,
+   "1978": 3163,
+   "1984": 3139,
+   "1988": 3124,
+   "1983": 3054,
+   "1954": 2946,
+   "1977": 2821,
+   "1991": 2725,
+   "1860": 2688,
+   "1939": 2642,
+   "1940": 2578,
+   "1990": 2489,
+   "1952": 2481,
+   "1953": 2277,
+   "1992": 2229,
+   "1936": 1975,
+   "1923": 1811,
+   "1867": 1781,
+   "1967": 1761,
+   "1872": 1682,
+   "1938": 1520,
+   "1914": 1434,
+   "1916": 1331,
+   "1882": 1250,
+   "1934": 1168,
+   "1887": 1140,
+   "1935": 1068,
+   "1925": 1060,
+   "1946": 998,
+   "1911": 840,
+   "1870": 762,
+   "1920": 756,
+   "1894": 741,
+   "1917": 722,
+   "1871": 691,
+   "1931": 684,
+   "1899": 640,
+   "1915": 590,
+   "1910": 579,
+   "1907": 540,
+   "1881": 532,
+   "1869": 482,
+   "1884": 464,
+   "1926": 450,
+   "1927": 444,
+   "1944": 415,
+   "1922": 398,
+   "1942": 396,
+   "1876": 384,
+   "1912": 381,
+   "1932": 378,
+   "1886": 375,
+   "1864": 374,
+   "1868": 359,
+   "1866": 338,
+   "1875": 331,
+   "1890": 328,
+   "1878": 310,
+   "1865": 307,
+   "1885": 306,
+   "1909": 300,
+   "1891": 272,
+   "1921": 261,
+   "1883": 256,
+   "1898": 252,
+   "1877": 247,
+   "1861": 236,
+   "1873": 234,
+   "1900": 226,
+   "1924": 223,
+   "1874": 217,
+   "1855": 214,
+   "1945": 208,
+   "1913": 201,
+   "1906": 198,
+   "1897": 196,
+   "1930": 193,
+   "1903": 192,
+   "1901": 183,
+   "1863": 181,
+   "1852": 153,
+   "1879": 149,
+   "1943": 146,
+   "1880": 141,
+   "1857": 137,
+   "1919": 137,
+   "1838": 135,
+   "1904": 135,
+   "1850": 126,
+   "1862": 126,
+   "1937": 126,
+   "1859": 116,
+   "1844": 110,
+   "1896": 107,
+   "1889": 106,
+   "1840": 103,
+   "1902": 101,
+   "1843": 95,
+   "1845": 94,
+   "1918": 92,
+   "1854": 90,
+   "1836": 79,
+   "1933": 77,
+   "1851": 74,
+   "1905": 70,
+   "1849": 69,
+   "1929": 68,
+   "1841": 67,
+   "1893": 57,
+   "1837": 55,
+   "1842": 51,
+   "1888": 51,
+   "1819": 49,
+   "1848": 49,
+   "1839": 48,
+   "1858": 48,
+   "1895": 46,
+   "1941": 46,
+   "1847": 42,
+   "1853": 37,
+   "1892": 37,
+   "1856": 32,
+   "1928": 18,
+   "1806": 14,
+   "1825": 12,
+   "1846": 11,
+   "1835": 10,
+   "1812": 5,
+   "1823": 5,
+   "1827": 2,
+   "1834": 1
+  },
+  "amendment_count": {
+   "__error__": "HTTP Error 400: Bad Request"
+  }
+ },
+ "missing": {
+  "year": 164534,
+  "title": 0,
+  "acts_referenced": 802781,
+  "state": 0,
+  "chapter": 0,
+  "section_number": 0
+ },
+ "acts_distinct_total": 22265,
+ "sections_total": 1098577,
+ "by_jurisdiction": {
+  "regulatory": {
+   "acts": 12152,
+   "provisions": 554354
+  },
+  "state": {
+   "acts": 8545,
+   "provisions": 469714
+  },
+  "central": {
+   "acts": 848,
+   "provisions": 59616
+  },
+  "repealed": {
+   "acts": 710,
+   "provisions": 14609
+  },
+  "spent": {
+   "acts": 10,
+   "provisions": 284
+  }
+ },
+ "by_state": {
+  "central": {
+   "acts": 13720,
+   "provisions": 628863
+  },
+  "west-bengal": {
+   "acts": 715,
+   "provisions": 32238
+  },
+  "maharashtra": {
+   "acts": 379,
+   "provisions": 30271
+  },
+  "karnataka": {
+   "acts": 279,
+   "provisions": 29485
+  },
+  "rajasthan": {
+   "acts": 383,
+   "provisions": 26759
+  },
+  "chhattisgarh": {
+   "acts": 359,
+   "provisions": 25368
+  },
+  "chandigarh": {
+   "acts": 256,
+   "provisions": 21805
+  },
+  "kerala": {
+   "acts": 322,
+   "provisions": 19164
+  },
+  "punjab": {
+   "acts": 303,
+   "provisions": 18037
+  },
+  "madhya-pradesh": {
+   "acts": 216,
+   "provisions": 17477
+  },
+  "telangana": {
+   "acts": 259,
+   "provisions": 16785
+  },
+  "dadra-nagar-haveli": {
+   "acts": 169,
+   "provisions": 15619
+  },
+  "tamil-nadu": {
+   "acts": 308,
+   "provisions": 15524
+  },
+  "goa": {
+   "acts": 154,
+   "provisions": 14539
+  },
+  "uttar-pradesh": {
+   "acts": 338,
+   "provisions": 14308
+  },
+  "gujarat": {
+   "acts": 226,
+   "provisions": 12868
+  },
+  "assam": {
+   "acts": 987,
+   "provisions": 12429
+  },
+  "andhra-pradesh": {
+   "acts": 190,
+   "provisions": 12264
+  },
+  "haryana": {
+   "acts": 211,
+   "provisions": 11787
+  },
+  "odisha": {
+   "acts": 282,
+   "provisions": 11370
+  },
+  "bihar": {
+   "acts": 298,
+   "provisions": 10910
+  },
+  "jharkhand": {
+   "acts": 137,
+   "provisions": 10831
+  },
+  "himachal-pradesh": {
+   "acts": 194,
+   "provisions": 10765
+  },
+  "uttarakhand": {
+   "acts": 244,
+   "provisions": 10531
+  },
+  "jammu-kashmir": {
+   "acts": 137,
+   "provisions": 9223
+  },
+  "tripura": {
+   "acts": 121,
+   "provisions": 8070
+  },
+  "delhi": {
+   "acts": 96,
+   "provisions": 8006
+  },
+  "puducherry": {
+   "acts": 78,
+   "provisions": 7117
+  },
+  "arunachal-pradesh": {
+   "acts": 115,
+   "provisions": 6996
+  },
+  "meghalaya": {
+   "acts": 105,
+   "provisions": 5550
+  },
+  "nagaland": {
+   "acts": 202,
+   "provisions": 4861
+  },
+  "andaman-nicobar": {
+   "acts": 45,
+   "provisions": 4626
+  },
+  "manipur": {
+   "acts": 187,
+   "provisions": 4560
+  },
+  "sikkim": {
+   "acts": 111,
+   "provisions": 4266
+  },
+  "ladakh": {
+   "acts": 55,
+   "provisions": 3119
+  },
+  "mizoram": {
+   "acts": 83,
+   "provisions": 2015
+  },
+  "lakshadweep": {
+   "acts": 1,
+   "provisions": 171
+  }
+ },
+ "by_category": {
+  "regulatory": {
+   "acts": 12152,
+   "provisions": 554354
+  },
+  "state": {
+   "acts": 8545,
+   "provisions": 469714
+  },
+  "central": {
+   "acts": 848,
+   "provisions": 59616
+  },
+  "repealed": {
+   "acts": 710,
+   "provisions": 14609
+  },
+  "spent": {
+   "acts": 10,
+   "provisions": 284
+  }
+ },
+ "by_doc_type": {
+  "legislation": {
+   "acts": 22265,
+   "provisions": 1098577
+  }
+ },
+ "by_act_status": {
+  "in_force": {
+   "acts": 21545,
+   "provisions": 1083684
+  },
+  "repealed": {
+   "acts": 710,
+   "provisions": 14609
+  },
+  "spent": {
+   "acts": 10,
+   "provisions": 284
+  }
+ },
+ "by_legal_subject": {
+  "general": {
+   "acts": 13400,
+   "provisions": 597478
+  },
+  "administrative_law": {
+   "acts": 2387,
+   "provisions": 174629
+  },
+  "tax_law": {
+   "acts": 1991,
+   "provisions": 162441
+  },
+  "banking_finance": {
+   "acts": 1920,
+   "provisions": 98306
+  },
+  "corporate_law": {
+   "acts": 1669,
+   "provisions": 92262
+  },
+  "property_law": {
+   "acts": 1451,
+   "provisions": 56533
+  },
+  "environmental_law": {
+   "acts": 665,
+   "provisions": 35063
+  },
+  "criminal_law": {
+   "acts": 323,
+   "provisions": 23856
+  },
+  "labour_law": {
+   "acts": 389,
+   "provisions": 16550
+  },
+  "family_law": {
+   "acts": 223,
+   "provisions": 10220
+  },
+  "civil_procedure": {
+   "acts": 191,
+   "provisions": 9313
+  },
+  "constitutional_law": {
+   "acts": 229,
+   "provisions": 4000
+  },
+  "information_technology": {
+   "acts": 79,
+   "provisions": 2832
+  },
+  "intellectual_property": {
+   "acts": 40,
+   "provisions": 1293
+  }
+ },
+ "by_year": {
+  "1806": {
+   "state": {
+    "acts": 1,
+    "provisions": 14
+   },
+   "__total__": {
+    "acts": 1,
+    "provisions": 14
+   }
+  },
+  "1812": {
+   "state": {
+    "acts": 1,
+    "provisions": 5
+   },
+   "__total__": {
+    "acts": 1,
+    "provisions": 5
+   }
+  },
+  "1819": {
+   "state": {
+    "acts": 1,
+    "provisions": 49
+   },
+   "__total__": {
+    "acts": 1,
+    "provisions": 49
+   }
+  },
+  "1823": {
+   "state": {
+    "acts": 1,
+    "provisions": 5
+   },
+   "__total__": {
+    "acts": 1,
+    "provisions": 5
+   }
+  },
+  "1825": {
+   "state": {
+    "acts": 2,
+    "provisions": 12
+   },
+   "__total__": {
+    "acts": 2,
+    "provisions": 12
+   }
+  },
+  "1827": {
+   "state": {
+    "acts": 2,
+    "provisions": 2
+   },
+   "__total__": {
+    "acts": 2,
+    "provisions": 2
+   }
+  },
+  "1834": {
+   "repealed": {
+    "acts": 1,
+    "provisions": 1
+   },
+   "__total__": {
+    "acts": 1,
+    "provisions": 1
+   }
+  },
+  "1835": {
+   "repealed": {
+    "acts": 8,
+    "provisions": 10
+   },
+   "__total__": {
+    "acts": 8,
+    "provisions": 10
+   }
+  },
+  "1836": {
+   "central": {
+    "acts": 1,
+    "provisions": 3
+   },
+   "repealed": {
+    "acts": 13,
+    "provisions": 76
+   },
+   "__total__": {
+    "acts": 14,
+    "provisions": 79
+   }
+  },
+  "1837": {
+   "state": {
+    "acts": 1,
+    "provisions": 3
+   },
+   "repealed": {
+    "acts": 13,
+    "provisions": 52
+   },
+   "__total__": {
+    "acts": 14,
+    "provisions": 55
+   }
+  },
+  "1838": {
+   "central": {
+    "acts": 2,
+    "provisions": 54
+   },
+   "repealed": {
+    "acts": 8,
+    "provisions": 81
+   },
+   "__total__": {
+    "acts": 10,
+    "provisions": 135
+   }
+  },
+  "1839": {
+   "state": {
+    "acts": 1,
+    "provisions": 4
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 4
+   },
+   "repealed": {
+    "acts": 9,
+    "provisions": 35
+   },
+   "spent": {
+    "acts": 1,
+    "provisions": 5
+   },
+   "__total__": {
+    "acts": 12,
+    "provisions": 48
+   }
+  },
+  "1840": {
+   "repealed": {
+    "acts": 12,
+    "provisions": 103
+   },
+   "__total__": {
+    "acts": 12,
+    "provisions": 103
+   }
+  },
+  "1841": {
+   "repealed": {
+    "acts": 11,
+    "provisions": 67
+   },
+   "__total__": {
+    "acts": 11,
+    "provisions": 67
+   }
+  },
+  "1842": {
+   "central": {
+    "acts": 2,
+    "provisions": 5
+   },
+   "repealed": {
+    "acts": 11,
+    "provisions": 46
+   },
+   "__total__": {
+    "acts": 13,
+    "provisions": 51
+   }
+  },
+  "1843": {
+   "repealed": {
+    "acts": 9,
+    "provisions": 95
+   },
+   "__total__": {
+    "acts": 9,
+    "provisions": 95
+   }
+  },
+  "1844": {
+   "repealed": {
+    "acts": 13,
+    "provisions": 110
+   },
+   "__total__": {
+    "acts": 13,
+    "provisions": 110
+   }
+  },
+  "1845": {
+   "repealed": {
+    "acts": 14,
+    "provisions": 94
+   },
+   "__total__": {
+    "acts": 14,
+    "provisions": 94
+   }
+  },
+  "1846": {
+   "central": {
+    "acts": 1,
+    "provisions": 3
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 8
+   },
+   "__total__": {
+    "acts": 4,
+    "provisions": 11
+   }
+  },
+  "1847": {
+   "repealed": {
+    "acts": 6,
+    "provisions": 42
+   },
+   "__total__": {
+    "acts": 6,
+    "provisions": 42
+   }
+  },
+  "1848": {
+   "central": {
+    "acts": 1,
+    "provisions": 3
+   },
+   "repealed": {
+    "acts": 13,
+    "provisions": 46
+   },
+   "__total__": {
+    "acts": 14,
+    "provisions": 49
+   }
+  },
+  "1849": {
+   "central": {
+    "acts": 1,
+    "provisions": 3
+   },
+   "repealed": {
+    "acts": 4,
+    "provisions": 66
+   },
+   "__total__": {
+    "acts": 5,
+    "provisions": 69
+   }
+  },
+  "1850": {
+   "central": {
+    "acts": 2,
+    "provisions": 10
+   },
+   "repealed": {
+    "acts": 13,
+    "provisions": 116
+   },
+   "__total__": {
+    "acts": 15,
+    "provisions": 126
+   }
+  },
+  "1851": {
+   "central": {
+    "acts": 3,
+    "provisions": 59
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 15
+   },
+   "__total__": {
+    "acts": 6,
+    "provisions": 74
+   }
+  },
+  "1852": {
+   "central": {
+    "acts": 1,
+    "provisions": 1
+   },
+   "repealed": {
+    "acts": 8,
+    "provisions": 152
+   },
+   "__total__": {
+    "acts": 9,
+    "provisions": 153
+   }
+  },
+  "1853": {
+   "central": {
+    "acts": 2,
+    "provisions": 13
+   },
+   "repealed": {
+    "acts": 8,
+    "provisions": 24
+   },
+   "__total__": {
+    "acts": 10,
+    "provisions": 37
+   }
+  },
+  "1854": {
+   "central": {
+    "acts": 2,
+    "provisions": 8
+   },
+   "repealed": {
+    "acts": 12,
+    "provisions": 82
+   },
+   "__total__": {
+    "acts": 14,
+    "provisions": 90
+   }
+  },
+  "1855": {
+   "central": {
+    "acts": 3,
+    "provisions": 50
+   },
+   "repealed": {
+    "acts": 16,
+    "provisions": 164
+   },
+   "__total__": {
+    "acts": 19,
+    "provisions": 214
+   }
+  },
+  "1856": {
+   "central": {
+    "acts": 1,
+    "provisions": 2
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 30
+   },
+   "__total__": {
+    "acts": 4,
+    "provisions": 32
+   }
+  },
+  "1857": {
+   "central": {
+    "acts": 1,
+    "provisions": 11
+   },
+   "repealed": {
+    "acts": 11,
+    "provisions": 126
+   },
+   "__total__": {
+    "acts": 12,
+    "provisions": 137
+   }
+  },
+  "1858": {
+   "repealed": {
+    "acts": 14,
+    "provisions": 48
+   },
+   "__total__": {
+    "acts": 14,
+    "provisions": 48
+   }
+  },
+  "1859": {
+   "central": {
+    "acts": 3,
+    "provisions": 51
+   },
+   "repealed": {
+    "acts": 9,
+    "provisions": 65
+   },
+   "__total__": {
+    "acts": 12,
+    "provisions": 116
+   }
+  },
+  "1860": {
+   "state": {
+    "acts": 7,
+    "provisions": 1650
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 140
+   },
+   "repealed": {
+    "acts": 19,
+    "provisions": 898
+   },
+   "__total__": {
+    "acts": 27,
+    "provisions": 2688
+   }
+  },
+  "1861": {
+   "central": {
+    "acts": 2,
+    "provisions": 111
+   },
+   "repealed": {
+    "acts": 10,
+    "provisions": 125
+   },
+   "__total__": {
+    "acts": 12,
+    "provisions": 236
+   }
+  },
+  "1862": {
+   "repealed": {
+    "acts": 9,
+    "provisions": 126
+   },
+   "__total__": {
+    "acts": 9,
+    "provisions": 126
+   }
+  },
+  "1863": {
+   "central": {
+    "acts": 3,
+    "provisions": 128
+   },
+   "repealed": {
+    "acts": 9,
+    "provisions": 53
+   },
+   "__total__": {
+    "acts": 12,
+    "provisions": 181
+   }
+  },
+  "1864": {
+   "state": {
+    "acts": 2,
+    "provisions": 139
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 12
+   },
+   "repealed": {
+    "acts": 15,
+    "provisions": 223
+   },
+   "__total__": {
+    "acts": 18,
+    "provisions": 374
+   }
+  },
+  "1865": {
+   "state": {
+    "acts": 1,
+    "provisions": 3
+   },
+   "repealed": {
+    "acts": 9,
+    "provisions": 304
+   },
+   "__total__": {
+    "acts": 10,
+    "provisions": 307
+   }
+  },
+  "1866": {
+   "state": {
+    "acts": 2,
+    "provisions": 18
+   },
+   "repealed": {
+    "acts": 7,
+    "provisions": 320
+   },
+   "__total__": {
+    "acts": 9,
+    "provisions": 338
+   }
+  },
+  "1867": {
+   "state": {
+    "acts": 6,
+    "provisions": 1678
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 55
+   },
+   "repealed": {
+    "acts": 9,
+    "provisions": 48
+   },
+   "__total__": {
+    "acts": 17,
+    "provisions": 1781
+   }
+  },
+  "1868": {
+   "state": {
+    "acts": 1,
+    "provisions": 49
+   },
+   "repealed": {
+    "acts": 11,
+    "provisions": 310
+   },
+   "__total__": {
+    "acts": 12,
+    "provisions": 359
+   }
+  },
+  "1869": {
+   "state": {
+    "acts": 2,
+    "provisions": 17
+   },
+   "central": {
+    "acts": 3,
+    "provisions": 201
+   },
+   "repealed": {
+    "acts": 14,
+    "provisions": 264
+   },
+   "__total__": {
+    "acts": 19,
+    "provisions": 482
+   }
+  },
+  "1870": {
+   "state": {
+    "acts": 3,
+    "provisions": 396
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 194
+   },
+   "repealed": {
+    "acts": 11,
+    "provisions": 172
+   },
+   "__total__": {
+    "acts": 16,
+    "provisions": 762
+   }
+  },
+  "1871": {
+   "central": {
+    "acts": 3,
+    "provisions": 77
+   },
+   "repealed": {
+    "acts": 14,
+    "provisions": 614
+   },
+   "__total__": {
+    "acts": 17,
+    "provisions": 691
+   }
+  },
+  "1872": {
+   "state": {
+    "acts": 7,
+    "provisions": 924
+   },
+   "central": {
+    "acts": 3,
+    "provisions": 370
+   },
+   "repealed": {
+    "acts": 7,
+    "provisions": 388
+   },
+   "__total__": {
+    "acts": 17,
+    "provisions": 1682
+   }
+  },
+  "1873": {
+   "central": {
+    "acts": 3,
+    "provisions": 177
+   },
+   "repealed": {
+    "acts": 6,
+    "provisions": 57
+   },
+   "__total__": {
+    "acts": 9,
+    "provisions": 234
+   }
+  },
+  "1874": {
+   "state": {
+    "acts": 1,
+    "provisions": 18
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 75
+   },
+   "repealed": {
+    "acts": 6,
+    "provisions": 124
+   },
+   "__total__": {
+    "acts": 9,
+    "provisions": 217
+   }
+  },
+  "1875": {
+   "state": {
+    "acts": 2,
+    "provisions": 30
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 7
+   },
+   "repealed": {
+    "acts": 11,
+    "provisions": 294
+   },
+   "__total__": {
+    "acts": 14,
+    "provisions": 331
+   }
+  },
+  "1876": {
+   "state": {
+    "acts": 1,
+    "provisions": 33
+   },
+   "central": {
+    "acts": 3,
+    "provisions": 126
+   },
+   "repealed": {
+    "acts": 8,
+    "provisions": 225
+   },
+   "__total__": {
+    "acts": 12,
+    "provisions": 384
+   }
+  },
+  "1877": {
+   "central": {
+    "acts": 1,
+    "provisions": 55
+   },
+   "repealed": {
+    "acts": 5,
+    "provisions": 192
+   },
+   "__total__": {
+    "acts": 6,
+    "provisions": 247
+   }
+  },
+  "1878": {
+   "state": {
+    "acts": 1,
+    "provisions": 33
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 73
+   },
+   "repealed": {
+    "acts": 4,
+    "provisions": 204
+   },
+   "__total__": {
+    "acts": 7,
+    "provisions": 310
+   }
+  },
+  "1879": {
+   "state": {
+    "acts": 3,
+    "provisions": 19
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 59
+   },
+   "repealed": {
+    "acts": 6,
+    "provisions": 71
+   },
+   "__total__": {
+    "acts": 11,
+    "provisions": 149
+   }
+  },
+  "1880": {
+   "central": {
+    "acts": 2,
+    "provisions": 15
+   },
+   "repealed": {
+    "acts": 8,
+    "provisions": 126
+   },
+   "__total__": {
+    "acts": 10,
+    "provisions": 141
+   }
+  },
+  "1881": {
+   "central": {
+    "acts": 2,
+    "provisions": 385
+   },
+   "repealed": {
+    "acts": 9,
+    "provisions": 147
+   },
+   "__total__": {
+    "acts": 11,
+    "provisions": 532
+   }
+  },
+  "1882": {
+   "state": {
+    "acts": 3,
+    "provisions": 203
+   },
+   "central": {
+    "acts": 6,
+    "provisions": 578
+   },
+   "repealed": {
+    "acts": 5,
+    "provisions": 469
+   },
+   "__total__": {
+    "acts": 14,
+    "provisions": 1250
+   }
+  },
+  "1883": {
+   "state": {
+    "acts": 1,
+    "provisions": 18
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 111
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 127
+   },
+   "__total__": {
+    "acts": 6,
+    "provisions": 256
+   }
+  },
+  "1884": {
+   "state": {
+    "acts": 1,
+    "provisions": 20
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 54
+   },
+   "repealed": {
+    "acts": 8,
+    "provisions": 390
+   },
+   "__total__": {
+    "acts": 11,
+    "provisions": 464
+   }
+  },
+  "1885": {
+   "state": {
+    "acts": 4,
+    "provisions": 228
+   },
+   "repealed": {
+    "acts": 6,
+    "provisions": 78
+   },
+   "__total__": {
+    "acts": 10,
+    "provisions": 306
+   }
+  },
+  "1886": {
+   "central": {
+    "acts": 1,
+    "provisions": 44
+   },
+   "repealed": {
+    "acts": 7,
+    "provisions": 331
+   },
+   "__total__": {
+    "acts": 8,
+    "provisions": 375
+   }
+  },
+  "1887": {
+   "state": {
+    "acts": 6,
+    "provisions": 590
+   },
+   "central": {
+    "acts": 6,
+    "provisions": 443
+   },
+   "repealed": {
+    "acts": 4,
+    "provisions": 107
+   },
+   "__total__": {
+    "acts": 16,
+    "provisions": 1140
+   }
+  },
+  "1888": {
+   "central": {
+    "acts": 3,
+    "provisions": 19
+   },
+   "repealed": {
+    "acts": 5,
+    "provisions": 32
+   },
+   "__total__": {
+    "acts": 8,
+    "provisions": 51
+   }
+  },
+  "1889": {
+   "state": {
+    "acts": 1,
+    "provisions": 16
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 90
+   },
+   "__total__": {
+    "acts": 4,
+    "provisions": 106
+   }
+  },
+  "1890": {
+   "state": {
+    "acts": 2,
+    "provisions": 89
+   },
+   "central": {
+    "acts": 4,
+    "provisions": 183
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 56
+   },
+   "__total__": {
+    "acts": 9,
+    "provisions": 328
+   }
+  },
+  "1891": {
+   "state": {
+    "acts": 3,
+    "provisions": 178
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 34
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 60
+   },
+   "__total__": {
+    "acts": 8,
+    "provisions": 272
+   }
+  },
+  "1892": {
+   "central": {
+    "acts": 2,
+    "provisions": 32
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 5
+   },
+   "__total__": {
+    "acts": 3,
+    "provisions": 37
+   }
+  },
+  "1893": {
+   "state": {
+    "acts": 2,
+    "provisions": 5
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 33
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 19
+   },
+   "__total__": {
+    "acts": 5,
+    "provisions": 57
+   }
+  },
+  "1894": {
+   "state": {
+    "acts": 6,
+    "provisions": 536
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 74
+   },
+   "repealed": {
+    "acts": 4,
+    "provisions": 131
+   },
+   "__total__": {
+    "acts": 11,
+    "provisions": 741
+   }
+  },
+  "1895": {
+   "state": {
+    "acts": 1,
+    "provisions": 18
+   },
+   "repealed": {
+    "acts": 4,
+    "provisions": 28
+   },
+   "__total__": {
+    "acts": 5,
+    "provisions": 46
+   }
+  },
+  "1896": {
+   "state": {
+    "acts": 2,
+    "provisions": 23
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 84
+   },
+   "__total__": {
+    "acts": 3,
+    "provisions": 107
+   }
+  },
+  "1897": {
+   "state": {
+    "acts": 4,
+    "provisions": 31
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 68
+   },
+   "repealed": {
+    "acts": 6,
+    "provisions": 97
+   },
+   "__total__": {
+    "acts": 12,
+    "provisions": 196
+   }
+  },
+  "1898": {
+   "state": {
+    "acts": 1,
+    "provisions": 11
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 160
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 81
+   },
+   "__total__": {
+    "acts": 6,
+    "provisions": 252
+   }
+  },
+  "1899": {
+   "state": {
+    "acts": 6,
+    "provisions": 226
+   },
+   "central": {
+    "acts": 3,
+    "provisions": 294
+   },
+   "repealed": {
+    "acts": 6,
+    "provisions": 120
+   },
+   "__total__": {
+    "acts": 15,
+    "provisions": 640
+   }
+  },
+  "1900": {
+   "state": {
+    "acts": 4,
+    "provisions": 167
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 44
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 15
+   },
+   "__total__": {
+    "acts": 7,
+    "provisions": 226
+   }
+  },
+  "1901": {
+   "regulatory": {
+    "acts": 2,
+    "provisions": 4
+   },
+   "state": {
+    "acts": 2,
+    "provisions": 83
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 19
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 77
+   },
+   "__total__": {
+    "acts": 7,
+    "provisions": 183
+   }
+  },
+  "1902": {
+   "regulatory": {
+    "acts": 1,
+    "provisions": 20
+   },
+   "state": {
+    "acts": 1,
+    "provisions": 78
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 3
+   },
+   "__total__": {
+    "acts": 3,
+    "provisions": 101
+   }
+  },
+  "1903": {
+   "central": {
+    "acts": 2,
+    "provisions": 69
+   },
+   "repealed": {
+    "acts": 4,
+    "provisions": 123
+   },
+   "__total__": {
+    "acts": 6,
+    "provisions": 192
+   }
+  },
+  "1904": {
+   "state": {
+    "acts": 2,
+    "provisions": 92
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 35
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 8
+   },
+   "__total__": {
+    "acts": 4,
+    "provisions": 135
+   }
+  },
+  "1905": {
+   "state": {
+    "acts": 2,
+    "provisions": 70
+   },
+   "__total__": {
+    "acts": 2,
+    "provisions": 70
+   }
+  },
+  "1906": {
+   "regulatory": {
+    "acts": 1,
+    "provisions": 23
+   },
+   "state": {
+    "acts": 2,
+    "provisions": 142
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 33
+   },
+   "__total__": {
+    "acts": 4,
+    "provisions": 198
+   }
+  },
+  "1907": {
+   "regulatory": {
+    "acts": 3,
+    "provisions": 540
+   },
+   "__total__": {
+    "acts": 3,
+    "provisions": 540
+   }
+  },
+  "1908": {
+   "regulatory": {
+    "acts": 2,
+    "provisions": 7
+   },
+   "state": {
+    "acts": 14,
+    "provisions": 3258
+   },
+   "central": {
+    "acts": 5,
+    "provisions": 1789
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 266
+   },
+   "__total__": {
+    "acts": 23,
+    "provisions": 5320
+   }
+  },
+  "1909": {
+   "regulatory": {
+    "acts": 2,
+    "provisions": 10
+   },
+   "state": {
+    "acts": 1,
+    "provisions": 40
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 235
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 15
+   },
+   "__total__": {
+    "acts": 7,
+    "provisions": 300
+   }
+  },
+  "1910": {
+   "state": {
+    "acts": 3,
+    "provisions": 367
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 20
+   },
+   "repealed": {
+    "acts": 6,
+    "provisions": 192
+   },
+   "__total__": {
+    "acts": 10,
+    "provisions": 579
+   }
+  },
+  "1911": {
+   "state": {
+    "acts": 2,
+    "provisions": 670
+   },
+   "repealed": {
+    "acts": 5,
+    "provisions": 170
+   },
+   "__total__": {
+    "acts": 7,
+    "provisions": 840
+   }
+  },
+  "1912": {
+   "regulatory": {
+    "acts": 2,
+    "provisions": 17
+   },
+   "state": {
+    "acts": 4,
+    "provisions": 146
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 65
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 153
+   },
+   "__total__": {
+    "acts": 9,
+    "provisions": 381
+   }
+  },
+  "1913": {
+   "state": {
+    "acts": 3,
+    "provisions": 100
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 46
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 55
+   },
+   "__total__": {
+    "acts": 6,
+    "provisions": 201
+   }
+  },
+  "1914": {
+   "state": {
+    "acts": 8,
+    "provisions": 1315
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 29
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 90
+   },
+   "__total__": {
+    "acts": 12,
+    "provisions": 1434
+   }
+  },
+  "1915": {
+   "state": {
+    "acts": 4,
+    "provisions": 480
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 85
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 25
+   },
+   "__total__": {
+    "acts": 8,
+    "provisions": 590
+   }
+  },
+  "1916": {
+   "regulatory": {
+    "acts": 1,
+    "provisions": 2
+   },
+   "state": {
+    "acts": 5,
+    "provisions": 1296
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 6
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 27
+   },
+   "__total__": {
+    "acts": 9,
+    "provisions": 1331
+   }
+  },
+  "1917": {
+   "regulatory": {
+    "acts": 2,
+    "provisions": 90
+   },
+   "state": {
+    "acts": 6,
+    "provisions": 479
+   },
+   "central": {
+    "acts": 3,
+    "provisions": 13
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 140
+   },
+   "__total__": {
+    "acts": 14,
+    "provisions": 722
+   }
+  },
+  "1918": {
+   "state": {
+    "acts": 5,
+    "provisions": 57
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 7
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 28
+   },
+   "__total__": {
+    "acts": 9,
+    "provisions": 92
+   }
+  },
+  "1919": {
+   "state": {
+    "acts": 4,
+    "provisions": 114
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 20
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 3
+   },
+   "__total__": {
+    "acts": 8,
+    "provisions": 137
+   }
+  },
+  "1920": {
+   "state": {
+    "acts": 9,
+    "provisions": 379
+   },
+   "central": {
+    "acts": 4,
+    "provisions": 215
+   },
+   "repealed": {
+    "acts": 12,
+    "provisions": 162
+   },
+   "__total__": {
+    "acts": 25,
+    "provisions": 756
+   }
+  },
+  "1921": {
+   "state": {
+    "acts": 3,
+    "provisions": 215
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 20
+   },
+   "repealed": {
+    "acts": 4,
+    "provisions": 26
+   },
+   "__total__": {
+    "acts": 8,
+    "provisions": 261
+   }
+  },
+  "1922": {
+   "state": {
+    "acts": 6,
+    "provisions": 321
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 43
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 34
+   },
+   "__total__": {
+    "acts": 9,
+    "provisions": 398
+   }
+  },
+  "1923": {
+   "state": {
+    "acts": 20,
+    "provisions": 1634
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 51
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 126
+   },
+   "__total__": {
+    "acts": 25,
+    "provisions": 1811
+   }
+  },
+  "1924": {
+   "state": {
+    "acts": 5,
+    "provisions": 192
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 31
+   },
+   "__total__": {
+    "acts": 6,
+    "provisions": 223
+   }
+  },
+  "1925": {
+   "state": {
+    "acts": 3,
+    "provisions": 510
+   },
+   "central": {
+    "acts": 5,
+    "provisions": 546
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 4
+   },
+   "__total__": {
+    "acts": 9,
+    "provisions": 1060
+   }
+  },
+  "1926": {
+   "state": {
+    "acts": 12,
+    "provisions": 406
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 44
+   },
+   "__total__": {
+    "acts": 13,
+    "provisions": 450
+   }
+  },
+  "1927": {
+   "state": {
+    "acts": 4,
+    "provisions": 306
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 99
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 39
+   },
+   "__total__": {
+    "acts": 8,
+    "provisions": 444
+   }
+  },
+  "1928": {
+   "state": {
+    "acts": 3,
+    "provisions": 11
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 7
+   },
+   "__total__": {
+    "acts": 4,
+    "provisions": 18
+   }
+  },
+  "1929": {
+   "state": {
+    "acts": 3,
+    "provisions": 37
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 31
+   },
+   "__total__": {
+    "acts": 5,
+    "provisions": 68
+   }
+  },
+  "1930": {
+   "state": {
+    "acts": 1,
+    "provisions": 15
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 85
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 93
+   },
+   "__total__": {
+    "acts": 6,
+    "provisions": 193
+   }
+  },
+  "1931": {
+   "state": {
+    "acts": 7,
+    "provisions": 681
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 3
+   },
+   "__total__": {
+    "acts": 9,
+    "provisions": 684
+   }
+  },
+  "1932": {
+   "regulatory": {
+    "acts": 3,
+    "provisions": 10
+   },
+   "state": {
+    "acts": 6,
+    "provisions": 246
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 118
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 4
+   },
+   "__total__": {
+    "acts": 12,
+    "provisions": 378
+   }
+  },
+  "1933": {
+   "state": {
+    "acts": 4,
+    "provisions": 43
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 34
+   },
+   "__total__": {
+    "acts": 5,
+    "provisions": 77
+   }
+  },
+  "1934": {
+   "regulatory": {
+    "acts": 2,
+    "provisions": 2
+   },
+   "state": {
+    "acts": 13,
+    "provisions": 420
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 561
+   },
+   "repealed": {
+    "acts": 5,
+    "provisions": 185
+   },
+   "__total__": {
+    "acts": 22,
+    "provisions": 1168
+   }
+  },
+  "1935": {
+   "state": {
+    "acts": 13,
+    "provisions": 1062
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 6
+   },
+   "__total__": {
+    "acts": 14,
+    "provisions": 1068
+   }
+  },
+  "1936": {
+   "regulatory": {
+    "acts": 3,
+    "provisions": 749
+   },
+   "state": {
+    "acts": 33,
+    "provisions": 1104
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 74
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 48
+   },
+   "__total__": {
+    "acts": 39,
+    "provisions": 1975
+   }
+  },
+  "1937": {
+   "regulatory": {
+    "acts": 14,
+    "provisions": 35
+   },
+   "state": {
+    "acts": 7,
+    "provisions": 62
+   },
+   "central": {
+    "acts": 3,
+    "provisions": 28
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 1
+   },
+   "__total__": {
+    "acts": 25,
+    "provisions": 126
+   }
+  },
+  "1938": {
+   "regulatory": {
+    "acts": 12,
+    "provisions": 738
+   },
+   "state": {
+    "acts": 14,
+    "provisions": 348
+   },
+   "central": {
+    "acts": 3,
+    "provisions": 333
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 101
+   },
+   "__total__": {
+    "acts": 31,
+    "provisions": 1520
+   }
+  },
+  "1939": {
+   "regulatory": {
+    "acts": 1,
+    "provisions": 330
+   },
+   "state": {
+    "acts": 22,
+    "provisions": 2120
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 44
+   },
+   "repealed": {
+    "acts": 5,
+    "provisions": 148
+   },
+   "__total__": {
+    "acts": 30,
+    "provisions": 2642
+   }
+  },
+  "1940": {
+   "state": {
+    "acts": 11,
+    "provisions": 2266
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 138
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 174
+   },
+   "__total__": {
+    "acts": 15,
+    "provisions": 2578
+   }
+  },
+  "1941": {
+   "state": {
+    "acts": 5,
+    "provisions": 27
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 19
+   },
+   "__total__": {
+    "acts": 8,
+    "provisions": 46
+   }
+  },
+  "1942": {
+   "regulatory": {
+    "acts": 1,
+    "provisions": 186
+   },
+   "state": {
+    "acts": 10,
+    "provisions": 144
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 58
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 8
+   },
+   "__total__": {
+    "acts": 13,
+    "provisions": 396
+   }
+  },
+  "1943": {
+   "state": {
+    "acts": 14,
+    "provisions": 141
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 5
+   },
+   "__total__": {
+    "acts": 15,
+    "provisions": 146
+   }
+  },
+  "1944": {
+   "regulatory": {
+    "acts": 1,
+    "provisions": 1
+   },
+   "state": {
+    "acts": 8,
+    "provisions": 94
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 320
+   },
+   "__total__": {
+    "acts": 11,
+    "provisions": 415
+   }
+  },
+  "1945": {
+   "state": {
+    "acts": 8,
+    "provisions": 192
+   },
+   "central": {
+    "acts": 1,
+    "provisions": 16
+   },
+   "__total__": {
+    "acts": 9,
+    "provisions": 208
+   }
+  },
+  "1946": {
+   "state": {
+    "acts": 22,
+    "provisions": 924
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 72
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 2
+   },
+   "__total__": {
+    "acts": 25,
+    "provisions": 998
+   }
+  },
+  "1947": {
+   "regulatory": {
+    "acts": 2,
+    "provisions": 30
+   },
+   "state": {
+    "acts": 77,
+    "provisions": 3112
+   },
+   "central": {
+    "acts": 6,
+    "provisions": 357
+   },
+   "__total__": {
+    "acts": 85,
+    "provisions": 3499
+   }
+  },
+  "1948": {
+   "state": {
+    "acts": 128,
+    "provisions": 9937
+   },
+   "central": {
+    "acts": 15,
+    "provisions": 539
+   },
+   "repealed": {
+    "acts": 4,
+    "provisions": 166
+   },
+   "__total__": {
+    "acts": 147,
+    "provisions": 10642
+   }
+  },
+  "1949": {
+   "regulatory": {
+    "acts": 1,
+    "provisions": 10
+   },
+   "state": {
+    "acts": 61,
+    "provisions": 3583
+   },
+   "central": {
+    "acts": 9,
+    "provisions": 510
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 31
+   },
+   "__total__": {
+    "acts": 72,
+    "provisions": 4134
+   }
+  },
+  "1950": {
+   "state": {
+    "acts": 87,
+    "provisions": 2508
+   },
+   "central": {
+    "acts": 14,
+    "provisions": 950
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 18
+   },
+   "__total__": {
+    "acts": 103,
+    "provisions": 3476
+   }
+  },
+  "1951": {
+   "regulatory": {
+    "acts": 1,
+    "provisions": 2
+   },
+   "state": {
+    "acts": 67,
+    "provisions": 2666
+   },
+   "central": {
+    "acts": 13,
+    "provisions": 911
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 84
+   },
+   "__total__": {
+    "acts": 83,
+    "provisions": 3663
+   }
+  },
+  "1952": {
+   "state": {
+    "acts": 76,
+    "provisions": 1876
+   },
+   "central": {
+    "acts": 11,
+    "provisions": 471
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 134
+   },
+   "__total__": {
+    "acts": 88,
+    "provisions": 2481
+   }
+  },
+  "1953": {
+   "state": {
+    "acts": 70,
+    "provisions": 1675
+   },
+   "central": {
+    "acts": 6,
+    "provisions": 303
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 299
+   },
+   "__total__": {
+    "acts": 79,
+    "provisions": 2277
+   }
+  },
+  "1954": {
+   "regulatory": {
+    "acts": 1,
+    "provisions": 1
+   },
+   "state": {
+    "acts": 78,
+    "provisions": 2667
+   },
+   "central": {
+    "acts": 8,
+    "provisions": 175
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 103
+   },
+   "__total__": {
+    "acts": 89,
+    "provisions": 2946
+   }
+  },
+  "1955": {
+   "state": {
+    "acts": 100,
+    "provisions": 5549
+   },
+   "central": {
+    "acts": 9,
+    "provisions": 428
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 14
+   },
+   "__total__": {
+    "acts": 110,
+    "provisions": 5991
+   }
+  },
+  "1956": {
+   "regulatory": {
+    "acts": 5,
+    "provisions": 353
+   },
+   "state": {
+    "acts": 116,
+    "provisions": 8169
+   },
+   "central": {
+    "acts": 22,
+    "provisions": 1203
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 43
+   },
+   "__total__": {
+    "acts": 144,
+    "provisions": 9768
+   }
+  },
+  "1957": {
+   "regulatory": {
+    "acts": 1,
+    "provisions": 112
+   },
+   "state": {
+    "acts": 73,
+    "provisions": 2696
+   },
+   "central": {
+    "acts": 12,
+    "provisions": 1700
+   },
+   "__total__": {
+    "acts": 86,
+    "provisions": 4508
+   }
+  },
+  "1958": {
+   "state": {
+    "acts": 92,
+    "provisions": 3419
+   },
+   "central": {
+    "acts": 10,
+    "provisions": 1283
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 4
+   },
+   "__total__": {
+    "acts": 103,
+    "provisions": 4706
+   }
+  },
+  "1959": {
+   "regulatory": {
+    "acts": 1,
+    "provisions": 8
+   },
+   "state": {
+    "acts": 85,
+    "provisions": 6660
+   },
+   "central": {
+    "acts": 6,
+    "provisions": 327
+   },
+   "repealed": {
+    "acts": 4,
+    "provisions": 120
+   },
+   "__total__": {
+    "acts": 96,
+    "provisions": 7115
+   }
+  },
+  "1960": {
+   "regulatory": {
+    "acts": 1,
+    "provisions": 46
+   },
+   "state": {
+    "acts": 96,
+    "provisions": 4995
+   },
+   "central": {
+    "acts": 11,
+    "provisions": 863
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 98
+   },
+   "__total__": {
+    "acts": 111,
+    "provisions": 6002
+   }
+  },
+  "1961": {
+   "regulatory": {
+    "acts": 3,
+    "provisions": 116
+   },
+   "state": {
+    "acts": 155,
+    "provisions": 9763
+   },
+   "central": {
+    "acts": 11,
+    "provisions": 3019
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 50
+   },
+   "__total__": {
+    "acts": 171,
+    "provisions": 12948
+   }
+  },
+  "1962": {
+   "regulatory": {
+    "acts": 3,
+    "provisions": 81
+   },
+   "state": {
+    "acts": 74,
+    "provisions": 2994
+   },
+   "central": {
+    "acts": 14,
+    "provisions": 462
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 21
+   },
+   "spent": {
+    "acts": 1,
+    "provisions": 79
+   },
+   "__total__": {
+    "acts": 93,
+    "provisions": 3637
+   }
+  },
+  "1963": {
+   "state": {
+    "acts": 99,
+    "provisions": 4076
+   },
+   "central": {
+    "acts": 9,
+    "provisions": 540
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 46
+   },
+   "__total__": {
+    "acts": 109,
+    "provisions": 4662
+   }
+  },
+  "1964": {
+   "state": {
+    "acts": 109,
+    "provisions": 6766
+   },
+   "central": {
+    "acts": 5,
+    "provisions": 148
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 23
+   },
+   "__total__": {
+    "acts": 115,
+    "provisions": 6937
+   }
+  },
+  "1965": {
+   "state": {
+    "acts": 114,
+    "provisions": 4300
+   },
+   "central": {
+    "acts": 5,
+    "provisions": 32
+   },
+   "repealed": {
+    "acts": 4,
+    "provisions": 205
+   },
+   "__total__": {
+    "acts": 123,
+    "provisions": 4537
+   }
+  },
+  "1966": {
+   "state": {
+    "acts": 65,
+    "provisions": 4146
+   },
+   "central": {
+    "acts": 9,
+    "provisions": 438
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 26
+   },
+   "__total__": {
+    "acts": 76,
+    "provisions": 4610
+   }
+  },
+  "1967": {
+   "regulatory": {
+    "acts": 5,
+    "provisions": 26
+   },
+   "state": {
+    "acts": 49,
+    "provisions": 1586
+   },
+   "central": {
+    "acts": 3,
+    "provisions": 148
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 1
+   },
+   "__total__": {
+    "acts": 58,
+    "provisions": 1761
+   }
+  },
+  "1968": {
+   "state": {
+    "acts": 95,
+    "provisions": 7428
+   },
+   "central": {
+    "acts": 12,
+    "provisions": 427
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 200
+   },
+   "spent": {
+    "acts": 1,
+    "provisions": 10
+   },
+   "__total__": {
+    "acts": 109,
+    "provisions": 8065
+   }
+  },
+  "1969": {
+   "state": {
+    "acts": 81,
+    "provisions": 2886
+   },
+   "central": {
+    "acts": 8,
+    "provisions": 318
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 9
+   },
+   "__total__": {
+    "acts": 90,
+    "provisions": 3213
+   }
+  },
+  "1970": {
+   "regulatory": {
+    "acts": 2,
+    "provisions": 173
+   },
+   "state": {
+    "acts": 100,
+    "provisions": 3058
+   },
+   "central": {
+    "acts": 5,
+    "provisions": 422
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 4
+   },
+   "__total__": {
+    "acts": 108,
+    "provisions": 3657
+   }
+  },
+  "1971": {
+   "regulatory": {
+    "acts": 1,
+    "provisions": 8
+   },
+   "state": {
+    "acts": 87,
+    "provisions": 3729
+   },
+   "central": {
+    "acts": 10,
+    "provisions": 503
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 1
+   },
+   "spent": {
+    "acts": 3,
+    "provisions": 133
+   },
+   "__total__": {
+    "acts": 102,
+    "provisions": 4374
+   }
+  },
+  "1972": {
+   "regulatory": {
+    "acts": 1,
+    "provisions": 66
+   },
+   "state": {
+    "acts": 121,
+    "provisions": 6964
+   },
+   "central": {
+    "acts": 13,
+    "provisions": 1033
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 30
+   },
+   "spent": {
+    "acts": 1,
+    "provisions": 9
+   },
+   "__total__": {
+    "acts": 139,
+    "provisions": 8102
+   }
+  },
+  "1973": {
+   "regulatory": {
+    "acts": 1,
+    "provisions": 4
+   },
+   "state": {
+    "acts": 134,
+    "provisions": 22708
+   },
+   "central": {
+    "acts": 5,
+    "provisions": 83
+   },
+   "__total__": {
+    "acts": 140,
+    "provisions": 22795
+   }
+  },
+  "1974": {
+   "regulatory": {
+    "acts": 5,
+    "provisions": 50
+   },
+   "state": {
+    "acts": 105,
+    "provisions": 5008
+   },
+   "central": {
+    "acts": 8,
+    "provisions": 451
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 13
+   },
+   "__total__": {
+    "acts": 119,
+    "provisions": 5522
+   }
+  },
+  "1975": {
+   "state": {
+    "acts": 92,
+    "provisions": 3644
+   },
+   "central": {
+    "acts": 5,
+    "provisions": 1710
+   },
+   "__total__": {
+    "acts": 97,
+    "provisions": 5354
+   }
+  },
+  "1976": {
+   "regulatory": {
+    "acts": 15,
+    "provisions": 479
+   },
+   "state": {
+    "acts": 202,
+    "provisions": 8631
+   },
+   "central": {
+    "acts": 10,
+    "provisions": 206
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 20
+   },
+   "__total__": {
+    "acts": 228,
+    "provisions": 9336
+   }
+  },
+  "1977": {
+   "regulatory": {
+    "acts": 2,
+    "provisions": 89
+   },
+   "state": {
+    "acts": 74,
+    "provisions": 2681
+   },
+   "central": {
+    "acts": 3,
+    "provisions": 49
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 2
+   },
+   "__total__": {
+    "acts": 80,
+    "provisions": 2821
+   }
+  },
+  "1978": {
+   "regulatory": {
+    "acts": 1,
+    "provisions": 21
+   },
+   "state": {
+    "acts": 104,
+    "provisions": 2607
+   },
+   "central": {
+    "acts": 7,
+    "provisions": 535
+   },
+   "__total__": {
+    "acts": 112,
+    "provisions": 3163
+   }
+  },
+  "1979": {
+   "regulatory": {
+    "acts": 11,
+    "provisions": 1596
+   },
+   "state": {
+    "acts": 84,
+    "provisions": 3314
+   },
+   "central": {
+    "acts": 3,
+    "provisions": 98
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 18
+   },
+   "__total__": {
+    "acts": 99,
+    "provisions": 5026
+   }
+  },
+  "1980": {
+   "regulatory": {
+    "acts": 3,
+    "provisions": 187
+   },
+   "state": {
+    "acts": 92,
+    "provisions": 3663
+   },
+   "central": {
+    "acts": 13,
+    "provisions": 520
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 8
+   },
+   "__total__": {
+    "acts": 109,
+    "provisions": 4378
+   }
+  },
+  "1981": {
+   "regulatory": {
+    "acts": 11,
+    "provisions": 807
+   },
+   "state": {
+    "acts": 80,
+    "provisions": 2996
+   },
+   "central": {
+    "acts": 8,
+    "provisions": 257
+   },
+   "spent": {
+    "acts": 1,
+    "provisions": 20
+   },
+   "__total__": {
+    "acts": 100,
+    "provisions": 4080
+   }
+  },
+  "1982": {
+   "regulatory": {
+    "acts": 3,
+    "provisions": 233
+   },
+   "state": {
+    "acts": 71,
+    "provisions": 3224
+   },
+   "central": {
+    "acts": 6,
+    "provisions": 219
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 19
+   },
+   "__total__": {
+    "acts": 82,
+    "provisions": 3695
+   }
+  },
+  "1983": {
+   "state": {
+    "acts": 64,
+    "provisions": 2901
+   },
+   "central": {
+    "acts": 7,
+    "provisions": 120
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 33
+   },
+   "__total__": {
+    "acts": 73,
+    "provisions": 3054
+   }
+  },
+  "1984": {
+   "state": {
+    "acts": 67,
+    "provisions": 2668
+   },
+   "central": {
+    "acts": 6,
+    "provisions": 255
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 216
+   },
+   "__total__": {
+    "acts": 74,
+    "provisions": 3139
+   }
+  },
+  "1985": {
+   "regulatory": {
+    "acts": 3,
+    "provisions": 209
+   },
+   "state": {
+    "acts": 75,
+    "provisions": 2906
+   },
+   "central": {
+    "acts": 12,
+    "provisions": 620
+   },
+   "repealed": {
+    "acts": 4,
+    "provisions": 21
+   },
+   "__total__": {
+    "acts": 94,
+    "provisions": 3756
+   }
+  },
+  "1986": {
+   "regulatory": {
+    "acts": 20,
+    "provisions": 2029
+   },
+   "state": {
+    "acts": 103,
+    "provisions": 4088
+   },
+   "central": {
+    "acts": 11,
+    "provisions": 491
+   },
+   "repealed": {
+    "acts": 4,
+    "provisions": 110
+   },
+   "__total__": {
+    "acts": 138,
+    "provisions": 6718
+   }
+  },
+  "1987": {
+   "regulatory": {
+    "acts": 5,
+    "provisions": 343
+   },
+   "state": {
+    "acts": 71,
+    "provisions": 3324
+   },
+   "central": {
+    "acts": 11,
+    "provisions": 550
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 125
+   },
+   "__total__": {
+    "acts": 89,
+    "provisions": 4342
+   }
+  },
+  "1988": {
+   "regulatory": {
+    "acts": 1,
+    "provisions": 1
+   },
+   "state": {
+    "acts": 57,
+    "provisions": 2338
+   },
+   "central": {
+    "acts": 10,
+    "provisions": 774
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 11
+   },
+   "__total__": {
+    "acts": 70,
+    "provisions": 3124
+   }
+  },
+  "1989": {
+   "regulatory": {
+    "acts": 1,
+    "provisions": 24
+   },
+   "state": {
+    "acts": 53,
+    "provisions": 2575
+   },
+   "central": {
+    "acts": 5,
+    "provisions": 650
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 1
+   },
+   "__total__": {
+    "acts": 60,
+    "provisions": 3250
+   }
+  },
+  "1990": {
+   "state": {
+    "acts": 51,
+    "provisions": 2427
+   },
+   "central": {
+    "acts": 3,
+    "provisions": 62
+   },
+   "__total__": {
+    "acts": 54,
+    "provisions": 2489
+   }
+  },
+  "1991": {
+   "regulatory": {
+    "acts": 1,
+    "provisions": 32
+   },
+   "state": {
+    "acts": 58,
+    "provisions": 2603
+   },
+   "central": {
+    "acts": 4,
+    "provisions": 80
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 10
+   },
+   "__total__": {
+    "acts": 64,
+    "provisions": 2725
+   }
+  },
+  "1992": {
+   "regulatory": {
+    "acts": 5,
+    "provisions": 302
+   },
+   "state": {
+    "acts": 50,
+    "provisions": 1398
+   },
+   "central": {
+    "acts": 10,
+    "provisions": 527
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 2
+   },
+   "__total__": {
+    "acts": 66,
+    "provisions": 2229
+   }
+  },
+  "1993": {
+   "regulatory": {
+    "acts": 8,
+    "provisions": 841
+   },
+   "state": {
+    "acts": 60,
+    "provisions": 5381
+   },
+   "central": {
+    "acts": 15,
+    "provisions": 535
+   },
+   "__total__": {
+    "acts": 83,
+    "provisions": 6757
+   }
+  },
+  "1994": {
+   "regulatory": {
+    "acts": 3,
+    "provisions": 123
+   },
+   "state": {
+    "acts": 107,
+    "provisions": 9768
+   },
+   "central": {
+    "acts": 8,
+    "provisions": 1284
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 11
+   },
+   "__total__": {
+    "acts": 121,
+    "provisions": 11186
+   }
+  },
+  "1995": {
+   "regulatory": {
+    "acts": 12,
+    "provisions": 874
+   },
+   "state": {
+    "acts": 89,
+    "provisions": 4946
+   },
+   "central": {
+    "acts": 4,
+    "provisions": 151
+   },
+   "__total__": {
+    "acts": 105,
+    "provisions": 5971
+   }
+  },
+  "1996": {
+   "regulatory": {
+    "acts": 6,
+    "provisions": 571
+   },
+   "state": {
+    "acts": 76,
+    "provisions": 3493
+   },
+   "central": {
+    "acts": 5,
+    "provisions": 545
+   },
+   "__total__": {
+    "acts": 87,
+    "provisions": 4609
+   }
+  },
+  "1997": {
+   "regulatory": {
+    "acts": 3,
+    "provisions": 110
+   },
+   "state": {
+    "acts": 80,
+    "provisions": 4762
+   },
+   "central": {
+    "acts": 5,
+    "provisions": 133
+   },
+   "__total__": {
+    "acts": 88,
+    "provisions": 5005
+   }
+  },
+  "1998": {
+   "regulatory": {
+    "acts": 40,
+    "provisions": 390
+   },
+   "state": {
+    "acts": 72,
+    "provisions": 5328
+   },
+   "central": {
+    "acts": 3,
+    "provisions": 65
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 10
+   },
+   "__total__": {
+    "acts": 116,
+    "provisions": 5793
+   }
+  },
+  "1999": {
+   "regulatory": {
+    "acts": 83,
+    "provisions": 1093
+   },
+   "state": {
+    "acts": 87,
+    "provisions": 4274
+   },
+   "central": {
+    "acts": 7,
+    "provisions": 572
+   },
+   "repealed": {
+    "acts": 3,
+    "provisions": 80
+   },
+   "__total__": {
+    "acts": 180,
+    "provisions": 6019
+   }
+  },
+  "2000": {
+   "regulatory": {
+    "acts": 129,
+    "provisions": 1495
+   },
+   "state": {
+    "acts": 87,
+    "provisions": 5821
+   },
+   "central": {
+    "acts": 10,
+    "provisions": 1871
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 1
+   },
+   "__total__": {
+    "acts": 227,
+    "provisions": 9188
+   }
+  },
+  "2001": {
+   "regulatory": {
+    "acts": 97,
+    "provisions": 829
+   },
+   "state": {
+    "acts": 81,
+    "provisions": 4308
+   },
+   "central": {
+    "acts": 4,
+    "provisions": 308
+   },
+   "__total__": {
+    "acts": 182,
+    "provisions": 5445
+   }
+  },
+  "2002": {
+   "regulatory": {
+    "acts": 106,
+    "provisions": 1080
+   },
+   "state": {
+    "acts": 103,
+    "provisions": 5251
+   },
+   "central": {
+    "acts": 13,
+    "provisions": 1192
+   },
+   "__total__": {
+    "acts": 222,
+    "provisions": 7523
+   }
+  },
+  "2003": {
+   "regulatory": {
+    "acts": 131,
+    "provisions": 1844
+   },
+   "state": {
+    "acts": 84,
+    "provisions": 5893
+   },
+   "central": {
+    "acts": 7,
+    "provisions": 458
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 3
+   },
+   "__total__": {
+    "acts": 223,
+    "provisions": 8198
+   }
+  },
+  "2004": {
+   "regulatory": {
+    "acts": 174,
+    "provisions": 3510
+   },
+   "state": {
+    "acts": 75,
+    "provisions": 2660
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 48
+   },
+   "__total__": {
+    "acts": 251,
+    "provisions": 6218
+   }
+  },
+  "2005": {
+   "regulatory": {
+    "acts": 194,
+    "provisions": 3855
+   },
+   "state": {
+    "acts": 159,
+    "provisions": 8091
+   },
+   "central": {
+    "acts": 17,
+    "provisions": 1331
+   },
+   "repealed": {
+    "acts": 2,
+    "provisions": 110
+   },
+   "__total__": {
+    "acts": 372,
+    "provisions": 13387
+   }
+  },
+  "2006": {
+   "regulatory": {
+    "acts": 222,
+    "provisions": 4812
+   },
+   "state": {
+    "acts": 126,
+    "provisions": 6134
+   },
+   "central": {
+    "acts": 17,
+    "provisions": 1666
+   },
+   "spent": {
+    "acts": 1,
+    "provisions": 5
+   },
+   "__total__": {
+    "acts": 366,
+    "provisions": 12617
+   }
+  },
+  "2007": {
+   "regulatory": {
+    "acts": 242,
+    "provisions": 5989
+   },
+   "state": {
+    "acts": 125,
+    "provisions": 6109
+   },
+   "central": {
+    "acts": 12,
+    "provisions": 689
+   },
+   "__total__": {
+    "acts": 379,
+    "provisions": 12787
+   }
+  },
+  "2008": {
+   "regulatory": {
+    "acts": 267,
+    "provisions": 6023
+   },
+   "state": {
+    "acts": 143,
+    "provisions": 7681
+   },
+   "central": {
+    "acts": 9,
+    "provisions": 651
+   },
+   "__total__": {
+    "acts": 419,
+    "provisions": 14355
+   }
+  },
+  "2009": {
+   "regulatory": {
+    "acts": 244,
+    "provisions": 6241
+   },
+   "state": {
+    "acts": 120,
+    "provisions": 5640
+   },
+   "central": {
+    "acts": 4,
+    "provisions": 298
+   },
+   "__total__": {
+    "acts": 368,
+    "provisions": 12179
+   }
+  },
+  "2010": {
+   "regulatory": {
+    "acts": 236,
+    "provisions": 8367
+   },
+   "state": {
+    "acts": 147,
+    "provisions": 7093
+   },
+   "central": {
+    "acts": 7,
+    "provisions": 344
+   },
+   "__total__": {
+    "acts": 390,
+    "provisions": 15804
+   }
+  },
+  "2011": {
+   "regulatory": {
+    "acts": 299,
+    "provisions": 7374
+   },
+   "state": {
+    "acts": 178,
+    "provisions": 7565
+   },
+   "central": {
+    "acts": 5,
+    "provisions": 156
+   },
+   "__total__": {
+    "acts": 482,
+    "provisions": 15095
+   }
+  },
+  "2012": {
+   "regulatory": {
+    "acts": 323,
+    "provisions": 11947
+   },
+   "state": {
+    "acts": 166,
+    "provisions": 8395
+   },
+   "central": {
+    "acts": 3,
+    "provisions": 150
+   },
+   "__total__": {
+    "acts": 492,
+    "provisions": 20492
+   }
+  },
+  "2013": {
+   "regulatory": {
+    "acts": 360,
+    "provisions": 11377
+   },
+   "state": {
+    "acts": 137,
+    "provisions": 6718
+   },
+   "central": {
+    "acts": 8,
+    "provisions": 1792
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 34
+   },
+   "__total__": {
+    "acts": 506,
+    "provisions": 19921
+   }
+  },
+  "2014": {
+   "regulatory": {
+    "acts": 394,
+    "provisions": 16204
+   },
+   "state": {
+    "acts": 134,
+    "provisions": 6523
+   },
+   "central": {
+    "acts": 6,
+    "provisions": 518
+   },
+   "__total__": {
+    "acts": 534,
+    "provisions": 23245
+   }
+  },
+  "2015": {
+   "regulatory": {
+    "acts": 657,
+    "provisions": 37418
+   },
+   "state": {
+    "acts": 129,
+    "provisions": 4581
+   },
+   "central": {
+    "acts": 6,
+    "provisions": 467
+   },
+   "__total__": {
+    "acts": 792,
+    "provisions": 42466
+   }
+  },
+  "2016": {
+   "regulatory": {
+    "acts": 618,
+    "provisions": 33623
+   },
+   "state": {
+    "acts": 163,
+    "provisions": 8940
+   },
+   "central": {
+    "acts": 11,
+    "provisions": 1223
+   },
+   "__total__": {
+    "acts": 792,
+    "provisions": 43786
+   }
+  },
+  "2017": {
+   "regulatory": {
+    "acts": 500,
+    "provisions": 26226
+   },
+   "state": {
+    "acts": 192,
+    "provisions": 20415
+   },
+   "central": {
+    "acts": 16,
+    "provisions": 1157
+   },
+   "__total__": {
+    "acts": 708,
+    "provisions": 47798
+   }
+  },
+  "2018": {
+   "regulatory": {
+    "acts": 523,
+    "provisions": 33268
+   },
+   "state": {
+    "acts": 165,
+    "provisions": 8780
+   },
+   "central": {
+    "acts": 3,
+    "provisions": 161
+   },
+   "__total__": {
+    "acts": 691,
+    "provisions": 42209
+   }
+  },
+  "2019": {
+   "regulatory": {
+    "acts": 460,
+    "provisions": 18312
+   },
+   "state": {
+    "acts": 107,
+    "provisions": 5573
+   },
+   "central": {
+    "acts": 15,
+    "provisions": 854
+   },
+   "repealed": {
+    "acts": 1,
+    "provisions": 2
+   },
+   "__total__": {
+    "acts": 583,
+    "provisions": 24741
+   }
+  },
+  "2020": {
+   "regulatory": {
+    "acts": 391,
+    "provisions": 18011
+   },
+   "state": {
+    "acts": 114,
+    "provisions": 5145
+   },
+   "central": {
+    "acts": 12,
+    "provisions": 1468
+   },
+   "__total__": {
+    "acts": 517,
+    "provisions": 24624
+   }
+  },
+  "2021": {
+   "regulatory": {
+    "acts": 402,
+    "provisions": 18453
+   },
+   "state": {
+    "acts": 122,
+    "provisions": 5970
+   },
+   "central": {
+    "acts": 12,
+    "provisions": 1001
+   },
+   "spent": {
+    "acts": 1,
+    "provisions": 23
+   },
+   "__total__": {
+    "acts": 537,
+    "provisions": 25447
+   }
+  },
+  "2022": {
+   "regulatory": {
+    "acts": 361,
+    "provisions": 17849
+   },
+   "state": {
+    "acts": 98,
+    "provisions": 3510
+   },
+   "central": {
+    "acts": 3,
+    "provisions": 125
+   },
+   "__total__": {
+    "acts": 462,
+    "provisions": 21484
+   }
+  },
+  "2023": {
+   "regulatory": {
+    "acts": 501,
+    "provisions": 31428
+   },
+   "state": {
+    "acts": 96,
+    "provisions": 5562
+   },
+   "central": {
+    "acts": 15,
+    "provisions": 2134
+   },
+   "__total__": {
+    "acts": 612,
+    "provisions": 39124
+   }
+  },
+  "2024": {
+   "regulatory": {
+    "acts": 410,
+    "provisions": 26148
+   },
+   "state": {
+    "acts": 48,
+    "provisions": 2385
+   },
+   "central": {
+    "acts": 2,
+    "provisions": 73
+   },
+   "__total__": {
+    "acts": 460,
+    "provisions": 28606
+   }
+  },
+  "2025": {
+   "regulatory": {
+    "acts": 638,
+    "provisions": 52902
+   },
+   "state": {
+    "acts": 25,
+    "provisions": 1196
+   },
+   "central": {
+    "acts": 10,
+    "provisions": 371
+   },
+   "__total__": {
+    "acts": 673,
+    "provisions": 54469
+   }
+  },
+  "2026": {
+   "regulatory": {
+    "acts": 77,
+    "provisions": 3800
+   },
+   "__total__": {
+    "acts": 77,
+    "provisions": 3800
+   }
+  }
+ },
+ "by_state_detail": {
+  "central": {
+   "acts": 13720,
+   "provisions": 628863,
+   "categories": {
+    "regulatory": 554354,
+    "central": 59616,
+    "repealed": 14609,
+    "spent": 284
+   },
+   "act_status": {
+    "in_force": 613970,
+    "repealed": 14609,
+    "spent": 284
+   },
+   "years": {
+    "1834": 1,
+    "1835": 10,
+    "1836": 79,
+    "1837": 52,
+    "1838": 135,
+    "1839": 44,
+    "1840": 103,
+    "1841": 67,
+    "1842": 51,
+    "1843": 95,
+    "1844": 110,
+    "1845": 94,
+    "1846": 11,
+    "1847": 42,
+    "1848": 49,
+    "1849": 69,
+    "1850": 126,
+    "1851": 74,
+    "1852": 153,
+    "1853": 37,
+    "1854": 90,
+    "1855": 214,
+    "1856": 32,
+    "1857": 137,
+    "1858": 48,
+    "1859": 116,
+    "1860": 1038,
+    "1861": 236,
+    "1862": 126,
+    "1863": 181,
+    "1864": 235,
+    "1865": 304,
+    "1866": 320,
+    "1867": 103,
+    "1868": 310,
+    "1869": 465,
+    "1870": 366,
+    "1871": 691,
+    "1872": 758,
+    "1873": 234,
+    "1874": 199,
+    "1875": 301,
+    "1876": 351,
+    "1877": 247,
+    "1878": 277,
+    "1879": 130,
+    "1880": 141,
+    "1881": 532,
+    "1882": 1047,
+    "1883": 238,
+    "1884": 444,
+    "1885": 78,
+    "1886": 375,
+    "1887": 550,
+    "1888": 51,
+    "1889": 90,
+    "1890": 239,
+    "1891": 94,
+    "1892": 37,
+    "1893": 52,
+    "1894": 205,
+    "1895": 28,
+    "1896": 84,
+    "1897": 165,
+    "1898": 241,
+    "1899": 414,
+    "1900": 59,
+    "1901": 100,
+    "1902": 23,
+    "1903": 192,
+    "1904": 43,
+    "1906": 56,
+    "1907": 540,
+    "1908": 2062,
+    "1909": 260,
+    "1910": 212,
+    "1911": 170,
+    "1912": 235,
+    "1913": 101,
+    "1914": 119,
+    "1915": 110,
+    "1916": 35,
+    "1917": 243,
+    "1918": 35,
+    "1919": 23,
+    "1920": 377,
+    "1921": 46,
+    "1922": 77,
+    "1923": 177,
+    "1924": 31,
+    "1925": 550,
+    "1926": 44,
+    "1927": 138,
+    "1928": 7,
+    "1929": 31,
+    "1930": 178,
+    "1931": 3,
+    "1932": 132,
+    "1933": 34,
+    "1934": 748,
+    "1935": 6,
+    "1936": 871,
+    "1937": 64,
+    "1938": 1172,
+    "1939": 522,
+    "1940": 312,
+    "1941": 19,
+    "1942": 252,
+    "1943": 5,
+    "1944": 321,
+    "1945": 16,
+    "1946": 74,
+    "1947": 387,
+    "1948": 705,
+    "1949": 551,
+    "1950": 968,
+    "1951": 997,
+    "1952": 605,
+    "1953": 602,
+    "1954": 279,
+    "1955": 442,
+    "1956": 1599,
+    "1957": 1812,
+    "1958": 1287,
+    "1959": 455,
+    "1960": 1007,
+    "1961": 3185,
+    "1962": 643,
+    "1963": 586,
+    "1964": 171,
+    "1965": 237,
+    "1966": 464,
+    "1967": 175,
+    "1968": 637,
+    "1969": 327,
+    "1970": 599,
+    "1971": 645,
+    "1972": 1138,
+    "1973": 87,
+    "1974": 514,
+    "1975": 1710,
+    "1976": 705,
+    "1977": 140,
+    "1978": 556,
+    "1979": 1712,
+    "1980": 715,
+    "1981": 1084,
+    "1982": 471,
+    "1983": 153,
+    "1984": 471,
+    "1985": 850,
+    "1986": 2630,
+    "1987": 1018,
+    "1988": 786,
+    "1989": 675,
+    "1990": 62,
+    "1991": 122,
+    "1992": 831,
+    "1993": 1376,
+    "1994": 1418,
+    "1995": 1025,
+    "1996": 1116,
+    "1997": 243,
+    "1998": 465,
+    "1999": 1745,
+    "2000": 3367,
+    "2001": 1137,
+    "2002": 2272,
+    "2003": 2305,
+    "2004": 3558,
+    "2005": 5296,
+    "2006": 6483,
+    "2007": 6678,
+    "2008": 6674,
+    "2009": 6539,
+    "2010": 8711,
+    "2011": 7530,
+    "2012": 12097,
+    "2013": 13203,
+    "2014": 16722,
+    "2015": 37885,
+    "2016": 34846,
+    "2017": 27383,
+    "2018": 33429,
+    "2019": 19168,
+    "2020": 19479,
+    "2021": 19477,
+    "2022": 17974,
+    "2023": 33562,
+    "2024": 26221,
+    "2025": 53273,
+    "2026": 3800
+   }
+  },
+  "west-bengal": {
+   "acts": 715,
+   "provisions": 32238,
+   "categories": {
+    "state": 32238
+   },
+   "act_status": {
+    "in_force": 32238
+   },
+   "years": {
+    "1947": 45,
+    "1948": 316,
+    "1949": 207,
+    "1950": 344,
+    "1951": 174,
+    "1952": 70,
+    "1953": 228,
+    "1954": 151,
+    "1955": 393,
+    "1956": 572,
+    "1957": 47,
+    "1958": 137,
+    "1959": 171,
+    "1960": 89,
+    "1961": 183,
+    "1962": 77,
+    "1963": 318,
+    "1964": 67,
+    "1965": 105,
+    "1966": 247,
+    "1967": 53,
+    "1968": 235,
+    "1969": 96,
+    "1970": 389,
+    "1971": 104,
+    "1972": 315,
+    "1973": 1454,
+    "1974": 513,
+    "1975": 240,
+    "1976": 301,
+    "1977": 166,
+    "1978": 196,
+    "1979": 622,
+    "1980": 1303,
+    "1981": 824,
+    "1982": 206,
+    "1983": 386,
+    "1984": 259,
+    "1985": 181,
+    "1986": 175,
+    "1987": 132,
+    "1988": 181,
+    "1989": 139,
+    "1990": 1434,
+    "1991": 305,
+    "1992": 386,
+    "1993": 880,
+    "1994": 1042,
+    "1995": 408,
+    "1996": 236,
+    "1997": 514,
+    "1998": 187,
+    "1999": 310,
+    "2000": 578,
+    "2001": 485,
+    "2002": 401,
+    "2003": 605,
+    "2004": 267,
+    "2005": 416,
+    "2006": 1374,
+    "2007": 974,
+    "2008": 209,
+    "2009": 252,
+    "2010": 673,
+    "2011": 749,
+    "2012": 886,
+    "2013": 459,
+    "2014": 946,
+    "2015": 732,
+    "2016": 331,
+    "2017": 1573,
+    "2018": 895,
+    "2019": 455,
+    "2020": 156,
+    "2021": 147,
+    "2022": 105,
+    "2023": 212,
+    "2024": 245
+   }
+  },
+  "maharashtra": {
+   "acts": 379,
+   "provisions": 30271,
+   "categories": {
+    "state": 30271
+   },
+   "act_status": {
+    "in_force": 30271
+   },
+   "years": {
+    "1866": 1,
+    "1875": 13,
+    "1890": 67,
+    "1906": 71,
+    "1909": 40,
+    "1913": 94,
+    "1922": 5,
+    "1923": 47,
+    "1926": 7,
+    "1928": 7,
+    "1936": 141,
+    "1939": 48,
+    "1942": 29,
+    "1943": 1,
+    "1945": 13,
+    "1946": 423,
+    "1947": 22,
+    "1948": 1314,
+    "1949": 40,
+    "1950": 6,
+    "1951": 29,
+    "1952": 30,
+    "1953": 2,
+    "1954": 70,
+    "1955": 144,
+    "1956": 62,
+    "1957": 12,
+    "1958": 145,
+    "1959": 100,
+    "1960": 662,
+    "1961": 1225,
+    "1962": 71,
+    "1963": 81,
+    "1964": 129,
+    "1965": 353,
+    "1966": 1170,
+    "1967": 79,
+    "1968": 42,
+    "1969": 261,
+    "1970": 198,
+    "1971": 561,
+    "1972": 17,
+    "1973": 1092,
+    "1974": 348,
+    "1975": 314,
+    "1976": 994,
+    "1977": 73,
+    "1978": 27,
+    "1979": 272,
+    "1980": 93,
+    "1981": 176,
+    "1982": 88,
+    "1983": 516,
+    "1984": 176,
+    "1985": 21,
+    "1986": 113,
+    "1987": 40,
+    "1989": 107,
+    "1991": 7,
+    "1993": 35,
+    "1994": 89,
+    "1995": 83,
+    "1996": 572,
+    "1997": 820,
+    "1998": 598,
+    "1999": 356,
+    "2000": 127,
+    "2001": 91,
+    "2002": 456,
+    "2003": 15,
+    "2004": 135,
+    "2005": 460,
+    "2006": 168,
+    "2007": 1,
+    "2008": 86,
+    "2009": 155,
+    "2010": 62,
+    "2011": 198,
+    "2012": 186,
+    "2013": 269,
+    "2014": 366,
+    "2015": 319,
+    "2016": 792,
+    "2017": 662,
+    "2018": 164,
+    "2020": 350,
+    "2021": 753,
+    "2022": 303,
+    "2023": 1164,
+    "2024": 42,
+    "2025": 15
+   }
+  },
+  "karnataka": {
+   "acts": 279,
+   "provisions": 29485,
+   "categories": {
+    "state": 29485
+   },
+   "act_status": {
+    "in_force": 29485
+   },
+   "years": {
+    "1899": 97,
+    "1952": 49,
+    "1955": 56,
+    "1956": 315,
+    "1957": 1213,
+    "1958": 332,
+    "1959": 585,
+    "1960": 194,
+    "1961": 1801,
+    "1962": 243,
+    "1963": 807,
+    "1964": 1737,
+    "1965": 536,
+    "1966": 1164,
+    "1967": 16,
+    "1968": 38,
+    "1972": 83,
+    "1973": 363,
+    "1974": 164,
+    "1975": 84,
+    "1976": 2014,
+    "1977": 76,
+    "1978": 25,
+    "1979": 77,
+    "1980": 138,
+    "1981": 92,
+    "1982": 27,
+    "1983": 417,
+    "1984": 196,
+    "1985": 62,
+    "1986": 282,
+    "1987": 173,
+    "1988": 34,
+    "1991": 273,
+    "1992": 221,
+    "1993": 1040,
+    "1994": 447,
+    "1995": 65,
+    "1996": 183,
+    "1997": 498,
+    "1998": 91,
+    "1999": 476,
+    "2000": 389,
+    "2002": 179,
+    "2003": 33,
+    "2004": 228,
+    "2005": 82,
+    "2007": 111,
+    "2009": 1048,
+    "2010": 366,
+    "2011": 468,
+    "2012": 1272,
+    "2013": 1062,
+    "2014": 165,
+    "2015": 312,
+    "2016": 347,
+    "2017": 762,
+    "2018": 1019,
+    "2019": 204,
+    "2020": 1336,
+    "2021": 731,
+    "2022": 1088,
+    "2023": 402,
+    "2024": 1023,
+    "2025": 74
+   }
+  },
+  "rajasthan": {
+   "acts": 383,
+   "provisions": 26759,
+   "categories": {
+    "state": 26759
+   },
+   "act_status": {
+    "in_force": 26759
+   },
+   "years": {
+    "1860": 156,
+    "1872": 7,
+    "1885": 57,
+    "1923": 181,
+    "1936": 67,
+    "1939": 6,
+    "1946": 211,
+    "1948": 369,
+    "1949": 15,
+    "1950": 173,
+    "1951": 194,
+    "1952": 195,
+    "1953": 313,
+    "1954": 564,
+    "1955": 638,
+    "1956": 269,
+    "1957": 129,
+    "1958": 283,
+    "1959": 681,
+    "1960": 79,
+    "1961": 689,
+    "1962": 222,
+    "1963": 261,
+    "1964": 175,
+    "1965": 90,
+    "1966": 100,
+    "1969": 277,
+    "1970": 106,
+    "1971": 89,
+    "1972": 38,
+    "1973": 2032,
+    "1974": 85,
+    "1975": 147,
+    "1976": 151,
+    "1977": 22,
+    "1978": 11,
+    "1979": 251,
+    "1980": 7,
+    "1981": 4,
+    "1982": 191,
+    "1983": 56,
+    "1984": 16,
+    "1985": 3,
+    "1986": 135,
+    "1987": 388,
+    "1989": 76,
+    "1990": 45,
+    "1991": 7,
+    "1992": 68,
+    "1993": 10,
+    "1994": 173,
+    "1995": 233,
+    "1996": 236,
+    "1997": 19,
+    "1998": 284,
+    "1999": 378,
+    "2000": 238,
+    "2001": 97,
+    "2002": 125,
+    "2003": 465,
+    "2004": 20,
+    "2005": 141,
+    "2006": 172,
+    "2007": 111,
+    "2008": 888,
+    "2009": 1254,
+    "2010": 752,
+    "2011": 615,
+    "2012": 1901,
+    "2013": 1770,
+    "2014": 639,
+    "2015": 685,
+    "2016": 548,
+    "2017": 1146,
+    "2018": 610,
+    "2019": 534,
+    "2020": 111,
+    "2021": 188,
+    "2022": 88,
+    "2023": 1229,
+    "2024": 108,
+    "2025": 571
+   }
+  },
+  "chhattisgarh": {
+   "acts": 359,
+   "provisions": 25368,
+   "categories": {
+    "state": 25368
+   },
+   "act_status": {
+    "in_force": 25368
+   },
+   "years": {
+    "1860": 157,
+    "1867": 46,
+    "1870": 168,
+    "1872": 7,
+    "1878": 33,
+    "1879": 11,
+    "1894": 64,
+    "1899": 68,
+    "1908": 1562,
+    "1912": 4,
+    "1915": 264,
+    "1919": 10,
+    "1923": 134,
+    "1931": 175,
+    "1932": 10,
+    "1934": 28,
+    "1936": 208,
+    "1937": 8,
+    "1944": 5,
+    "1946": 31,
+    "1947": 66,
+    "1948": 622,
+    "1949": 422,
+    "1950": 31,
+    "1951": 164,
+    "1952": 35,
+    "1954": 203,
+    "1955": 83,
+    "1956": 3280,
+    "1957": 60,
+    "1958": 382,
+    "1959": 642,
+    "1960": 767,
+    "1961": 1097,
+    "1962": 92,
+    "1963": 54,
+    "1964": 163,
+    "1965": 137,
+    "1966": 74,
+    "1967": 122,
+    "1968": 39,
+    "1969": 96,
+    "1970": 182,
+    "1971": 68,
+    "1972": 1507,
+    "1973": 3105,
+    "1974": 131,
+    "1976": 250,
+    "1978": 38,
+    "1979": 18,
+    "1980": 167,
+    "1981": 202,
+    "1982": 426,
+    "1983": 8,
+    "1984": 99,
+    "1985": 4,
+    "1986": 131,
+    "1987": 189,
+    "1988": 27,
+    "1991": 199,
+    "1993": 249,
+    "1994": 185,
+    "1995": 357,
+    "1996": 164,
+    "1997": 68,
+    "1998": 9,
+    "1999": 244,
+    "2000": 74,
+    "2001": 104,
+    "2002": 333,
+    "2003": 342,
+    "2004": 255,
+    "2005": 700,
+    "2006": 203,
+    "2007": 126,
+    "2008": 514,
+    "2009": 91,
+    "2010": 109,
+    "2011": 771,
+    "2012": 138,
+    "2013": 355,
+    "2014": 81,
+    "2015": 174,
+    "2016": 195,
+    "2017": 573,
+    "2018": 168,
+    "2019": 150,
+    "2023": 44
+   }
+  },
+  "chandigarh": {
+   "acts": 256,
+   "provisions": 21805,
+   "categories": {
+    "state": 21805
+   },
+   "act_status": {
+    "in_force": 21805
+   },
+   "years": {
+    "1860": 312,
+    "1867": 79,
+    "1870": 114,
+    "1872": 586,
+    "1885": 57,
+    "1894": 134,
+    "1899": 8,
+    "1900": 41,
+    "1912": 136,
+    "1913": 3,
+    "1914": 221,
+    "1916": 24,
+    "1918": 53,
+    "1920": 21,
+    "1923": 161,
+    "1924": 83,
+    "1925": 1,
+    "1926": 164,
+    "1930": 15,
+    "1932": 118,
+    "1933": 14,
+    "1935": 70,
+    "1936": 135,
+    "1938": 28,
+    "1939": 54,
+    "1940": 2062,
+    "1941": 21,
+    "1942": 4,
+    "1946": 31,
+    "1947": 484,
+    "1948": 1337,
+    "1949": 291,
+    "1950": 43,
+    "1951": 49,
+    "1952": 441,
+    "1953": 137,
+    "1954": 93,
+    "1955": 109,
+    "1956": 134,
+    "1957": 18,
+    "1958": 57,
+    "1960": 32,
+    "1961": 318,
+    "1962": 819,
+    "1964": 4,
+    "1965": 188,
+    "1968": 97,
+    "1970": 154,
+    "1971": 486,
+    "1972": 414,
+    "1973": 4026,
+    "1976": 1037,
+    "1979": 1,
+    "1980": 4,
+    "1981": 13,
+    "1983": 38,
+    "1985": 397,
+    "1986": 168,
+    "1987": 78,
+    "1988": 374,
+    "1992": 14,
+    "1994": 180,
+    "1995": 39,
+    "1996": 13,
+    "1999": 94,
+    "2000": 244,
+    "2001": 51,
+    "2002": 89,
+    "2005": 311,
+    "2006": 66,
+    "2007": 164,
+    "2008": 194,
+    "2011": 24,
+    "2012": 60,
+    "2013": 78,
+    "2015": 75,
+    "2016": 998,
+    "2017": 22,
+    "2018": 11
+   }
+  },
+  "kerala": {
+   "acts": 322,
+   "provisions": 19164,
+   "categories": {
+    "state": 19164
+   },
+   "act_status": {
+    "in_force": 19164
+   },
+   "years": {
+    "1951": 43,
+    "1955": 251,
+    "1956": 112,
+    "1957": 313,
+    "1958": 235,
+    "1959": 317,
+    "1960": 616,
+    "1961": 530,
+    "1962": 22,
+    "1963": 787,
+    "1964": 27,
+    "1965": 245,
+    "1966": 30,
+    "1967": 145,
+    "1968": 198,
+    "1969": 227,
+    "1970": 62,
+    "1971": 521,
+    "1972": 117,
+    "1974": 149,
+    "1975": 184,
+    "1976": 274,
+    "1977": 27,
+    "1978": 57,
+    "1979": 142,
+    "1980": 224,
+    "1981": 228,
+    "1983": 61,
+    "1985": 189,
+    "1986": 479,
+    "1987": 43,
+    "1989": 195,
+    "1990": 20,
+    "1991": 10,
+    "1993": 74,
+    "1994": 143,
+    "1996": 13,
+    "1997": 42,
+    "1998": 147,
+    "1999": 396,
+    "2000": 128,
+    "2001": 211,
+    "2002": 120,
+    "2003": 723,
+    "2005": 148,
+    "2006": 188,
+    "2007": 558,
+    "2008": 334,
+    "2009": 173,
+    "2010": 1110,
+    "2011": 435,
+    "2012": 86,
+    "2013": 200,
+    "2014": 198,
+    "2015": 59,
+    "2016": 651,
+    "2017": 657,
+    "2018": 239,
+    "2019": 424,
+    "2021": 756,
+    "2022": 60,
+    "2023": 204,
+    "2024": 83,
+    "2025": 87
+   }
+  },
+  "punjab": {
+   "acts": 303,
+   "provisions": 18037,
+   "categories": {
+    "state": 18037
+   },
+   "act_status": {
+    "in_force": 18037
+   },
+   "years": {
+    "1887": 479,
+    "1894": 134,
+    "1897": 5,
+    "1900": 85,
+    "1911": 618,
+    "1912": 1,
+    "1913": 3,
+    "1914": 899,
+    "1922": 195,
+    "1923": 134,
+    "1924": 53,
+    "1925": 456,
+    "1926": 110,
+    "1931": 44,
+    "1932": 21,
+    "1936": 67,
+    "1937": 11,
+    "1939": 5,
+    "1942": 22,
+    "1946": 31,
+    "1947": 167,
+    "1948": 466,
+    "1949": 12,
+    "1950": 85,
+    "1952": 250,
+    "1953": 92,
+    "1954": 26,
+    "1955": 100,
+    "1956": 59,
+    "1957": 45,
+    "1958": 79,
+    "1959": 72,
+    "1960": 38,
+    "1961": 484,
+    "1962": 69,
+    "1963": 71,
+    "1965": 114,
+    "1966": 43,
+    "1967": 17,
+    "1968": 14,
+    "1969": 150,
+    "1970": 61,
+    "1971": 118,
+    "1972": 48,
+    "1973": 772,
+    "1976": 219,
+    "1978": 138,
+    "1981": 41,
+    "1982": 5,
+    "1983": 18,
+    "1986": 36,
+    "1992": 67,
+    "1994": 646,
+    "1995": 624,
+    "1996": 411,
+    "1997": 33,
+    "1998": 54,
+    "1999": 8,
+    "2000": 25,
+    "2001": 22,
+    "2002": 192,
+    "2003": 35,
+    "2004": 42,
+    "2005": 439,
+    "2006": 326,
+    "2008": 204,
+    "2009": 401,
+    "2010": 53,
+    "2011": 85,
+    "2012": 403,
+    "2013": 102,
+    "2014": 145,
+    "2015": 76,
+    "2016": 284,
+    "2017": 196,
+    "2018": 196,
+    "2019": 394,
+    "2020": 376,
+    "2021": 1350,
+    "2022": 229,
+    "2023": 255,
+    "2025": 72
+   }
+  },
+  "madhya-pradesh": {
+   "acts": 216,
+   "provisions": 17477,
+   "categories": {
+    "state": 17477
+   },
+   "act_status": {
+    "in_force": 17477
+   },
+   "years": {
+    "1860": 885,
+    "1867": 104,
+    "1872": 317,
+    "1899": 33,
+    "1908": 115,
+    "1919": 10,
+    "1923": 152,
+    "1931": 442,
+    "1937": 8,
+    "1944": 1,
+    "1947": 61,
+    "1948": 12,
+    "1950": 31,
+    "1951": 261,
+    "1952": 24,
+    "1954": 68,
+    "1955": 102,
+    "1956": 591,
+    "1957": 50,
+    "1958": 315,
+    "1959": 554,
+    "1960": 619,
+    "1961": 76,
+    "1962": 92,
+    "1963": 23,
+    "1965": 119,
+    "1967": 9,
+    "1968": 39,
+    "1970": 117,
+    "1972": 289,
+    "1973": 1430,
+    "1974": 695,
+    "1976": 244,
+    "1978": 14,
+    "1979": 59,
+    "1980": 216,
+    "1981": 49,
+    "1982": 278,
+    "1983": 52,
+    "1985": 5,
+    "1986": 93,
+    "1987": 67,
+    "1990": 119,
+    "1991": 765,
+    "1993": 682,
+    "1994": 191,
+    "1995": 112,
+    "1996": 125,
+    "1997": 34,
+    "1998": 196,
+    "1999": 217,
+    "2000": 283,
+    "2002": 273,
+    "2003": 228,
+    "2004": 134,
+    "2005": 76,
+    "2006": 74,
+    "2007": 384,
+    "2008": 101,
+    "2009": 36,
+    "2010": 80,
+    "2011": 79,
+    "2012": 64,
+    "2013": 58,
+    "2014": 262,
+    "2015": 62,
+    "2016": 3,
+    "2017": 569,
+    "2018": 72,
+    "2019": 44,
+    "2021": 71,
+    "2022": 36,
+    "2023": 1
+   }
+  },
+  "telangana": {
+   "acts": 259,
+   "provisions": 16785,
+   "categories": {
+    "state": 16785
+   },
+   "act_status": {
+    "in_force": 16785
+   },
+   "years": {
+    "1837": 3,
+    "1839": 4,
+    "1864": 80,
+    "1866": 17,
+    "1869": 8,
+    "1889": 16,
+    "1891": 18,
+    "1893": 3,
+    "1905": 25,
+    "1919": 40,
+    "1920": 109,
+    "1923": 36,
+    "1924": 3,
+    "1925": 53,
+    "1926": 24,
+    "1936": 24,
+    "1938": 10,
+    "1939": 14,
+    "1940": 56,
+    "1948": 305,
+    "1950": 298,
+    "1951": 77,
+    "1952": 145,
+    "1953": 18,
+    "1954": 116,
+    "1955": 1677,
+    "1956": 562,
+    "1957": 53,
+    "1958": 111,
+    "1959": 12,
+    "1960": 170,
+    "1961": 120,
+    "1962": 44,
+    "1963": 166,
+    "1964": 441,
+    "1965": 124,
+    "1966": 188,
+    "1967": 146,
+    "1968": 283,
+    "1970": 23,
+    "1971": 126,
+    "1972": 58,
+    "1973": 92,
+    "1974": 62,
+    "1975": 208,
+    "1976": 135,
+    "1977": 144,
+    "1978": 16,
+    "1979": 143,
+    "1980": 24,
+    "1982": 376,
+    "1983": 62,
+    "1984": 175,
+    "1985": 197,
+    "1986": 242,
+    "1987": 263,
+    "1988": 284,
+    "1989": 288,
+    "1991": 256,
+    "1992": 124,
+    "1993": 82,
+    "1994": 50,
+    "1995": 296,
+    "1996": 16,
+    "1997": 202,
+    "1998": 578,
+    "1999": 77,
+    "2001": 198,
+    "2002": 262,
+    "2004": 24,
+    "2005": 608,
+    "2006": 312,
+    "2007": 294,
+    "2008": 811,
+    "2009": 46,
+    "2010": 37,
+    "2011": 80,
+    "2013": 15,
+    "2014": 3,
+    "2015": 66,
+    "2016": 159,
+    "2017": 706,
+    "2018": 1003,
+    "2019": 721,
+    "2020": 79,
+    "2024": 262
+   }
+  },
+  "dadra-nagar-haveli": {
+   "acts": 169,
+   "provisions": 15619,
+   "categories": {
+    "state": 15619
+   },
+   "act_status": {
+    "in_force": 15619
+   },
+   "years": {
+    "1860": 140,
+    "1872": 7,
+    "1894": 38,
+    "1897": 6,
+    "1908": 85,
+    "1916": 26,
+    "1920": 11,
+    "1923": 87,
+    "1926": 37,
+    "1936": 67,
+    "1939": 6,
+    "1946": 38,
+    "1947": 5,
+    "1948": 727,
+    "1951": 247,
+    "1954": 25,
+    "1955": 348,
+    "1956": 325,
+    "1959": 92,
+    "1960": 534,
+    "1961": 51,
+    "1962": 48,
+    "1964": 1872,
+    "1965": 720,
+    "1966": 180,
+    "1968": 2434,
+    "1969": 54,
+    "1970": 27,
+    "1971": 42,
+    "1972": 624,
+    "1973": 1508,
+    "1974": 812,
+    "1975": 350,
+    "1976": 217,
+    "1978": 5,
+    "1980": 193,
+    "1981": 7,
+    "1982": 61,
+    "1984": 334,
+    "1985": 613,
+    "1986": 358,
+    "1987": 56,
+    "1994": 67,
+    "1995": 17,
+    "1996": 13,
+    "1997": 31,
+    "2000": 3,
+    "2001": 52,
+    "2003": 284,
+    "2004": 4,
+    "2005": 402,
+    "2006": 61,
+    "2008": 197,
+    "2010": 123,
+    "2012": 157,
+    "2013": 98,
+    "2014": 4,
+    "2015": 2,
+    "2017": 38,
+    "2018": 5
+   }
+  },
+  "tamil-nadu": {
+   "acts": 308,
+   "provisions": 15524,
+   "categories": {
+    "state": 15524
+   },
+   "act_status": {
+    "in_force": 15524
+   },
+   "years": {
+    "1864": 59,
+    "1865": 3,
+    "1869": 9,
+    "1879": 5,
+    "1882": 203,
+    "1884": 20,
+    "1885": 57,
+    "1890": 22,
+    "1891": 44,
+    "1893": 2,
+    "1895": 18,
+    "1898": 11,
+    "1899": 20,
+    "1902": 78,
+    "1905": 45,
+    "1911": 52,
+    "1914": 35,
+    "1918": 2,
+    "1919": 54,
+    "1921": 39,
+    "1922": 58,
+    "1923": 346,
+    "1926": 38,
+    "1927": 99,
+    "1928": 1,
+    "1931": 4,
+    "1932": 31,
+    "1933": 13,
+    "1934": 100,
+    "1938": 104,
+    "1940": 77,
+    "1941": 2,
+    "1942": 11,
+    "1943": 92,
+    "1945": 41,
+    "1947": 199,
+    "1948": 119,
+    "1949": 177,
+    "1950": 7,
+    "1951": 77,
+    "1952": 26,
+    "1953": 2,
+    "1954": 90,
+    "1955": 158,
+    "1956": 106,
+    "1957": 202,
+    "1958": 54,
+    "1959": 598,
+    "1960": 27,
+    "1961": 393,
+    "1962": 26,
+    "1963": 156,
+    "1964": 11,
+    "1965": 248,
+    "1966": 127,
+    "1967": 49,
+    "1969": 35,
+    "1970": 80,
+    "1971": 506,
+    "1972": 437,
+    "1973": 57,
+    "1974": 184,
+    "1975": 166,
+    "1976": 193,
+    "1977": 3,
+    "1978": 334,
+    "1979": 30,
+    "1980": 19,
+    "1981": 200,
+    "1982": 59,
+    "1983": 111,
+    "1984": 1,
+    "1985": 7,
+    "1986": 14,
+    "1987": 541,
+    "1989": 7,
+    "1990": 228,
+    "1991": 45,
+    "1992": 15,
+    "1993": 22,
+    "1994": 815,
+    "1995": 157,
+    "1996": 160,
+    "1997": 378,
+    "1998": 908,
+    "1999": 5,
+    "2000": 152,
+    "2001": 113,
+    "2002": 92,
+    "2003": 24,
+    "2004": 3,
+    "2005": 48,
+    "2006": 378,
+    "2007": 43,
+    "2008": 259,
+    "2009": 55,
+    "2010": 584,
+    "2011": 174,
+    "2012": 275,
+    "2013": 92,
+    "2014": 80,
+    "2016": 456,
+    "2017": 77,
+    "2018": 595,
+    "2019": 196,
+    "2020": 43,
+    "2021": 68,
+    "2022": 148,
+    "2023": 15
+   }
+  },
+  "goa": {
+   "acts": 154,
+   "provisions": 14539,
+   "categories": {
+    "state": 14539
+   },
+   "act_status": {
+    "in_force": 14539
+   },
+   "years": {
+    "1867": 1424,
+    "1939": 1043,
+    "1961": 593,
+    "1964": 631,
+    "1965": 322,
+    "1966": 50,
+    "1968": 1592,
+    "1969": 19,
+    "1971": 38,
+    "1972": 96,
+    "1973": 428,
+    "1974": 624,
+    "1976": 153,
+    "1978": 10,
+    "1980": 233,
+    "1981": 4,
+    "1982": 61,
+    "1984": 334,
+    "1985": 199,
+    "1986": 263,
+    "1987": 6,
+    "1988": 140,
+    "1990": 28,
+    "1991": 70,
+    "1993": 76,
+    "1994": 518,
+    "1995": 158,
+    "1996": 35,
+    "1997": 169,
+    "1998": 44,
+    "1999": 83,
+    "2000": 201,
+    "2001": 564,
+    "2002": 874,
+    "2003": 289,
+    "2004": 1,
+    "2005": 199,
+    "2006": 210,
+    "2007": 691,
+    "2008": 181,
+    "2009": 56,
+    "2010": 25,
+    "2011": 250,
+    "2012": 516,
+    "2013": 136,
+    "2014": 86,
+    "2016": 130,
+    "2017": 147,
+    "2018": 49,
+    "2019": 114,
+    "2020": 117,
+    "2021": 74,
+    "2022": 47,
+    "2023": 58,
+    "2024": 53
+   }
+  },
+  "uttar-pradesh": {
+   "acts": 338,
+   "provisions": 14308,
+   "categories": {
+    "state": 14308
+   },
+   "act_status": {
+    "in_force": 14308
+   },
+   "years": {
+    "1885": 57,
+    "1896": 20,
+    "1904": 46,
+    "1910": 115,
+    "1916": 605,
+    "1917": 185,
+    "1918": 2,
+    "1920": 145,
+    "1921": 88,
+    "1922": 38,
+    "1934": 159,
+    "1936": 15,
+    "1938": 28,
+    "1939": 77,
+    "1940": 68,
+    "1944": 27,
+    "1945": 41,
+    "1947": 200,
+    "1948": 461,
+    "1950": 54,
+    "1951": 97,
+    "1952": 51,
+    "1953": 143,
+    "1954": 11,
+    "1955": 58,
+    "1956": 15,
+    "1957": 53,
+    "1958": 223,
+    "1959": 890,
+    "1960": 60,
+    "1961": 31,
+    "1962": 215,
+    "1963": 48,
+    "1964": 349,
+    "1965": 91,
+    "1966": 11,
+    "1969": 9,
+    "1970": 38,
+    "1971": 130,
+    "1972": 68,
+    "1973": 1198,
+    "1974": 56,
+    "1975": 351,
+    "1976": 247,
+    "1977": 31,
+    "1978": 93,
+    "1979": 4,
+    "1980": 34,
+    "1981": 43,
+    "1982": 27,
+    "1983": 278,
+    "1984": 44,
+    "1985": 17,
+    "1986": 107,
+    "1987": 5,
+    "1988": 43,
+    "1989": 10,
+    "1990": 5,
+    "1991": 5,
+    "1992": 11,
+    "1993": 37,
+    "1994": 39,
+    "1995": 242,
+    "1996": 29,
+    "1997": 58,
+    "1998": 7,
+    "1999": 301,
+    "2000": 68,
+    "2001": 204,
+    "2002": 146,
+    "2004": 73,
+    "2005": 264,
+    "2006": 127,
+    "2007": 19,
+    "2008": 538,
+    "2009": 105,
+    "2010": 14,
+    "2011": 77,
+    "2012": 5,
+    "2013": 136,
+    "2014": 120,
+    "2015": 135,
+    "2016": 139,
+    "2017": 716,
+    "2018": 316,
+    "2019": 39,
+    "2020": 509,
+    "2021": 442,
+    "2022": 322,
+    "2023": 223,
+    "2024": 336,
+    "2025": 101
+   }
+  },
+  "gujarat": {
+   "acts": 226,
+   "provisions": 12868,
+   "categories": {
+    "state": 12868
+   },
+   "act_status": {
+    "in_force": 12868
+   },
+   "years": {
+    "1867": 25,
+    "1868": 49,
+    "1874": 18,
+    "1875": 17,
+    "1876": 33,
+    "1879": 3,
+    "1883": 18,
+    "1887": 36,
+    "1906": 71,
+    "1920": 93,
+    "1928": 3,
+    "1929": 1,
+    "1932": 65,
+    "1938": 6,
+    "1942": 62,
+    "1946": 20,
+    "1947": 449,
+    "1948": 677,
+    "1949": 1647,
+    "1950": 191,
+    "1951": 521,
+    "1952": 19,
+    "1953": 48,
+    "1954": 14,
+    "1955": 203,
+    "1956": 5,
+    "1957": 89,
+    "1958": 315,
+    "1959": 138,
+    "1960": 231,
+    "1961": 449,
+    "1962": 47,
+    "1963": 718,
+    "1964": 8,
+    "1965": 69,
+    "1967": 109,
+    "1968": 46,
+    "1969": 126,
+    "1972": 215,
+    "1973": 167,
+    "1976": 230,
+    "1978": 12,
+    "1979": 224,
+    "1980": 98,
+    "1981": 254,
+    "1982": 12,
+    "1984": 12,
+    "1985": 120,
+    "1986": 75,
+    "1987": 29,
+    "1989": 8,
+    "1991": 8,
+    "1992": 23,
+    "1993": 580,
+    "1994": 10,
+    "1999": 20,
+    "2000": 23,
+    "2001": 107,
+    "2002": 18,
+    "2003": 485,
+    "2004": 302,
+    "2005": 256,
+    "2006": 186,
+    "2007": 366,
+    "2008": 59,
+    "2009": 451,
+    "2010": 57,
+    "2011": 183,
+    "2012": 43,
+    "2013": 220,
+    "2014": 2,
+    "2015": 72,
+    "2016": 33,
+    "2017": 384,
+    "2018": 132,
+    "2019": 127,
+    "2020": 32,
+    "2021": 81,
+    "2022": 21,
+    "2023": 20,
+    "2025": 3
+   }
+  },
+  "assam": {
+   "acts": 987,
+   "provisions": 12429,
+   "categories": {
+    "state": 12429
+   },
+   "act_status": {
+    "in_force": 12429
+   },
+   "years": {
+    "1806": 14,
+    "1812": 5,
+    "1819": 49,
+    "1823": 5,
+    "1825": 12,
+    "1827": 2,
+    "1887": 48,
+    "1896": 3,
+    "1912": 5,
+    "1915": 51,
+    "1916": 36,
+    "1923": 7,
+    "1927": 9,
+    "1931": 16,
+    "1932": 1,
+    "1933": 16,
+    "1934": 116,
+    "1935": 210,
+    "1936": 90,
+    "1937": 3,
+    "1938": 5,
+    "1939": 209,
+    "1940": 3,
+    "1941": 4,
+    "1942": 10,
+    "1943": 48,
+    "1944": 61,
+    "1945": 2,
+    "1946": 27,
+    "1947": 277,
+    "1948": 92,
+    "1949": 196,
+    "1950": 174,
+    "1951": 66,
+    "1952": 23,
+    "1953": 163,
+    "1954": 118,
+    "1955": 181,
+    "1956": 91,
+    "1957": 22,
+    "1958": 161,
+    "1959": 358,
+    "1960": 245,
+    "1961": 146,
+    "1962": 115,
+    "1963": 77,
+    "1964": 154,
+    "1965": 181,
+    "1966": 121,
+    "1967": 86,
+    "1968": 223,
+    "1969": 539,
+    "1970": 121,
+    "1971": 222,
+    "1972": 287,
+    "1973": 227,
+    "1974": 39,
+    "1975": 76,
+    "1976": 59,
+    "1977": 101,
+    "1978": 61,
+    "1979": 75,
+    "1980": 41,
+    "1981": 5,
+    "1983": 27,
+    "1984": 51,
+    "1985": 327,
+    "1986": 66,
+    "1987": 24,
+    "1988": 20,
+    "1989": 96,
+    "1990": 98,
+    "1991": 3,
+    "1992": 36,
+    "1993": 66,
+    "1994": 405,
+    "1995": 314,
+    "1996": 7,
+    "1997": 29,
+    "1998": 201,
+    "1999": 112,
+    "2000": 219,
+    "2001": 30,
+    "2002": 49,
+    "2003": 33,
+    "2004": 162,
+    "2005": 484,
+    "2006": 129,
+    "2007": 547,
+    "2008": 45,
+    "2009": 402,
+    "2010": 237,
+    "2011": 189,
+    "2012": 150,
+    "2013": 479,
+    "2014": 34,
+    "2015": 142,
+    "2016": 218,
+    "2017": 447,
+    "2018": 211,
+    "2019": 43,
+    "2020": 28
+   }
+  },
+  "andhra-pradesh": {
+   "acts": 190,
+   "provisions": 12264,
+   "categories": {
+    "state": 12264
+   },
+   "act_status": {
+    "in_force": 12264
+   },
+   "years": {
+    "1954": 50,
+    "1955": 44,
+    "1956": 533,
+    "1957": 5,
+    "1958": 131,
+    "1960": 10,
+    "1961": 132,
+    "1962": 54,
+    "1963": 134,
+    "1964": 5,
+    "1965": 95,
+    "1967": 201,
+    "1968": 281,
+    "1970": 65,
+    "1971": 170,
+    "1972": 49,
+    "1973": 130,
+    "1974": 83,
+    "1975": 61,
+    "1976": 102,
+    "1977": 183,
+    "1978": 34,
+    "1979": 178,
+    "1980": 22,
+    "1981": 35,
+    "1982": 74,
+    "1983": 154,
+    "1984": 109,
+    "1985": 257,
+    "1986": 269,
+    "1987": 270,
+    "1988": 270,
+    "1989": 66,
+    "1991": 47,
+    "1992": 103,
+    "1993": 54,
+    "1994": 848,
+    "1995": 265,
+    "1996": 9,
+    "1997": 449,
+    "1998": 410,
+    "1999": 100,
+    "2000": 24,
+    "2001": 327,
+    "2002": 278,
+    "2004": 24,
+    "2005": 190,
+    "2006": 469,
+    "2007": 192,
+    "2008": 541,
+    "2009": 77,
+    "2011": 25,
+    "2013": 48,
+    "2014": 428,
+    "2016": 254,
+    "2017": 1506,
+    "2018": 285,
+    "2019": 284,
+    "2020": 473,
+    "2021": 67,
+    "2023": 208
+   }
+  },
+  "haryana": {
+   "acts": 211,
+   "provisions": 11787,
+   "categories": {
+    "state": 11787
+   },
+   "act_status": {
+    "in_force": 11787
+   },
+   "years": {
+    "1897": 5,
+    "1900": 41,
+    "1914": 160,
+    "1923": 134,
+    "1935": 70,
+    "1936": 67,
+    "1946": 31,
+    "1948": 423,
+    "1949": 32,
+    "1952": 183,
+    "1953": 81,
+    "1955": 158,
+    "1957": 26,
+    "1958": 107,
+    "1961": 307,
+    "1963": 31,
+    "1965": 114,
+    "1966": 7,
+    "1969": 60,
+    "1970": 46,
+    "1971": 367,
+    "1972": 286,
+    "1973": 547,
+    "1974": 229,
+    "1975": 408,
+    "1976": 87,
+    "1977": 178,
+    "1978": 22,
+    "1979": 44,
+    "1980": 22,
+    "1982": 2,
+    "1983": 101,
+    "1984": 313,
+    "1985": 163,
+    "1986": 160,
+    "1987": 70,
+    "1989": 93,
+    "1991": 136,
+    "1992": 19,
+    "1993": 9,
+    "1994": 996,
+    "1995": 225,
+    "1996": 106,
+    "1997": 338,
+    "1999": 31,
+    "2002": 39,
+    "2003": 526,
+    "2004": 11,
+    "2005": 126,
+    "2006": 156,
+    "2007": 130,
+    "2008": 476,
+    "2009": 119,
+    "2010": 24,
+    "2012": 46,
+    "2013": 64,
+    "2014": 444,
+    "2015": 26,
+    "2016": 563,
+    "2017": 416,
+    "2018": 272,
+    "2019": 118,
+    "2020": 49,
+    "2021": 298,
+    "2022": 342,
+    "2024": 1,
+    "2025": 26
+   }
+  },
+  "odisha": {
+   "acts": 282,
+   "provisions": 11370,
+   "categories": {
+    "state": 11370
+   },
+   "act_status": {
+    "in_force": 11370
+   },
+   "years": {
+    "1908": 130,
+    "1937": 32,
+    "1938": 50,
+    "1939": 7,
+    "1942": 6,
+    "1946": 19,
+    "1947": 126,
+    "1948": 54,
+    "1949": 122,
+    "1950": 760,
+    "1951": 480,
+    "1952": 90,
+    "1953": 2,
+    "1954": 38,
+    "1955": 381,
+    "1956": 601,
+    "1957": 26,
+    "1958": 76,
+    "1959": 382,
+    "1960": 73,
+    "1961": 140,
+    "1962": 563,
+    "1963": 50,
+    "1964": 360,
+    "1965": 49,
+    "1966": 1,
+    "1967": 40,
+    "1968": 37,
+    "1969": 180,
+    "1970": 71,
+    "1972": 302,
+    "1974": 9,
+    "1975": 210,
+    "1976": 2,
+    "1977": 10,
+    "1978": 86,
+    "1979": 28,
+    "1980": 72,
+    "1981": 184,
+    "1982": 345,
+    "1983": 41,
+    "1984": 50,
+    "1985": 12,
+    "1986": 117,
+    "1987": 55,
+    "1988": 13,
+    "1989": 129,
+    "1990": 71,
+    "1991": 198,
+    "1992": 11,
+    "1993": 118,
+    "1994": 27,
+    "1995": 252,
+    "1996": 37,
+    "1998": 5,
+    "1999": 84,
+    "2000": 28,
+    "2001": 17,
+    "2002": 214,
+    "2003": 363,
+    "2004": 48,
+    "2005": 291,
+    "2006": 17,
+    "2008": 114,
+    "2009": 3,
+    "2010": 174,
+    "2012": 71,
+    "2013": 24,
+    "2014": 199,
+    "2015": 57,
+    "2016": 128,
+    "2017": 898,
+    "2018": 100,
+    "2019": 91,
+    "2020": 233,
+    "2021": 139,
+    "2022": 81,
+    "2023": 169,
+    "2024": 22,
+    "2025": 153
+   }
+  },
+  "bihar": {
+   "acts": 298,
+   "provisions": 10910,
+   "categories": {
+    "state": 10910
+   },
+   "act_status": {
+    "in_force": 10910
+   },
+   "years": {
+    "1894": 74,
+    "1908": 592,
+    "1910": 137,
+    "1923": 168,
+    "1929": 18,
+    "1935": 350,
+    "1936": 67,
+    "1946": 31,
+    "1947": 79,
+    "1948": 885,
+    "1949": 245,
+    "1950": 145,
+    "1951": 16,
+    "1952": 191,
+    "1953": 183,
+    "1954": 49,
+    "1955": 74,
+    "1956": 40,
+    "1957": 100,
+    "1958": 22,
+    "1959": 92,
+    "1961": 87,
+    "1965": 73,
+    "1966": 59,
+    "1970": 21,
+    "1972": 36,
+    "1974": 285,
+    "1976": 42,
+    "1978": 60,
+    "1980": 25,
+    "1981": 27,
+    "1982": 19,
+    "1984": 164,
+    "1986": 182,
+    "1987": 8,
+    "1988": 421,
+    "1991": 11,
+    "1992": 6,
+    "1994": 36,
+    "1996": 172,
+    "1997": 443,
+    "1998": 72,
+    "1999": 21,
+    "2002": 39,
+    "2006": 421,
+    "2007": 121,
+    "2008": 87,
+    "2009": 122,
+    "2010": 233,
+    "2011": 499,
+    "2012": 65,
+    "2013": 379,
+    "2014": 232,
+    "2015": 190,
+    "2016": 323,
+    "2017": 1300,
+    "2018": 222,
+    "2019": 129,
+    "2020": 105,
+    "2021": 96,
+    "2022": 80,
+    "2023": 28,
+    "2024": 66
+   }
+  },
+  "jharkhand": {
+   "acts": 137,
+   "provisions": 10831,
+   "categories": {
+    "state": 10831
+   },
+   "act_status": {
+    "in_force": 10831
+   },
+   "years": {
+    "1887": 27,
+    "1908": 496,
+    "1915": 165,
+    "1917": 132,
+    "1923": 47,
+    "1929": 18,
+    "1935": 350,
+    "1936": 67,
+    "1938": 67,
+    "1946": 31,
+    "1947": 267,
+    "1948": 369,
+    "1949": 177,
+    "1950": 143,
+    "1954": 49,
+    "1955": 72,
+    "1956": 96,
+    "1959": 14,
+    "1961": 87,
+    "1966": 59,
+    "1970": 21,
+    "1972": 36,
+    "1974": 23,
+    "1976": 23,
+    "1978": 60,
+    "1981": 5,
+    "1982": 281,
+    "1986": 104,
+    "1987": 8,
+    "1993": 38,
+    "1995": 171,
+    "1996": 39,
+    "2000": 795,
+    "2001": 191,
+    "2002": 73,
+    "2005": 586,
+    "2006": 27,
+    "2007": 34,
+    "2008": 2,
+    "2010": 103,
+    "2011": 1394,
+    "2012": 362,
+    "2014": 3,
+    "2015": 318,
+    "2016": 447,
+    "2017": 1130,
+    "2018": 548,
+    "2020": 74,
+    "2021": 4
+   }
+  },
+  "himachal-pradesh": {
+   "acts": 194,
+   "provisions": 10765,
+   "categories": {
+    "state": 10765
+   },
+   "act_status": {
+    "in_force": 10765
+   },
+   "years": {
+    "1952": 7,
+    "1954": 374,
+    "1955": 118,
+    "1956": 39,
+    "1964": 50,
+    "1966": 26,
+    "1968": 1151,
+    "1969": 219,
+    "1970": 122,
+    "1971": 32,
+    "1972": 485,
+    "1973": 163,
+    "1974": 45,
+    "1975": 63,
+    "1976": 356,
+    "1977": 291,
+    "1978": 77,
+    "1979": 508,
+    "1981": 33,
+    "1982": 26,
+    "1983": 9,
+    "1984": 33,
+    "1985": 8,
+    "1986": 54,
+    "1987": 169,
+    "1988": 4,
+    "1991": 6,
+    "1992": 23,
+    "1994": 2092,
+    "1995": 69,
+    "1996": 147,
+    "1997": 49,
+    "1999": 116,
+    "2000": 53,
+    "2001": 119,
+    "2002": 216,
+    "2003": 83,
+    "2004": 92,
+    "2005": 270,
+    "2006": 111,
+    "2007": 358,
+    "2008": 105,
+    "2009": 316,
+    "2010": 332,
+    "2011": 131,
+    "2012": 226,
+    "2014": 225,
+    "2015": 81,
+    "2016": 96,
+    "2017": 680,
+    "2018": 75,
+    "2019": 88,
+    "2021": 60,
+    "2022": 33,
+    "2023": 51
+   }
+  },
+  "uttarakhand": {
+   "acts": 244,
+   "provisions": 10531,
+   "categories": {
+    "state": 10531
+   },
+   "act_status": {
+    "in_force": 10531
+   },
+   "years": {
+    "1901": 83,
+    "1904": 46,
+    "1910": 115,
+    "1916": 605,
+    "1917": 30,
+    "1921": 88,
+    "1922": 25,
+    "1926": 18,
+    "1934": 17,
+    "1935": 12,
+    "1936": 22,
+    "1938": 50,
+    "1947": 469,
+    "1948": 69,
+    "1950": 13,
+    "1951": 72,
+    "1952": 47,
+    "1953": 113,
+    "1955": 56,
+    "1956": 36,
+    "1957": 5,
+    "1958": 34,
+    "1959": 924,
+    "1960": 105,
+    "1961": 301,
+    "1962": 101,
+    "1963": 32,
+    "1964": 306,
+    "1965": 76,
+    "1970": 32,
+    "1971": 39,
+    "1972": 25,
+    "1973": 222,
+    "1974": 44,
+    "1975": 317,
+    "1976": 240,
+    "1977": 21,
+    "1978": 18,
+    "1980": 58,
+    "1981": 7,
+    "1982": 115,
+    "1983": 18,
+    "1984": 2,
+    "1986": 32,
+    "1990": 5,
+    "1994": 12,
+    "1995": 196,
+    "1997": 58,
+    "1998": 22,
+    "1999": 145,
+    "2000": 32,
+    "2002": 36,
+    "2003": 248,
+    "2005": 215,
+    "2007": 29,
+    "2008": 50,
+    "2011": 245,
+    "2012": 14,
+    "2013": 34,
+    "2014": 178,
+    "2015": 19,
+    "2016": 318,
+    "2017": 627,
+    "2018": 18,
+    "2019": 131,
+    "2020": 1,
+    "2021": 12,
+    "2022": 11
+   }
+  },
+  "jammu-kashmir": {
+   "acts": 137,
+   "provisions": 9223,
+   "categories": {
+    "state": 9223
+   },
+   "act_status": {
+    "in_force": 9223
+   },
+   "years": {
+    "1945": 15,
+    "1956": 87,
+    "1957": 36,
+    "1958": 109,
+    "1959": 19,
+    "1960": 65,
+    "1961": 9,
+    "1962": 7,
+    "1963": 122,
+    "1965": 83,
+    "1967": 41,
+    "1969": 153,
+    "1970": 218,
+    "1971": 7,
+    "1972": 8,
+    "1973": 53,
+    "1974": 35,
+    "1975": 67,
+    "1976": 326,
+    "1977": 594,
+    "1978": 125,
+    "1979": 38,
+    "1981": 16,
+    "1982": 185,
+    "1983": 100,
+    "1984": 11,
+    "1985": 10,
+    "1987": 44,
+    "1988": 154,
+    "1989": 644,
+    "1995": 33,
+    "1996": 299,
+    "1997": 35,
+    "1999": 305,
+    "2000": 1495,
+    "2001": 56,
+    "2002": 283,
+    "2004": 47,
+    "2005": 188,
+    "2006": 190,
+    "2007": 103,
+    "2008": 31,
+    "2010": 884,
+    "2011": 143,
+    "2012": 183,
+    "2013": 64,
+    "2014": 113,
+    "2016": 105,
+    "2017": 649,
+    "2018": 629,
+    "2020": 7
+   }
+  },
+  "tripura": {
+   "acts": 121,
+   "provisions": 8070,
+   "categories": {
+    "state": 8070
+   },
+   "act_status": {
+    "in_force": 8070
+   },
+   "years": {
+    "1926": 8,
+    "1927": 99,
+    "1948": 292,
+    "1960": 379,
+    "1961": 407,
+    "1964": 4,
+    "1965": 9,
+    "1966": 51,
+    "1967": 80,
+    "1969": 24,
+    "1970": 17,
+    "1971": 3,
+    "1972": 2,
+    "1973": 879,
+    "1974": 303,
+    "1975": 138,
+    "1976": 256,
+    "1978": 70,
+    "1979": 195,
+    "1980": 210,
+    "1982": 150,
+    "1983": 58,
+    "1984": 2,
+    "1985": 7,
+    "1986": 104,
+    "1987": 387,
+    "1988": 8,
+    "1989": 14,
+    "1990": 202,
+    "1991": 96,
+    "1992": 9,
+    "1993": 418,
+    "1997": 84,
+    "2000": 205,
+    "2003": 16,
+    "2004": 399,
+    "2005": 15,
+    "2006": 17,
+    "2007": 82,
+    "2008": 54,
+    "2010": 54,
+    "2011": 21,
+    "2013": 57,
+    "2014": 33,
+    "2016": 279,
+    "2017": 338,
+    "2018": 234,
+    "2019": 70,
+    "2020": 252,
+    "2021": 93,
+    "2022": 158,
+    "2023": 80
+   }
+  },
+  "delhi": {
+   "acts": 96,
+   "provisions": 8006,
+   "categories": {
+    "state": 8006
+   },
+   "act_status": {
+    "in_force": 8006
+   },
+   "years": {
+    "1870": 114,
+    "1947": 196,
+    "1948": 367,
+    "1950": 10,
+    "1953": 150,
+    "1954": 556,
+    "1955": 119,
+    "1956": 196,
+    "1962": 43,
+    "1968": 111,
+    "1970": 44,
+    "1971": 18,
+    "1973": 42,
+    "1978": 191,
+    "1981": 144,
+    "1986": 58,
+    "1993": 75,
+    "1994": 153,
+    "1995": 28,
+    "1996": 382,
+    "1997": 109,
+    "1998": 1204,
+    "1999": 67,
+    "2000": 135,
+    "2001": 74,
+    "2002": 47,
+    "2003": 512,
+    "2004": 159,
+    "2006": 26,
+    "2007": 194,
+    "2008": 112,
+    "2009": 171,
+    "2010": 99,
+    "2011": 21,
+    "2012": 64,
+    "2013": 73,
+    "2015": 25,
+    "2017": 348,
+    "2018": 58,
+    "2019": 95
+   }
+  },
+  "puducherry": {
+   "acts": 78,
+   "provisions": 7117,
+   "categories": {
+    "state": 7117
+   },
+   "act_status": {
+    "in_force": 7117
+   },
+   "years": {
+    "1897": 15,
+    "1908": 107,
+    "1961": 15,
+    "1962": 24,
+    "1964": 236,
+    "1965": 100,
+    "1966": 131,
+    "1967": 108,
+    "1968": 536,
+    "1969": 332,
+    "1970": 512,
+    "1971": 13,
+    "1972": 523,
+    "1973": 2222,
+    "1980": 61,
+    "1986": 26,
+    "1987": 172,
+    "1988": 15,
+    "1990": 13,
+    "1994": 25,
+    "1995": 171,
+    "2000": 40,
+    "2001": 91,
+    "2002": 52,
+    "2003": 156,
+    "2008": 80,
+    "2015": 25,
+    "2016": 279,
+    "2017": 707,
+    "2019": 239
+   }
+  },
+  "arunachal-pradesh": {
+   "acts": 115,
+   "provisions": 6996,
+   "categories": {
+    "state": 6996
+   },
+   "act_status": {
+    "in_force": 6996
+   },
+   "years": {
+    "1891": 116,
+    "1945": 63,
+    "1978": 291,
+    "1979": 113,
+    "1983": 8,
+    "1984": 206,
+    "1987": 4,
+    "1989": 45,
+    "1991": 103,
+    "1993": 203,
+    "1997": 206,
+    "1998": 30,
+    "1999": 1,
+    "2000": 132,
+    "2002": 73,
+    "2003": 3,
+    "2004": 20,
+    "2005": 182,
+    "2006": 149,
+    "2007": 108,
+    "2008": 981,
+    "2009": 149,
+    "2010": 220,
+    "2011": 65,
+    "2012": 549,
+    "2013": 14,
+    "2014": 433,
+    "2015": 147,
+    "2016": 43,
+    "2017": 923,
+    "2018": 70,
+    "2019": 643,
+    "2020": 44,
+    "2021": 72,
+    "2022": 55,
+    "2023": 115,
+    "2024": 4,
+    "2025": 94
+   }
+  },
+  "meghalaya": {
+   "acts": 105,
+   "provisions": 5550,
+   "categories": {
+    "state": 5550
+   },
+   "act_status": {
+    "in_force": 5550
+   },
+   "years": {
+    "1970": 87,
+    "1971": 47,
+    "1972": 61,
+    "1973": 74,
+    "1974": 12,
+    "1976": 93,
+    "1977": 39,
+    "1978": 16,
+    "1979": 9,
+    "1980": 271,
+    "1981": 125,
+    "1983": 60,
+    "1984": 14,
+    "1986": 61,
+    "1987": 32,
+    "1988": 31,
+    "1989": 2,
+    "1990": 17,
+    "1991": 8,
+    "1992": 25,
+    "1993": 30,
+    "1994": 8,
+    "1995": 18,
+    "1997": 20,
+    "1998": 23,
+    "2001": 10,
+    "2002": 33,
+    "2003": 279,
+    "2004": 65,
+    "2005": 314,
+    "2006": 47,
+    "2008": 146,
+    "2009": 52,
+    "2010": 404,
+    "2011": 197,
+    "2012": 160,
+    "2014": 152,
+    "2015": 386,
+    "2016": 133,
+    "2017": 729,
+    "2018": 158,
+    "2019": 127,
+    "2020": 658,
+    "2021": 75,
+    "2022": 124,
+    "2024": 91
+   }
+  },
+  "nagaland": {
+   "acts": 202,
+   "provisions": 4861,
+   "categories": {
+    "state": 4861
+   },
+   "act_status": {
+    "in_force": 4861
+   },
+   "years": {
+    "1954": 2,
+    "1964": 32,
+    "1965": 59,
+    "1966": 43,
+    "1967": 244,
+    "1968": 32,
+    "1969": 29,
+    "1970": 84,
+    "1971": 22,
+    "1973": 25,
+    "1974": 71,
+    "1978": 84,
+    "1979": 31,
+    "1980": 37,
+    "1981": 6,
+    "1982": 28,
+    "1984": 2,
+    "1985": 84,
+    "1988": 152,
+    "1989": 236,
+    "1990": 142,
+    "1992": 12,
+    "1993": 133,
+    "1994": 4,
+    "1997": 28,
+    "1999": 61,
+    "2000": 54,
+    "2001": 1020,
+    "2002": 9,
+    "2003": 7,
+    "2004": 3,
+    "2005": 185,
+    "2006": 210,
+    "2007": 7,
+    "2008": 6,
+    "2009": 20,
+    "2011": 58,
+    "2012": 153,
+    "2013": 95,
+    "2014": 228,
+    "2016": 55,
+    "2017": 500,
+    "2018": 29,
+    "2019": 113,
+    "2020": 32,
+    "2021": 99,
+    "2022": 30,
+    "2023": 153,
+    "2024": 49
+   }
+  },
+  "andaman-nicobar": {
+   "acts": 45,
+   "provisions": 4626,
+   "categories": {
+    "state": 4626
+   },
+   "act_status": {
+    "in_force": 4626
+   },
+   "years": {
+    "1894": 92,
+    "1908": 171,
+    "1917": 132,
+    "1927": 99,
+    "1936": 67,
+    "1939": 651,
+    "1948": 369,
+    "1951": 99,
+    "1955": 26,
+    "1956": 12,
+    "1957": 156,
+    "1961": 92,
+    "1963": 33,
+    "1964": 5,
+    "1966": 264,
+    "1970": 21,
+    "1972": 454,
+    "1973": 335,
+    "1979": 4,
+    "1980": 4,
+    "1981": 84,
+    "1986": 29,
+    "1987": 6,
+    "1989": 11,
+    "1994": 520,
+    "1995": 171,
+    "2001": 51,
+    "2003": 42,
+    "2012": 163,
+    "2016": 279
+   }
+  },
+  "manipur": {
+   "acts": 187,
+   "provisions": 4560,
+   "categories": {
+    "state": 4560
+   },
+   "act_status": {
+    "in_force": 4560
+   },
+   "years": {
+    "1924": 53,
+    "1948": 292,
+    "1972": 68,
+    "1973": 8,
+    "1974": 7,
+    "1975": 103,
+    "1976": 323,
+    "1977": 30,
+    "1978": 181,
+    "1979": 199,
+    "1980": 1,
+    "1981": 91,
+    "1982": 6,
+    "1983": 4,
+    "1984": 43,
+    "1985": 7,
+    "1986": 81,
+    "1987": 1,
+    "1988": 75,
+    "1989": 94,
+    "1991": 10,
+    "1992": 100,
+    "1995": 6,
+    "1996": 51,
+    "1997": 8,
+    "1998": 40,
+    "2000": 45,
+    "2001": 2,
+    "2002": 4,
+    "2003": 59,
+    "2004": 54,
+    "2005": 71,
+    "2006": 97,
+    "2007": 2,
+    "2008": 24,
+    "2009": 55,
+    "2010": 77,
+    "2011": 60,
+    "2012": 54,
+    "2013": 59,
+    "2014": 155,
+    "2015": 382,
+    "2016": 122,
+    "2017": 315,
+    "2018": 152,
+    "2020": 2,
+    "2021": 21,
+    "2023": 865
+   }
+  },
+  "sikkim": {
+   "acts": 111,
+   "provisions": 4266,
+   "categories": {
+    "state": 4266
+   },
+   "act_status": {
+    "in_force": 4266
+   },
+   "years": {
+    "1975": 90,
+    "1977": 89,
+    "1978": 160,
+    "1979": 49,
+    "1980": 86,
+    "1981": 87,
+    "1982": 176,
+    "1983": 260,
+    "1984": 22,
+    "1985": 16,
+    "1986": 74,
+    "1987": 20,
+    "1988": 4,
+    "1992": 75,
+    "1993": 453,
+    "1995": 7,
+    "1996": 32,
+    "1997": 23,
+    "1998": 218,
+    "2000": 27,
+    "2002": 67,
+    "2003": 38,
+    "2004": 88,
+    "2005": 368,
+    "2006": 124,
+    "2007": 334,
+    "2008": 252,
+    "2010": 16,
+    "2011": 44,
+    "2012": 3,
+    "2013": 39,
+    "2014": 135,
+    "2016": 9,
+    "2017": 289,
+    "2018": 58,
+    "2020": 78,
+    "2021": 240,
+    "2022": 105
+   }
+  },
+  "ladakh": {
+   "acts": 55,
+   "provisions": 3119,
+   "categories": {
+    "state": 3119
+   },
+   "act_status": {
+    "in_force": 3119
+   },
+   "years": {
+    "1945": 17,
+    "1956": 31,
+    "1957": 36,
+    "1958": 111,
+    "1959": 19,
+    "1963": 107,
+    "1967": 41,
+    "1970": 139,
+    "1972": 16,
+    "1973": 57,
+    "1975": 67,
+    "1976": 63,
+    "1977": 603,
+    "1978": 95,
+    "1981": 10,
+    "1983": 58,
+    "1987": 44,
+    "1988": 36,
+    "1989": 315,
+    "1997": 6,
+    "1999": 249,
+    "2000": 4,
+    "2002": 179,
+    "2005": 56,
+    "2006": 99,
+    "2007": 23,
+    "2010": 168,
+    "2011": 98,
+    "2012": 101,
+    "2014": 84,
+    "2018": 187
+   }
+  },
+  "mizoram": {
+   "acts": 83,
+   "provisions": 2015,
+   "categories": {
+    "state": 2015
+   },
+   "act_status": {
+    "in_force": 2015
+   },
+   "years": {
+    "1988": 52,
+    "1991": 35,
+    "1992": 50,
+    "1993": 17,
+    "1994": 47,
+    "1995": 58,
+    "1996": 6,
+    "1997": 11,
+    "1999": 17,
+    "2001": 21,
+    "2007": 3,
+    "2009": 31,
+    "2010": 23,
+    "2011": 187,
+    "2012": 39,
+    "2013": 239,
+    "2014": 350,
+    "2015": 14,
+    "2016": 223,
+    "2017": 385,
+    "2021": 33,
+    "2022": 44,
+    "2023": 66
+   }
+  },
+  "lakshadweep": {
+   "acts": 1,
+   "provisions": 171,
+   "categories": {
+    "state": 171
+   },
+   "act_status": {
+    "in_force": 171
+   },
+   "years": {
+    "1995": 171
+   }
+  }
+ }
+}

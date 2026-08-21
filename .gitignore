@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+node_modules/
+data/*.jsonl
+data/*.json
+data/*.zip
+data/*.parquet
+data/pdfs/
+*.log
+.DS_Store
+
+# test / tooling caches
+.pytest_cache/

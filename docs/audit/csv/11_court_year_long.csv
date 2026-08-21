@@ -1,0 +1,692 @@
+court,court_type,year,cases_pre_dedup,chunks,chunks_per_case,supabase_rows
+Patna High Court,High Court,1967,1,4,4.0,1
+Patna High Court,High Court,1972,1,1,1.0,1
+Patna High Court,High Court,1978,3,15,5.0,3
+Patna High Court,High Court,1980,3,3,1.0,3
+Patna High Court,High Court,1984,2,2,1.0,2
+Patna High Court,High Court,1989,8,80,10.0,8
+Patna High Court,High Court,1994,16,44,2.75,16
+Patna High Court,High Court,1997,25,30,1.2,23
+Patna High Court,High Court,2001,33,60,1.82,29
+Patna High Court,High Court,2002,52,81,1.56,46
+Patna High Court,High Court,2008,45394,53637,1.18,43125
+Patna High Court,High Court,2009,74831,96230,1.29,70848
+Patna High Court,High Court,2010,84983,196994,2.32,80583
+Patna High Court,High Court,2011,95265,123356,1.29,90289
+Patna High Court,High Court,2012,94111,121810,1.29,89210
+Patna High Court,High Court,2013,84438,140801,1.67,79969
+Patna High Court,High Court,2014,83461,137430,1.65,79053
+Patna High Court,High Court,2015,102780,155386,1.51,97523
+Patna High Court,High Court,2016,90693,147839,1.63,86004
+Patna High Court,High Court,2017,99788,144695,1.45,94664
+Patna High Court,High Court,2018,121240,166110,1.37,115048
+Patna High Court,High Court,2019,121507,164214,1.35,115146
+Patna High Court,High Court,2020,53714,95805,1.78,50918
+Patna High Court,High Court,2021,60877,104330,1.71,57695
+Patna High Court,High Court,2022,122307,175783,1.44,115970
+Patna High Court,High Court,2023,142639,216574,1.52,135369
+Patna High Court,High Court,2024,129071,300755,2.33,122294
+Patna High Court,High Court,2025,96107,140675,1.46,91197
+Bombay High Court,High Court,1953,2,2,1.0,2
+Bombay High Court,High Court,1955,5,5,1.0,5
+Bombay High Court,High Court,1958,1,1,1.0,1
+Bombay High Court,High Court,1962,5,5,1.0,5
+Bombay High Court,High Court,1969,4,4,1.0,4
+Bombay High Court,High Court,1971,6,6,1.0,5
+Bombay High Court,High Court,1974,1,2,2.0,1
+Bombay High Court,High Court,1976,7,7,1.0,6
+Bombay High Court,High Court,1989,20,22,1.1,20
+Bombay High Court,High Court,1992,20,28,1.4,18
+Bombay High Court,High Court,1994,75,96,1.28,71
+Bombay High Court,High Court,1996,133,159,1.2,122
+Bombay High Court,High Court,1997,165,174,1.05,152
+Bombay High Court,High Court,1999,7,14,2.0,6
+Bombay High Court,High Court,2000,1,4,4.0,1
+Bombay High Court,High Court,2001,15,48,3.2,13
+Bombay High Court,High Court,2002,406,1521,3.75,389
+Bombay High Court,High Court,2003,1815,3800,2.09,1712
+Bombay High Court,High Court,2004,15732,24748,1.57,14918
+Bombay High Court,High Court,2005,48986,64422,1.32,46408
+Bombay High Court,High Court,2006,47137,64937,1.38,44636
+Bombay High Court,High Court,2007,52890,68816,1.3,50131
+Bombay High Court,High Court,2008,59577,78721,1.32,56564
+Bombay High Court,High Court,2009,80713,110597,1.37,76593
+Bombay High Court,High Court,2010,89866,123251,1.37,85162
+Bombay High Court,High Court,2011,91560,125663,1.37,86836
+Bombay High Court,High Court,2012,85466,131493,1.54,80986
+Bombay High Court,High Court,2013,89626,135099,1.51,84871
+Bombay High Court,High Court,2014,90842,147404,1.62,86184
+Bombay High Court,High Court,2015,96231,179603,1.87,91242
+Bombay High Court,High Court,2016,98013,186716,1.91,92914
+Bombay High Court,High Court,2017,99121,216886,2.19,93927
+Bombay High Court,High Court,2018,96860,215077,2.22,91879
+Bombay High Court,High Court,2019,102592,187654,1.83,97337
+Bombay High Court,High Court,2020,34882,64854,1.86,33088
+Bombay High Court,High Court,2021,67857,138852,2.05,64420
+Bombay High Court,High Court,2022,98484,255884,2.6,93446
+Bombay High Court,High Court,2023,108630,193255,1.78,103094
+Bombay High Court,High Court,2024,77818,148927,1.91,73777
+Bombay High Court,High Court,2025,47475,90045,1.9,44981
+Allahabad High Court,High Court,1992,2,2,1.0,2
+Allahabad High Court,High Court,1993,1,1,1.0,1
+Allahabad High Court,High Court,2006,1,1,1.0,1
+Allahabad High Court,High Court,2007,1,2,2.0,1
+Allahabad High Court,High Court,2008,1,1,1.0,1
+Allahabad High Court,High Court,2010,21,30,1.43,21
+Allahabad High Court,High Court,2012,1,1,1.0,1
+Allahabad High Court,High Court,2018,187947,228194,1.21,187627
+Allahabad High Court,High Court,2019,228086,276318,1.21,227728
+Allahabad High Court,High Court,2020,122715,153698,1.25,122436
+Allahabad High Court,High Court,2021,171555,217484,1.27,171290
+Allahabad High Court,High Court,2022,272085,353404,1.3,271667
+Allahabad High Court,High Court,2023,273167,369052,1.35,272768
+Allahabad High Court,High Court,2024,84396,119090,1.41,84324
+Allahabad High Court,High Court,2025,160546,212281,1.32,160377
+Madras High Court,High Court,1997,1,1,1.0,1
+Madras High Court,High Court,1999,1,6,6.0,1
+Madras High Court,High Court,2000,7,35,5.0,7
+Madras High Court,High Court,2001,43,211,4.91,42
+Madras High Court,High Court,2002,1054,4386,4.16,1000
+Madras High Court,High Court,2003,1146,6440,5.62,1089
+Madras High Court,High Court,2004,1017,4520,4.44,980
+Madras High Court,High Court,2005,577,3279,5.68,541
+Madras High Court,High Court,2006,2564,10064,3.93,2435
+Madras High Court,High Court,2007,3290,14694,4.47,3139
+Madras High Court,High Court,2008,3645,17262,4.74,3465
+Madras High Court,High Court,2009,4138,20773,5.02,3929
+Madras High Court,High Court,2010,5483,24438,4.46,5186
+Madras High Court,High Court,2011,21637,46796,2.16,20485
+Madras High Court,High Court,2013,32416,56019,1.73,30775
+Madras High Court,High Court,2014,40065,69574,1.74,37988
+Madras High Court,High Court,2015,69761,110142,1.58,66167
+Madras High Court,High Court,2016,92371,146094,1.58,87551
+Madras High Court,High Court,2017,96360,169253,1.76,91567
+Madras High Court,High Court,2018,115878,200193,1.73,109796
+Madras High Court,High Court,2019,129294,238523,1.84,122675
+Madras High Court,High Court,2020,97010,171590,1.77,92010
+Madras High Court,High Court,2021,142009,244946,1.72,134649
+Madras High Court,High Court,2022,180416,305421,1.69,171129
+Madras High Court,High Court,2023,187002,305757,1.64,177301
+Madras High Court,High Court,2024,182269,306989,1.68,172714
+Madras High Court,High Court,2025,166834,269113,1.61,158328
+Telangana High Court,High Court,1963,1,1,1.0,1
+Telangana High Court,High Court,1991,1,1,1.0,1
+Telangana High Court,High Court,1993,6,6,1.0,6
+Telangana High Court,High Court,1994,15,23,1.53,13
+Telangana High Court,High Court,1995,17,29,1.71,17
+Telangana High Court,High Court,1996,33,58,1.76,32
+Telangana High Court,High Court,1997,42,48,1.14,42
+Telangana High Court,High Court,1998,48,63,1.31,45
+Telangana High Court,High Court,1999,58,99,1.71,54
+Telangana High Court,High Court,2000,46,93,2.02,44
+Telangana High Court,High Court,2001,116,181,1.56,115
+Telangana High Court,High Court,2002,184,404,2.2,172
+Telangana High Court,High Court,2003,365,640,1.75,348
+Telangana High Court,High Court,2004,20450,121089,5.92,19449
+Telangana High Court,High Court,2005,29334,116848,3.98,27888
+Telangana High Court,High Court,2006,26740,51157,1.91,25353
+Telangana High Court,High Court,2007,34164,56832,1.66,32360
+Telangana High Court,High Court,2008,29821,65135,2.18,28235
+Telangana High Court,High Court,2009,34119,64315,1.89,32357
+Telangana High Court,High Court,2010,56788,99833,1.76,53806
+Telangana High Court,High Court,2011,63601,199346,3.13,60412
+Telangana High Court,High Court,2012,63020,140325,2.23,59759
+Telangana High Court,High Court,2013,56692,92707,1.64,53683
+Telangana High Court,High Court,2014,66775,131937,1.98,63340
+Telangana High Court,High Court,2015,61787,142057,2.3,58515
+Telangana High Court,High Court,2016,69620,131823,1.89,66021
+Telangana High Court,High Court,2017,62331,116504,1.87,59035
+Telangana High Court,High Court,2018,70257,130645,1.86,66543
+Telangana High Court,High Court,2019,35523,59602,1.68,33738
+Telangana High Court,High Court,2020,22956,65915,2.87,21835
+Telangana High Court,High Court,2021,40631,132937,3.27,38576
+Telangana High Court,High Court,2022,74265,266203,3.58,70436
+Telangana High Court,High Court,2023,69720,324763,4.66,66198
+Telangana High Court,High Court,2024,39845,169893,4.26,37796
+Telangana High Court,High Court,2025,29212,162339,5.56,27765
+Kerala High Court,High Court,1950,1,1,1.0,1
+Kerala High Court,High Court,1951,2,3,1.5,2
+Kerala High Court,High Court,1952,3,4,1.33,3
+Kerala High Court,High Court,1953,2,4,2.0,2
+Kerala High Court,High Court,1954,6,15,2.5,6
+Kerala High Court,High Court,1955,10,24,2.4,10
+Kerala High Court,High Court,1956,7,10,1.43,7
+Kerala High Court,High Court,1958,6,15,2.5,6
+Kerala High Court,High Court,1970,1,2,2.0,1
+Kerala High Court,High Court,1980,1,1,1.0,1
+Kerala High Court,High Court,1982,1,5,5.0,1
+Kerala High Court,High Court,1985,7,16,2.29,7
+Kerala High Court,High Court,1987,1,3,3.0,1
+Kerala High Court,High Court,1997,2,5,2.5,2
+Kerala High Court,High Court,1998,1,12,12.0,1
+Kerala High Court,High Court,1999,2,22,11.0,2
+Kerala High Court,High Court,2000,2,3,1.5,2
+Kerala High Court,High Court,2001,3,13,4.33,3
+Kerala High Court,High Court,2002,2,3,1.5,2
+Kerala High Court,High Court,2003,2,6,3.0,2
+Kerala High Court,High Court,2005,41,240,5.85,41
+Kerala High Court,High Court,2006,4614,8947,1.94,4614
+Kerala High Court,High Court,2007,41974,71769,1.71,41974
+Kerala High Court,High Court,2008,48445,82311,1.7,48445
+Kerala High Court,High Court,2009,43029,82160,1.91,43028
+Kerala High Court,High Court,2010,43472,82201,1.89,43471
+Kerala High Court,High Court,2011,45159,90491,2.0,45158
+Kerala High Court,High Court,2012,46742,95591,2.05,46742
+Kerala High Court,High Court,2013,43870,94432,2.15,43870
+Kerala High Court,High Court,2014,46899,100568,2.14,46898
+Kerala High Court,High Court,2015,50239,109407,2.18,50241
+Kerala High Court,High Court,2016,50760,105754,2.08,50760
+Kerala High Court,High Court,2017,48551,100660,2.07,48552
+Kerala High Court,High Court,2018,60623,154534,2.55,60624
+Kerala High Court,High Court,2019,66414,373404,5.62,66414
+Kerala High Court,High Court,2020,43551,221380,5.08,43551
+Kerala High Court,High Court,2021,48594,238290,4.9,48593
+Kerala High Court,High Court,2022,68458,431780,6.31,68460
+Kerala High Court,High Court,2023,74319,365364,4.92,74322
+Kerala High Court,High Court,2024,40374,315585,7.82,40375
+Karnataka High Court,High Court,1998,113,308,2.73,113
+Karnataka High Court,High Court,1999,2,9,4.5,2
+Karnataka High Court,High Court,2000,1,4,4.0,1
+Karnataka High Court,High Court,2001,1,2,2.0,1
+Karnataka High Court,High Court,2004,3,5,1.67,3
+Karnataka High Court,High Court,2006,1,2,2.0,1
+Karnataka High Court,High Court,2007,6,7,1.17,6
+Karnataka High Court,High Court,2008,20,28,1.4,20
+Karnataka High Court,High Court,2009,90,110,1.22,90
+Karnataka High Court,High Court,2010,128,158,1.23,128
+Karnataka High Court,High Court,2011,270,499,1.85,269
+Karnataka High Court,High Court,2012,22975,50123,2.18,22956
+Karnataka High Court,High Court,2013,7140,16802,2.35,7131
+Karnataka High Court,High Court,2014,40013,80357,2.01,39962
+Karnataka High Court,High Court,2015,37783,76523,2.03,37777
+Karnataka High Court,High Court,2016,33935,68083,2.01,33916
+Karnataka High Court,High Court,2017,33096,69935,2.11,33089
+Karnataka High Court,High Court,2018,31917,73433,2.3,31903
+Karnataka High Court,High Court,2019,42268,97838,2.31,42259
+Karnataka High Court,High Court,2020,34035,100269,2.95,34033
+Karnataka High Court,High Court,2021,59310,184971,3.12,59314
+Karnataka High Court,High Court,2022,59820,169696,2.84,59773
+Karnataka High Court,High Court,2023,67670,226123,3.34,67578
+Karnataka High Court,High Court,2024,78994,229421,2.9,78886
+Karnataka High Court,High Court,2025,31685,107633,3.4,31677
+Chhattisgarh High Court,High Court,1970,1,1,1.0,1
+Chhattisgarh High Court,High Court,1991,1,1,1.0,1
+Chhattisgarh High Court,High Court,1994,1,1,1.0,1
+Chhattisgarh High Court,High Court,1996,2,4,2.0,1
+Chhattisgarh High Court,High Court,1999,1,1,1.0,1
+Chhattisgarh High Court,High Court,2000,43,48,1.12,42
+Chhattisgarh High Court,High Court,2001,679,927,1.37,635
+Chhattisgarh High Court,High Court,2002,540,693,1.28,506
+Chhattisgarh High Court,High Court,2003,1667,2851,1.71,1594
+Chhattisgarh High Court,High Court,2004,2252,3416,1.52,2137
+Chhattisgarh High Court,High Court,2005,5097,9107,1.79,4834
+Chhattisgarh High Court,High Court,2006,9005,16098,1.79,8560
+Chhattisgarh High Court,High Court,2007,12775,28483,2.23,12107
+Chhattisgarh High Court,High Court,2008,10024,15546,1.55,9516
+Chhattisgarh High Court,High Court,2009,13158,24070,1.83,12436
+Chhattisgarh High Court,High Court,2010,16137,36403,2.26,15327
+Chhattisgarh High Court,High Court,2011,16090,30921,1.92,15217
+Chhattisgarh High Court,High Court,2012,18830,43399,2.3,17904
+Chhattisgarh High Court,High Court,2013,18334,34125,1.86,17376
+Chhattisgarh High Court,High Court,2014,17690,35684,2.02,16778
+Chhattisgarh High Court,High Court,2015,21062,52416,2.49,19959
+Chhattisgarh High Court,High Court,2016,27605,167583,6.07,26229
+Chhattisgarh High Court,High Court,2017,31649,128386,4.06,30062
+Chhattisgarh High Court,High Court,2018,37722,106520,2.82,35877
+Chhattisgarh High Court,High Court,2019,40098,125344,3.13,37968
+Chhattisgarh High Court,High Court,2020,24206,58345,2.41,22999
+Chhattisgarh High Court,High Court,2021,31461,70039,2.23,29804
+Chhattisgarh High Court,High Court,2022,33876,126632,3.74,32144
+Chhattisgarh High Court,High Court,2023,44323,204334,4.61,42042
+Chhattisgarh High Court,High Court,2024,53279,336647,6.32,50612
+Chhattisgarh High Court,High Court,2025,48594,151578,3.12,46101
+Punjab and Haryana High Court,High Court,2008,9281,28481,3.07,9281
+Punjab and Haryana High Court,High Court,2009,21022,55816,2.66,21022
+Punjab and Haryana High Court,High Court,2010,26991,70825,2.62,26990
+Punjab and Haryana High Court,High Court,2011,28602,70948,2.48,28593
+Punjab and Haryana High Court,High Court,2013,24989,55417,2.22,24902
+Punjab and Haryana High Court,High Court,2014,34949,86971,2.49,34768
+Punjab and Haryana High Court,High Court,2015,40264,98613,2.45,40170
+Punjab and Haryana High Court,High Court,2016,39726,91352,2.3,39703
+Punjab and Haryana High Court,High Court,2017,42297,98729,2.33,42283
+Punjab and Haryana High Court,High Court,2018,51243,110950,2.17,51184
+Punjab and Haryana High Court,High Court,2019,46905,104830,2.23,46886
+Punjab and Haryana High Court,High Court,2020,30505,64060,2.1,30478
+Punjab and Haryana High Court,High Court,2021,24332,70080,2.88,24293
+Punjab and Haryana High Court,High Court,2022,50529,124300,2.46,50377
+Punjab and Haryana High Court,High Court,2023,3023,40009,13.23,2989
+Punjab and Haryana High Court,High Court,2024,8594,93802,10.91,8505
+Punjab and Haryana High Court,High Court,2025,2,6,3.0,
+Gujarat High Court,High Court,1982,1,1,1.0,1
+Gujarat High Court,High Court,1986,1,2,2.0,1
+Gujarat High Court,High Court,1987,1,1,1.0,1
+Gujarat High Court,High Court,1988,1,3,3.0,1
+Gujarat High Court,High Court,1992,2,4,2.0,2
+Gujarat High Court,High Court,1993,128,2150,16.8,2
+Gujarat High Court,High Court,1994,16,63,3.94,13
+Gujarat High Court,High Court,1995,296,845,2.85,195
+Gujarat High Court,High Court,1996,4165,10823,2.6,3724
+Gujarat High Court,High Court,1997,6661,42981,6.45,6255
+Gujarat High Court,High Court,1998,6155,18585,3.02,5624
+Gujarat High Court,High Court,1999,5155,21815,4.23,4783
+Gujarat High Court,High Court,2000,9668,38575,3.99,9158
+Gujarat High Court,High Court,2001,7139,24222,3.39,6577
+Gujarat High Court,High Court,2002,5411,19909,3.68,5077
+Gujarat High Court,High Court,2003,4974,40509,8.14,4677
+Gujarat High Court,High Court,2004,6438,26121,4.06,5993
+Gujarat High Court,High Court,2005,9220,43155,4.68,8763
+Gujarat High Court,High Court,2006,8326,52427,6.3,7943
+Gujarat High Court,High Court,2007,7703,40151,5.21,7303
+Gujarat High Court,High Court,2008,10996,77659,7.06,10472
+Gujarat High Court,High Court,2009,2,4,2.0,2
+Gujarat High Court,High Court,2010,2,4,2.0,2
+Gujarat High Court,High Court,2011,17,36,2.12,17
+Gujarat High Court,High Court,2012,12551,64554,5.14,11930
+Gujarat High Court,High Court,2013,9781,58268,5.96,9266
+Gujarat High Court,High Court,2014,13103,78744,6.01,12473
+Gujarat High Court,High Court,2015,9438,76979,8.16,8996
+Gujarat High Court,High Court,2018,47850,130871,2.74,45370
+Gujarat High Court,High Court,2019,65227,179773,2.76,61793
+Gujarat High Court,High Court,2020,43067,97583,2.27,40854
+Gujarat High Court,High Court,2021,56136,115711,2.06,53236
+Gujarat High Court,High Court,2022,71953,192543,2.68,68282
+Gujarat High Court,High Court,2023,4748,11088,2.34,4509
+Gujarat High Court,High Court,2024,1817,3646,2.01,1737
+Gujarat High Court,High Court,2025,5457,11058,2.03,5155
+Madhya Pradesh High Court,High Court,2000,13,21,1.62,13
+Madhya Pradesh High Court,High Court,2009,2,4,2.0,2
+Madhya Pradesh High Court,High Court,2010,45,192,4.27,45
+Madhya Pradesh High Court,High Court,2011,1024,3081,3.01,1024
+Madhya Pradesh High Court,High Court,2012,7825,18869,2.41,7824
+Madhya Pradesh High Court,High Court,2013,8552,19167,2.24,8552
+Madhya Pradesh High Court,High Court,2014,13537,24384,1.8,13537
+Madhya Pradesh High Court,High Court,2015,23839,38194,1.6,23839
+Madhya Pradesh High Court,High Court,2016,26179,51312,1.96,26159
+Madhya Pradesh High Court,High Court,2017,23935,44912,1.88,23926
+Madhya Pradesh High Court,High Court,2018,33472,67254,2.01,33471
+Madhya Pradesh High Court,High Court,2019,37064,69126,1.87,37064
+Madhya Pradesh High Court,High Court,2020,26738,55905,2.09,26738
+Madhya Pradesh High Court,High Court,2021,37058,64480,1.74,37058
+Madhya Pradesh High Court,High Court,2022,68167,135544,1.99,68162
+Madhya Pradesh High Court,High Court,2023,86604,156716,1.81,86603
+Madhya Pradesh High Court,High Court,2024,8578,17761,2.07,8578
+Rajasthan High Court,High Court,1989,1,1,1.0,1
+Rajasthan High Court,High Court,1990,1,1,1.0,1
+Rajasthan High Court,High Court,1996,2,7,3.5,2
+Rajasthan High Court,High Court,1999,2,26,13.0,2
+Rajasthan High Court,High Court,2000,2,11,5.5,2
+Rajasthan High Court,High Court,2001,3,5,1.67,3
+Rajasthan High Court,High Court,2002,2,4,2.0,2
+Rajasthan High Court,High Court,2003,3,5,1.67,3
+Rajasthan High Court,High Court,2004,215,779,3.62,215
+Rajasthan High Court,High Court,2005,1091,3907,3.58,1088
+Rajasthan High Court,High Court,2006,3628,14463,3.99,3605
+Rajasthan High Court,High Court,2007,5971,25481,4.27,5952
+Rajasthan High Court,High Court,2008,6285,25985,4.13,6251
+Rajasthan High Court,High Court,2009,6555,34158,5.21,6536
+Rajasthan High Court,High Court,2010,5138,32949,6.41,5122
+Rajasthan High Court,High Court,2011,4298,15930,3.71,4268
+Rajasthan High Court,High Court,2012,6239,47304,7.58,6231
+Rajasthan High Court,High Court,2013,6050,34921,5.77,6024
+Rajasthan High Court,High Court,2014,12025,49204,4.09,12001
+Rajasthan High Court,High Court,2015,13289,44348,3.34,13201
+Rajasthan High Court,High Court,2016,16517,73003,4.42,16496
+Rajasthan High Court,High Court,2017,26553,108395,4.08,26543
+Rajasthan High Court,High Court,2018,26891,118432,4.4,26887
+Rajasthan High Court,High Court,2019,23191,85788,3.7,23190
+Rajasthan High Court,High Court,2020,22870,82474,3.61,22869
+Rajasthan High Court,High Court,2021,30867,116027,3.76,30867
+Rajasthan High Court,High Court,2022,33371,139105,4.17,33370
+Rajasthan High Court,High Court,2023,38256,138825,3.63,38258
+Rajasthan High Court,High Court,2024,29186,145988,5.0,29186
+Rajasthan High Court,High Court,2025,6065,20405,3.36,6065
+Delhi High Court,High Court,1960,1,5,5.0,1
+Delhi High Court,High Court,1996,1,17,17.0,1
+Delhi High Court,High Court,1997,6,6,1.0,6
+Delhi High Court,High Court,1998,9,14,1.56,9
+Delhi High Court,High Court,2001,5,28,5.6,5
+Delhi High Court,High Court,2002,47,85,1.81,47
+Delhi High Court,High Court,2003,89,197,2.21,86
+Delhi High Court,High Court,2004,76,285,3.75,74
+Delhi High Court,High Court,2005,97,451,4.65,94
+Delhi High Court,High Court,2006,219,1327,6.06,211
+Delhi High Court,High Court,2007,1265,5431,4.29,1207
+Delhi High Court,High Court,2008,2528,12343,4.88,2419
+Delhi High Court,High Court,2010,7013,30985,4.42,6686
+Delhi High Court,High Court,2011,15797,85457,5.41,15036
+Delhi High Court,High Court,2012,11936,57516,4.82,11363
+Delhi High Court,High Court,2013,9616,44746,4.65,9143
+Delhi High Court,High Court,2014,6938,35323,5.09,6592
+Delhi High Court,High Court,2015,17174,69705,4.06,16338
+Delhi High Court,High Court,2016,44553,85357,1.92,42157
+Delhi High Court,High Court,2017,39079,83120,2.13,37087
+Delhi High Court,High Court,2018,42411,86876,2.05,40185
+Delhi High Court,High Court,2019,28334,69016,2.44,26909
+Delhi High Court,High Court,2020,13729,33397,2.43,13077
+Delhi High Court,High Court,2021,4716,24217,5.14,4502
+Delhi High Court,High Court,2022,5110,40098,7.85,4863
+Delhi High Court,High Court,2023,8739,61651,7.05,8314
+Delhi High Court,High Court,2024,50643,164383,3.25,48027
+Delhi High Court,High Court,2025,30023,101426,3.38,28497
+Gauhati High Court,High Court,2000,9,27,3.0,9
+Gauhati High Court,High Court,2001,19,33,1.74,19
+Gauhati High Court,High Court,2002,52,151,2.9,49
+Gauhati High Court,High Court,2003,7,67,9.57,6
+Gauhati High Court,High Court,2004,5,11,2.2,5
+Gauhati High Court,High Court,2005,18,89,4.94,18
+Gauhati High Court,High Court,2006,77,137,1.78,72
+Gauhati High Court,High Court,2007,1283,3217,2.51,1216
+Gauhati High Court,High Court,2008,1050,2902,2.76,991
+Gauhati High Court,High Court,2009,1341,3573,2.66,1269
+Gauhati High Court,High Court,2010,4397,8355,1.9,4166
+Gauhati High Court,High Court,2011,11460,15884,1.39,10804
+Gauhati High Court,High Court,2012,14941,23450,1.57,14180
+Gauhati High Court,High Court,2013,16552,24881,1.5,15681
+Gauhati High Court,High Court,2014,15127,24165,1.6,14254
+Gauhati High Court,High Court,2015,14563,24332,1.67,13805
+Gauhati High Court,High Court,2016,12262,21383,1.74,11465
+Gauhati High Court,High Court,2017,13219,24432,1.85,12486
+Gauhati High Court,High Court,2018,23805,70802,2.97,22560
+Gauhati High Court,High Court,2019,25971,47036,1.81,24545
+Gauhati High Court,High Court,2020,16579,33294,2.01,15750
+Gauhati High Court,High Court,2021,20696,42956,2.08,19655
+Gauhati High Court,High Court,2022,27460,71414,2.6,26008
+Gauhati High Court,High Court,2023,29417,91506,3.11,27946
+Gauhati High Court,High Court,2024,27945,84454,3.02,26510
+Gauhati High Court,High Court,2025,23001,72840,3.17,21808
+Orissa High Court,High Court,1992,1,4,4.0,1
+Orissa High Court,High Court,1997,2,2,1.0,2
+Orissa High Court,High Court,1999,1,9,9.0,1
+Orissa High Court,High Court,2000,1,29,29.0,1
+Orissa High Court,High Court,2001,4,16,4.0,4
+Orissa High Court,High Court,2002,2,25,12.5,2
+Orissa High Court,High Court,2003,1,3,3.0,1
+Orissa High Court,High Court,2004,6,18,3.0,6
+Orissa High Court,High Court,2005,38,142,3.74,38
+Orissa High Court,High Court,2006,56,188,3.36,56
+Orissa High Court,High Court,2007,21,66,3.14,21
+Orissa High Court,High Court,2008,24,117,4.88,24
+Orissa High Court,High Court,2009,120,684,5.7,120
+Orissa High Court,High Court,2010,523,5154,9.85,523
+Orissa High Court,High Court,2011,464,3438,7.41,464
+Orissa High Court,High Court,2012,546,3603,6.6,546
+Orissa High Court,High Court,2013,1580,7099,4.49,1580
+Orissa High Court,High Court,2014,835,3776,4.52,835
+Orissa High Court,High Court,2015,6165,12213,1.98,6164
+Orissa High Court,High Court,2016,11491,18006,1.57,11490
+Orissa High Court,High Court,2017,9047,15693,1.73,9046
+Orissa High Court,High Court,2018,5750,12031,2.09,5748
+Orissa High Court,High Court,2019,14041,21615,1.54,14040
+Orissa High Court,High Court,2020,16043,21118,1.32,16041
+Orissa High Court,High Court,2021,33667,45813,1.36,33666
+Orissa High Court,High Court,2022,44831,65957,1.47,44832
+Orissa High Court,High Court,2023,52249,86311,1.65,52249
+Orissa High Court,High Court,2024,50263,117250,2.33,50263
+Orissa High Court,High Court,2025,35291,61006,1.73,35291
+Andhra Pradesh High Court,High Court,1995,2,4,2.0,1
+Andhra Pradesh High Court,High Court,1996,1,2,2.0,1
+Andhra Pradesh High Court,High Court,2001,4,6,1.5,4
+Andhra Pradesh High Court,High Court,2002,2,3,1.5,2
+Andhra Pradesh High Court,High Court,2019,14311,36810,2.57,13109
+Andhra Pradesh High Court,High Court,2020,28047,68086,2.43,24189
+Andhra Pradesh High Court,High Court,2021,33857,123291,3.64,29274
+Andhra Pradesh High Court,High Court,2022,50774,132718,2.61,44925
+Andhra Pradesh High Court,High Court,2023,55098,184658,3.35,48809
+Andhra Pradesh High Court,High Court,2024,63402,300120,4.73,55650
+Andhra Pradesh High Court,High Court,2025,44013,186572,4.24,38516
+Jharkhand High Court,High Court,1993,1,2,2.0,1
+Jharkhand High Court,High Court,1994,1,4,4.0,1
+Jharkhand High Court,High Court,1998,1,6,6.0,1
+Jharkhand High Court,High Court,1999,2,8,4.0,2
+Jharkhand High Court,High Court,2000,5,26,5.2,5
+Jharkhand High Court,High Court,2002,1,6,6.0,1
+Jharkhand High Court,High Court,2012,2019,6791,3.36,2019
+Jharkhand High Court,High Court,2013,5306,17025,3.21,5306
+Jharkhand High Court,High Court,2014,7115,23629,3.32,7115
+Jharkhand High Court,High Court,2015,11086,37043,3.34,11086
+Jharkhand High Court,High Court,2016,10412,33260,3.19,10412
+Jharkhand High Court,High Court,2017,14579,51009,3.5,14579
+Jharkhand High Court,High Court,2018,15211,80589,5.3,15211
+Jharkhand High Court,High Court,2019,25251,104967,4.16,25251
+Jharkhand High Court,High Court,2020,15223,64562,4.24,15224
+Jharkhand High Court,High Court,2021,25078,82099,3.27,25078
+Jharkhand High Court,High Court,2022,29904,192179,6.43,29906
+Jharkhand High Court,High Court,2023,31165,153589,4.93,31166
+Jharkhand High Court,High Court,2024,32481,197573,6.08,32482
+Jharkhand High Court,High Court,2025,21533,190305,8.84,21533
+Calcutta High Court,High Court,1960,1,1,1.0,1
+Calcutta High Court,High Court,1964,1,1,1.0,1
+Calcutta High Court,High Court,1966,1,1,1.0,1
+Calcutta High Court,High Court,1968,1,1,1.0,1
+Calcutta High Court,High Court,1979,2,2,1.0,2
+Calcutta High Court,High Court,1980,1,1,1.0,1
+Calcutta High Court,High Court,1986,6,6,1.0,6
+Calcutta High Court,High Court,1992,2,2,1.0,2
+Calcutta High Court,High Court,1999,27,27,1.0,27
+Calcutta High Court,High Court,2001,37,37,1.0,37
+Calcutta High Court,High Court,2016,1,12,12.0,1
+Calcutta High Court,High Court,2019,284,388,1.37,280
+Calcutta High Court,High Court,2020,4773,5473,1.15,4722
+Calcutta High Court,High Court,2021,31118,38213,1.23,31064
+Calcutta High Court,High Court,2022,49281,83561,1.7,49240
+Calcutta High Court,High Court,2023,47558,73237,1.54,47516
+Calcutta High Court,High Court,2024,37812,74915,1.98,37785
+Calcutta High Court,High Court,2025,31901,47728,1.5,31877
+Himachal Pradesh High Court,High Court,1970,1,1,1.0,1
+Himachal Pradesh High Court,High Court,1987,1,1,1.0,1
+Himachal Pradesh High Court,High Court,1997,16,39,2.44,14
+Himachal Pradesh High Court,High Court,1998,1,1,1.0,1
+Himachal Pradesh High Court,High Court,1999,1,2,2.0,1
+Himachal Pradesh High Court,High Court,2001,25,60,2.4,25
+Himachal Pradesh High Court,High Court,2004,35,61,1.74,32
+Himachal Pradesh High Court,High Court,2005,55,110,2.0,52
+Himachal Pradesh High Court,High Court,2006,735,1743,2.37,685
+Himachal Pradesh High Court,High Court,2007,2891,7771,2.69,2759
+Himachal Pradesh High Court,High Court,2008,5120,11621,2.27,4838
+Himachal Pradesh High Court,High Court,2009,5376,11140,2.07,5106
+Himachal Pradesh High Court,High Court,2010,10424,22262,2.14,10029
+Himachal Pradesh High Court,High Court,2011,10246,20114,1.96,9865
+Himachal Pradesh High Court,High Court,2012,13876,64982,4.68,13329
+Himachal Pradesh High Court,High Court,2013,9622,26954,2.8,9273
+Himachal Pradesh High Court,High Court,2014,8873,31831,3.59,8611
+Himachal Pradesh High Court,High Court,2015,9869,37213,3.77,9493
+Himachal Pradesh High Court,High Court,2016,8225,35094,4.27,7920
+Himachal Pradesh High Court,High Court,2017,6505,21794,3.35,6273
+Himachal Pradesh High Court,High Court,2018,7664,28149,3.67,7383
+Himachal Pradesh High Court,High Court,2019,8490,38752,4.56,8110
+Himachal Pradesh High Court,High Court,2020,5783,25861,4.47,5649
+Himachal Pradesh High Court,High Court,2021,9328,35712,3.83,9123
+Himachal Pradesh High Court,High Court,2022,12177,60571,4.97,11906
+Himachal Pradesh High Court,High Court,2023,15199,76069,5.0,14899
+Himachal Pradesh High Court,High Court,2024,19050,107265,5.63,18772
+Himachal Pradesh High Court,High Court,2025,20090,87385,4.35,19783
+Uttarakhand High Court,High Court,1950,9,14,1.56,9
+Uttarakhand High Court,High Court,1997,1,1,1.0,1
+Uttarakhand High Court,High Court,1998,1,1,1.0,1
+Uttarakhand High Court,High Court,1999,2,3,1.5,2
+Uttarakhand High Court,High Court,2000,30,40,1.33,30
+Uttarakhand High Court,High Court,2001,555,1041,1.88,555
+Uttarakhand High Court,High Court,2002,702,1326,1.89,702
+Uttarakhand High Court,High Court,2003,1751,3641,2.08,1751
+Uttarakhand High Court,High Court,2004,1911,3443,1.8,1910
+Uttarakhand High Court,High Court,2005,1386,2625,1.89,1379
+Uttarakhand High Court,High Court,2006,3628,7020,1.93,3622
+Uttarakhand High Court,High Court,2007,1820,3124,1.72,1818
+Uttarakhand High Court,High Court,2008,4518,11146,2.47,4513
+Uttarakhand High Court,High Court,2009,2602,7570,2.91,2601
+Uttarakhand High Court,High Court,2010,5361,14333,2.67,5349
+Uttarakhand High Court,High Court,2011,3285,8378,2.55,3273
+Uttarakhand High Court,High Court,2012,4996,11522,2.31,4982
+Uttarakhand High Court,High Court,2013,6790,14128,2.08,6782
+Uttarakhand High Court,High Court,2014,5810,10098,1.74,5805
+Uttarakhand High Court,High Court,2015,6219,10717,1.72,6213
+Uttarakhand High Court,High Court,2016,5741,9706,1.69,5736
+Uttarakhand High Court,High Court,2017,7343,12054,1.64,7341
+Uttarakhand High Court,High Court,2018,7142,12743,1.78,7131
+Uttarakhand High Court,High Court,2019,9086,24105,2.65,9057
+Uttarakhand High Court,High Court,2020,5598,14050,2.51,5577
+Uttarakhand High Court,High Court,2021,8180,17695,2.16,8155
+Uttarakhand High Court,High Court,2022,8615,18066,2.1,8593
+Uttarakhand High Court,High Court,2023,8867,19235,2.17,8842
+Uttarakhand High Court,High Court,2024,7608,15721,2.07,7589
+Uttarakhand High Court,High Court,2025,4539,8502,1.87,4532
+Jammu & Kashmir High Court,High Court,2003,3,22,7.33,3
+Jammu & Kashmir High Court,High Court,2006,3,28,9.33,3
+Jammu & Kashmir High Court,High Court,2007,28,450,16.07,28
+Jammu & Kashmir High Court,High Court,2008,87,524,6.02,87
+Jammu & Kashmir High Court,High Court,2009,105,800,7.62,105
+Jammu & Kashmir High Court,High Court,2010,132,1041,7.89,131
+Jammu & Kashmir High Court,High Court,2011,111,825,7.43,110
+Jammu & Kashmir High Court,High Court,2012,194,1165,6.01,194
+Jammu & Kashmir High Court,High Court,2013,49,393,8.02,46
+Jammu & Kashmir High Court,High Court,2014,141,2030,14.4,137
+Jammu & Kashmir High Court,High Court,2015,182,1685,9.26,182
+Jammu & Kashmir High Court,High Court,2016,257,2231,8.68,257
+Jammu & Kashmir High Court,High Court,2017,2231,14009,6.28,2232
+Jammu & Kashmir High Court,High Court,2018,2081,17188,8.26,2081
+Jammu & Kashmir High Court,High Court,2019,3706,22249,6.0,3706
+Jammu & Kashmir High Court,High Court,2020,3941,17537,4.45,3941
+Jammu & Kashmir High Court,High Court,2021,5556,26133,4.7,5557
+Jammu & Kashmir High Court,High Court,2022,5567,31784,5.71,5567
+Jammu & Kashmir High Court,High Court,2023,6480,41885,6.46,6481
+Jammu & Kashmir High Court,High Court,2024,5433,34142,6.28,5433
+Jammu & Kashmir High Court,High Court,2025,4002,24846,6.21,4001
+Supreme Court of India,Supreme Court,1950,41,741,18.07,44
+Supreme Court of India,Supreme Court,1951,41,793,19.34,41
+Supreme Court of India,Supreme Court,1952,69,887,12.86,70
+Supreme Court of India,Supreme Court,1953,84,1287,15.32,84
+Supreme Court of India,Supreme Court,1954,80,1464,18.3,82
+Supreme Court of India,Supreme Court,1955,177,2415,13.64,192
+Supreme Court of India,Supreme Court,1956,61,681,11.16,62
+Supreme Court of India,Supreme Court,1957,72,892,12.39,74
+Supreme Court of India,Supreme Court,1958,85,1082,12.73,86
+Supreme Court of India,Supreme Court,1959,168,2352,14.0,170
+Supreme Court of India,Supreme Court,1960,211,2243,10.63,220
+Supreme Court of India,Supreme Court,1961,228,2198,9.64,231
+Supreme Court of India,Supreme Court,1962,407,3971,9.76,420
+Supreme Court of India,Supreme Court,1963,270,3098,11.47,280
+Supreme Court of India,Supreme Court,1964,447,5152,11.53,471
+Supreme Court of India,Supreme Court,1965,245,2269,9.26,254
+Supreme Court of India,Supreme Court,1966,325,2794,8.6,337
+Supreme Court of India,Supreme Court,1967,293,2506,8.55,308
+Supreme Court of India,Supreme Court,1968,265,2229,8.41,274
+Supreme Court of India,Supreme Court,1969,316,2591,8.2,342
+Supreme Court of India,Supreme Court,1970,322,2253,7.0,338
+Supreme Court of India,Supreme Court,1971,371,3141,8.47,382
+Supreme Court of India,Supreme Court,1972,273,2505,9.18,280
+Supreme Court of India,Supreme Court,1973,304,3484,11.46,315
+Supreme Court of India,Supreme Court,1974,263,2540,9.66,285
+Supreme Court of India,Supreme Court,1975,319,3258,10.21,339
+Supreme Court of India,Supreme Court,1976,362,3569,9.86,379
+Supreme Court of India,Supreme Court,1977,329,2654,8.07,351
+Supreme Court of India,Supreme Court,1978,221,2602,11.77,239
+Supreme Court of India,Supreme Court,1979,262,2951,11.26,289
+Supreme Court of India,Supreme Court,1980,293,3102,10.59,319
+Supreme Court of India,Supreme Court,1981,226,2549,11.28,244
+Supreme Court of India,Supreme Court,1982,151,2583,17.11,163
+Supreme Court of India,Supreme Court,1983,174,2296,13.2,189
+Supreme Court of India,Supreme Court,1984,199,2298,11.55,218
+Supreme Court of India,Supreme Court,1985,381,4681,12.29,400
+Supreme Court of India,Supreme Court,1986,216,2262,10.47,223
+Supreme Court of India,Supreme Court,1987,308,2676,8.69,331
+Supreme Court of India,Supreme Court,1988,520,4586,8.82,528
+Supreme Court of India,Supreme Court,1989,397,3466,8.73,411
+Supreme Court of India,Supreme Court,1990,401,3733,9.31,411
+Supreme Court of India,Supreme Court,1991,350,3505,10.01,366
+Supreme Court of India,Supreme Court,1992,358,3780,10.56,368
+Supreme Court of India,Supreme Court,1993,397,4223,10.64,405
+Supreme Court of India,Supreme Court,1994,623,5574,8.95,640
+Supreme Court of India,Supreme Court,1995,915,6181,6.76,931
+Supreme Court of India,Supreme Court,1996,1531,9214,6.02,1552
+Supreme Court of India,Supreme Court,1997,833,5222,6.27,850
+Supreme Court of India,Supreme Court,1998,491,4294,8.75,507
+Supreme Court of India,Supreme Court,1999,570,5131,9.0,589
+Supreme Court of India,Supreme Court,2000,608,5384,8.86,629
+Supreme Court of India,Supreme Court,2001,610,5150,8.44,636
+Supreme Court of India,Supreme Court,2002,578,5387,9.32,605
+Supreme Court of India,Supreme Court,2003,751,7376,9.82,788
+Supreme Court of India,Supreme Court,2004,729,6968,9.56,748
+Supreme Court of India,Supreme Court,2005,630,6310,10.02,653
+Supreme Court of India,Supreme Court,2006,976,8865,9.08,994
+Supreme Court of India,Supreme Court,2007,1322,10117,7.65,1383
+Supreme Court of India,Supreme Court,2008,1123,9033,8.04,1189
+Supreme Court of India,Supreme Court,2009,6,53,8.83,6
+Supreme Court of India,Supreme Court,2010,905,10041,11.1,973
+Supreme Court of India,Supreme Court,2011,847,10075,11.89,904
+Supreme Court of India,Supreme Court,2012,619,8658,13.99,690
+Supreme Court of India,Supreme Court,2013,839,10891,12.98,921
+Supreme Court of India,Supreme Court,2014,764,9024,11.81,825
+Supreme Court of India,Supreme Court,2015,743,8475,11.41,804
+Supreme Court of India,Supreme Court,2016,566,7210,12.74,605
+Supreme Court of India,Supreme Court,2017,710,9113,12.84,766
+Supreme Court of India,Supreme Court,2018,760,9876,12.99,828
+Supreme Court of India,Supreme Court,2019,806,10786,13.38,867
+Supreme Court of India,Supreme Court,2020,465,8494,18.27,494
+Supreme Court of India,Supreme Court,2021,405,8186,20.21,433
+Supreme Court of India,Supreme Court,2022,925,12798,13.84,990
+Supreme Court of India,Supreme Court,2023,839,14203,16.93,1105
+Supreme Court of India,Supreme Court,2024,744,11344,15.25,1369
+Supreme Court of India,Supreme Court,2025,439,5384,12.26,790
+Tripura High Court,High Court,2013,613,1810,2.95,567
+Tripura High Court,High Court,2014,2250,10190,4.53,2178
+Tripura High Court,High Court,2015,1911,9810,5.13,1908
+Tripura High Court,High Court,2016,1999,19260,9.63,1993
+Tripura High Court,High Court,2017,1172,5669,4.84,1170
+Tripura High Court,High Court,2018,1420,13054,9.19,1420
+Tripura High Court,High Court,2019,1914,12740,6.66,1913
+Tripura High Court,High Court,2020,1172,10416,8.89,1172
+Tripura High Court,High Court,2021,1435,23618,16.46,1435
+Tripura High Court,High Court,2022,1762,9710,5.51,1762
+Tripura High Court,High Court,2023,1468,6894,4.7,1468
+Tripura High Court,High Court,2024,1235,10996,8.9,1235
+Tripura High Court,High Court,2025,594,4368,7.35,594
+Manipur High Court,High Court,2017,169,329,1.95,169
+Manipur High Court,High Court,2018,707,1655,2.34,707
+Manipur High Court,High Court,2019,1143,5274,4.61,1143
+Manipur High Court,High Court,2020,487,3507,7.2,487
+Manipur High Court,High Court,2021,798,3694,4.63,798
+Manipur High Court,High Court,2022,1579,6690,4.24,1579
+Manipur High Court,High Court,2023,1041,4777,4.59,1041
+Manipur High Court,High Court,2024,989,2808,2.84,989
+Manipur High Court,High Court,2025,990,2909,2.94,990
+Meghalaya High Court,High Court,2010,4,52,13.0,4
+Meghalaya High Court,High Court,2011,26,369,14.19,19
+Meghalaya High Court,High Court,2012,30,180,6.0,27
+Meghalaya High Court,High Court,2013,202,1102,5.46,158
+Meghalaya High Court,High Court,2014,265,1371,5.17,258
+Meghalaya High Court,High Court,2015,172,1306,7.59,172
+Meghalaya High Court,High Court,2016,229,778,3.4,229
+Meghalaya High Court,High Court,2017,438,1678,3.83,438
+Meghalaya High Court,High Court,2018,380,925,2.43,380
+Meghalaya High Court,High Court,2019,543,1317,2.43,543
+Meghalaya High Court,High Court,2020,325,1830,5.63,325
+Meghalaya High Court,High Court,2021,425,1199,2.82,425
+Meghalaya High Court,High Court,2022,771,2474,3.21,771
+Meghalaya High Court,High Court,2023,854,2609,3.06,854
+Meghalaya High Court,High Court,2024,858,2691,3.14,858
+Meghalaya High Court,High Court,2025,739,2328,3.15,739
+Sikkim High Court,High Court,2000,3,10,3.33,3
+Sikkim High Court,High Court,2002,2,8,4.0,2
+Sikkim High Court,High Court,2003,2,4,2.0,2
+Sikkim High Court,High Court,2004,4,20,5.0,4
+Sikkim High Court,High Court,2005,2,4,2.0,2
+Sikkim High Court,High Court,2006,3,71,23.67,3
+Sikkim High Court,High Court,2007,1,2,2.0,1
+Sikkim High Court,High Court,2008,2,4,2.0,2
+Sikkim High Court,High Court,2009,2,22,11.0,2
+Sikkim High Court,High Court,2010,5,66,13.2,5
+Sikkim High Court,High Court,2011,1,2,2.0,1
+Sikkim High Court,High Court,2012,2,4,2.0,2
+Sikkim High Court,High Court,2013,13,450,34.62,13
+Sikkim High Court,High Court,2014,39,253,6.49,38
+Sikkim High Court,High Court,2015,6,70,11.67,6
+Sikkim High Court,High Court,2016,7,67,9.57,6
+Sikkim High Court,High Court,2017,16,38,2.38,16
+Sikkim High Court,High Court,2018,23,73,3.17,23
+Sikkim High Court,High Court,2019,57,270,4.74,57
+Sikkim High Court,High Court,2020,75,647,8.63,74
+Sikkim High Court,High Court,2021,94,324,3.45,94
+Sikkim High Court,High Court,2022,27,71,2.63,27
+Sikkim High Court,High Court,2023,23,81,3.52,23
+Sikkim High Court,High Court,2024,27,57,2.11,27
+Sikkim High Court,High Court,2025,20,60,3.0,20

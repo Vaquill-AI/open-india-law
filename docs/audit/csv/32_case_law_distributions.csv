@@ -1,0 +1,574 @@
+dimension,value,chunks
+section_type,body,16386764
+section_type,paragraph,9093233
+section_type,header,2277441
+section_type,conclusion,1168510
+section_type,section,939667
+section_type,arguments,885193
+section_type,judgment,180583
+section_type,issues,131125
+section_type,relief,121545
+section_type,facts,107341
+section_type,ratio_decidendi,53014
+section_type,analysis,41600
+section_type,procedure,31341
+section_type,statutes,859
+section_type,precedents,799
+section_type,obiter_dicta,456
+court_type,high_court,31048312
+court_type,supreme_court,371159
+disposition,ALLOWED,10686412
+disposition,DISMISSED,8149055
+disposition,DISPOSED,6208892
+disposition,REJECTED,988961
+disposition,DISPOSED OF,962944
+disposition,BAIL GRANTED,635154
+disposition,CLOSED,239357
+disposition,DISPOSED OF NO COSTS,237639
+disposition,QUASHED,192628
+disposition,Allowed/Partly Allowed on merits,175232
+disposition,Dismissed,146376
+disposition,ORDERED,136378
+disposition,Disposed Off,125416
+disposition,WITHDRAWN,124688
+disposition,DISPOSED OFF,124223
+disposition,Appeal(s) allowed,122641
+disposition,CLOSED NO COSTS,118881
+disposition,Bail,118827
+disposition,GRANTED,107534
+disposition,ALLOWED NO COSTS,106540
+disposition,DISMISSED NO COSTS,103698
+disposition,Allowed,79649
+disposition,38-RULE ABSOLUTE/ALLOWED @ FH,74400
+disposition,Disposed off,63404
+disposition,PREMPTORY,54964
+disposition,WITHDRAWN DISMISSED,52075
+disposition,REMANDED,51326
+disposition,39-RULE DISCHARGED/DISMISSED @ FH,46290
+disposition,PARTLY ALLOWED,45418
+disposition,Partly Allowed,42684
+disposition,DISMISSED AS INFRUCTUOUS,40461
+disposition,ACQUITTED,40193
+disposition,Disposed Of,37206
+disposition,PARTLY ALLOWED NO COSTS,34953
+disposition,CONVICTED,28198
+disposition,Disposed off/Decided on merits,27475
+disposition,BAIL REJECTED,26549
+disposition,35-ANY OTHER MODE @ ADM.STAGE,25841
+disposition,46-ANY OTHER MODE @ FH,25573
+disposition,ABSOLUTE,23761
+disposition,STAYED,21820
+disposition,Allowed/Partly Allowed on merits/Granted,19176
+disposition,Case Partly allowed,18042
+disposition,RELAXED,14877
+disposition,MODIFIED,14667
+disposition,,13457
+disposition,26-DISMISSED  @ ADM.STAGE,13287
+disposition,OTHERS DISPOSED OFF,12948
+disposition,DISMISSED FOR NON-PROSECUTION,10992
+disposition,PARTLY ALLOWED (DISPOSAL),9769
+disposition,Disposed off/Dismissed for default,9293
+disposition,Admitted/Allowed/Granted/Rule Absolute,9143
+disposition,Rule Made Absolute,8979
+disposition,Closed,8905
+disposition,DISMISSED AS WITHDRAWAL,7998
+disposition,Dispossed Off/Dismiss for Default,7559
+disposition,Case Allowed,6993
+disposition,44-PARTLY ALLOWED @ FH,6552
+disposition,ALLOWED AND REMANDED,6546
+disposition,ALLOWED IN PART,6129
+disposition,DISMISSED AS WITHDRAWN,5967
+disposition,SCHEME SANCTIONED - COMPANY,5890
+disposition,PARTLY ALLOWED AND PARTLY DISMISSED,5805
+disposition,DROPPED,5579
+disposition,Dismissed on merits,5491
+disposition,DECREED,5425
+disposition,Reference answered,5379
+disposition,Directions issued,5134
+disposition,Dismiss other than merit(DD/Non Prosec./Abated),4889
+disposition,DISMISSED FOR DEFAULT,4871
+disposition,DISPOSED OF WITH DIRECTION,4379
+disposition,CONVERTED,4085
+disposition,Dismissed/Rule Discharged,3964
+disposition,RULE ABSOLUTE,3926
+disposition,Disposed of,3876
+disposition,Admitted/Allwd/Granted/Rule Absolute,3753
+disposition,42-RULE DISCHARGED @ FH,3588
+disposition,D.F.D. FOR NON APPEARANCE,3431
+disposition,Consigned to Record,3426
+disposition,DELAY CONDONED,3246
+disposition,DISMISSED AS ABATED,3237
+disposition,Matter referred to larger bench,2452
+disposition,Transferred to HP Administrative Tribunal,2434
+disposition,DISMISSED WITH COST,2276
+disposition,CLOSED AS INFRUCTUOUS,2273
+disposition,DISCHARGED,2255
+disposition,DISMISS FOR NON-PROSECUTION,2192
+disposition,DISMISSED AS NOT MAINTAINABLE,2041
+disposition,Re-Transferred to Trial Court,1980
+disposition,Transfer to Other Court.,1977
+disposition,Rule made absolute,1908
+disposition,JUDGEMENT,1837
+disposition,REJECTED /DISPOSED AT ADM.STAGE(EXCEPT APPEAL) BAIL GR./REJ.,1791
+disposition,COMPROMISE,1744
+disposition,56-DISPOSED AT ADMISSION STAGE,1711
+disposition,DISPOSED OF AS INFRUCTUOUS,1701
+disposition,Rejected,1622
+disposition,Withdrawn,1523
+disposition,APPLICATION ALLOWED,1508
+disposition,Rule Discharged,1477
+disposition,ALLOWED WITH COSTS,1476
+disposition,DISMISSED AS NON PROSECUTION,1467
+disposition,SETTLED BEFORE THE LOK-ADALATS,1401
+disposition,Dismissed for Non-Prosecution,1387
+disposition,ABATED,1373
+disposition,TIME EXTENDED,1359
+disposition,47-DISPOSAL IN ANY OTHER MODE FH,1333
+disposition,CONSIGNED,1326
+disposition,CONSENT TERM,1322
+disposition,DISMISSED AS NOT PRESSED,1318
+disposition,DECREE,1306
+disposition,58-RULE ISSUED & RULE ABSOLUTE/ALLOWED @FH,1140
+disposition,Abated,1132
+disposition,RULE DISCHARGED,1115
+disposition,DISMISSED FOR NOT PRESSED,1107
+disposition,28-REJECTED   @ ADM.STAGE,1101
+disposition,C.A. Disposed off,1067
+disposition,DECREE IN TERMS OF MEMO OF COMPROM,1047
+disposition,EX-PARTE DECREE,987
+disposition,ALLOWED ON CONDITION,950
+disposition,Transfer to other Court,933
+disposition,36-MCA DISPOSED OF,915
+disposition,Leave Granted & Allowed,914
+disposition,Dismissed on merits/Rejected,878
+disposition,Disposed-Off,854
+disposition,DELAY CONDONATED/REJECTED.,849
+disposition,NON PROSECUTION,847
+disposition,DECREED AS PRAYED FOR,828
+disposition,Disposed in Lok Adalat,823
+disposition,DISMISSED WITH COSTS,819
+disposition,Hearing Adjourned,814
+disposition,31-NOTICE DISCHARGED @ ADM.STAGE,769
+disposition,53-ALLOWED / GRANTED @ ADM.STAGE,768
+disposition,Dismissed for non-complying conditional Order,768
+disposition,DISPOSED OF IN MEMO OF COMPROMISE,765
+disposition,Dropped,760
+disposition,ANTICIPATARY BAIL GRANTED/REJECTED.,757
+disposition,SETTLED IN ADALAT,748
+disposition,LEAVE GRANTED,737
+disposition,INFRUCTUOUS,735
+disposition,Granted,711
+disposition,DISPOSAL WITH OBSERVATION,704
+disposition,ALLOWED TO BE WITHDRAWN AT ADMISSION STAGE,688
+disposition,DISSMISS FOR DEFAULT/NON-PROSECUTION,671
+disposition,"Transferred to Central Administrative Tribunal, Jammu Bench",667
+disposition,DISPOSED AT ADMISSION STAGE,647
+disposition,ORDERED ACCORDINGLY,618
+disposition,DISMISSED AS SETTLED OUT OF COURT,602
+disposition,Allowed To be withdrawn,596
+disposition,OTHER DISPOSED OFF,595
+disposition,Dismised,584
+disposition,APPEAL DISMISSED/CONFIRMED,581
+disposition,33-CA DISPOSED OF,576
+disposition,DISPOSAL BCZ FILE SHIFTED TO TRIBUNAL,574
+disposition,27-WITHDRAWN  @ ADM.STAGE,571
+disposition,Amount Awarded,567
+disposition,Dissmiss For Default/Non-Prosecution,557
+disposition,40-WITHDRAWN @ FH,556
+disposition,DISMISSED WITH LIBERTY,541
+disposition,SETTLED,516
+disposition,D.F.D.(DISSMISSED ON DEFAULT),498
+disposition,STAY MADE ABSOLUTE,494
+disposition,LEAVE TO APPEAL GRANTED/REFUSED,494
+disposition,APPEAL ALLOWED/REVERSED,457
+disposition,Rejected at Admission Stage,451
+disposition,Dismissed  As infractuous,448
+disposition,Dismissed On withdrawal no order for such liberty,399
+disposition,ANTICIPATORY BAIL GRANTED,386
+disposition,APPEAL DISMISSED,343
+disposition,Leave Granted & Disposed off,341
+disposition,Transfer to other court,336
+disposition,DISMISSED WITH DIRECTION,333
+disposition,TRANSFER TO OTHER COURT,319
+disposition,Set Aside,319
+disposition,Remitted to Lower Court,316
+disposition,DISPOSED AS INFRUCTUOUS,315
+disposition,Confirmed,302
+disposition,Admitted and Disposed Off,300
+disposition,ANSWERED,296
+disposition,Transferred CAT JAMMU,290
+disposition,Dismissed on withdrawal with liberty to approach again,287
+disposition,Converted,284
+disposition,COMPROMISED/CONSENT TERMS,278
+disposition,PEREMPTORY,273
+disposition,43-DISMISSED FOR DEFAULT @ FH,271
+disposition,IA/Memo/VK/OP in disposal,266
+disposition,ALLOWED AS PRAYED FOR,264
+disposition,Cases not falling above,262
+disposition,TRANSFERRED,262
+disposition,DISMISSED FOR NON-PROSECUTION/DEFAULT AT ADMISSION STAGE,257
+disposition,Leave granted,256
+disposition,PARTLY ALLOWED  PARTLY DISMISSED,253
+disposition,86-TRANSFERRED TO NCLT,246
+disposition,Succeeds,243
+disposition,Reference Disposed off,238
+disposition,CLOSED AS NOT PRESSED,232
+disposition,Delay condoned,230
+disposition,CLARIFIED,224
+disposition,Leave Granted & Dismissed,223
+disposition,COMPANY WOUND UP,221
+disposition,DISPOSED OF AS NOT PRESSED,218
+disposition,Dismissed After,218
+disposition,Partly allowed,215
+disposition,ALLOWED REMAND NO COSTS,211
+disposition,DISPOSED OF WITH COSTS,209
+disposition,By Transfer,206
+disposition,TRIAL BE EXPEDITED,201
+disposition,SETTLED IN LOK ADALAT,187
+disposition,Dismissed not complying condition order,178
+disposition,ADJOURNED SINE DIE,174
+disposition,DISPOSED OFF AS A WITHDRAWN,173
+disposition,BAIL GRANTED / REJECTED(FOR APEAL),168
+disposition,ORDERED AS PRAYED OFOR,163
+disposition,DISPENSED WITH  ORDERED,160
+disposition,REJECTED FOR NOT REMOVING OFFICE OBJECTIONS,156
+disposition,ALLOWED AS INDICATED ABOVE,156
+disposition,IA disposed,152
+disposition,Dismissed as Withdrawn,149
+disposition,Rule discharged,147
+disposition,DISPENSED WITH FOR THE PRESENT,147
+disposition,DISPOSED OF ACCORDINGLY,140
+disposition,ALLOWED TO BE WITHDRAWN,140
+disposition,ORDERED ON TERMS,138
+disposition,ALLOWED WITH DIRECTION,135
+disposition,Appeal Abated,130
+disposition,Modified,126
+disposition,DISMISSED FOR NON PROSECUTION,125
+disposition,INJUNCTION MADE ABSOLUTE,122
+disposition,Settled In Lok Adalat,121
+disposition,ALLOWED IN TERMS OF COMPROMISE,120
+disposition,Rejected at Admission stage,120
+disposition,ALLOWED  REMANDED,118
+disposition,DISMISSED WITHOUT COSTS,115
+disposition,DISMISSED WITH MODIFICATION,113
+disposition,"TRANSFERED TO CAT,HYDERABAD",112
+disposition,PLAINT RETURNED TO PLAINTIFF,111
+disposition,Transferred CAT SRINAGAR,111
+disposition,TRANSFER CASES,108
+disposition,Infractous,108
+disposition,Infructuous,106
+disposition,DISMISSED IN DEFAULT,102
+disposition,CONVERTED TO OTHER TYPE,102
+disposition,DISMISSED WITH OBSERVATION,102
+disposition,Compromised/Consent Terms,100
+disposition,REMITTED,99
+disposition,TRANSFERED TO OTHER COURTS,99
+disposition,Leave Granted,98
+disposition,Dismissed as Infractuous,98
+disposition,REVOKED,95
+disposition,CLOSED WITH DIRECTION,94
+disposition,INTERM  ORDER,94
+disposition,Decided Case,91
+disposition,RETURN TO COUNSEL,89
+disposition,JHARKHAND,87
+disposition,Remanded,86
+disposition,TRANSFER TO OTHER COURT AT ADMISSION STAGE,83
+disposition,ALLOWED WITHOUT COSTS,83
+disposition,REJECTED /DISPOSED OF AT ADMISSION STAGE(EXCEPT APPEAL),83
+disposition,SENTENCE SUSPENDED.,83
+disposition,DISPOSED OF BY TRANSFER,83
+disposition,TRANSFERED TO APPELLATE SIDE,82
+disposition,TRANSFERED TO DRT,81
+disposition,COMPOUNDED,80
+disposition,BOGUS,80
+disposition,SUCCEED,79
+disposition,Dismissed As Not Pressed,77
+disposition,Decided by Lok Adalat,76
+disposition,REJECTED U/S 986,73
+disposition,D.F.D. (PRE-EMPTORY),72
+disposition,Appeal Is Dismissed,72
+disposition,RETURNED,72
+disposition,DISPOSED BY NONPV,69
+disposition,Settled,68
+disposition,Disposed of with direction,66
+disposition,Order modified,66
+disposition,Proceedings Closed/Dropped,66
+disposition,TRANSFER TO CITY CIVIL COURT,65
+disposition,DISMISSED FOR NON-PROSECUTION/DEFAULT AT FINAL HEARING STAGE,65
+disposition,57-NOTICE ISSUED & NOTICE DISCHARGED,64
+disposition,DISPOSED OFF- Reporting Compliance,64
+disposition,GRANT ISSUED,63
+disposition,DIRECTION,63
+disposition,Transf/Returned for presentation to other court,62
+disposition,Heard,61
+disposition,Dismissed For Default/Non-Prosecution,56
+disposition,DISMISSED AS REJECTED,55
+disposition,Bail Granted,55
+disposition,CLOSED AS WITHDRAWN,55
+disposition,INTERIM DIRECTION MADE ABSOLUTE,54
+disposition,NO FURTHER ORDERS,54
+disposition,DISMISSED FOR NON-COMPLYING CONDITIONAL ORDER,53
+disposition,Decided in terms of compromise,53
+disposition,INTERIM BAIL,52
+disposition,Dismiss,51
+disposition,Dismissed For Non-prosecution,51
+disposition,APPEAL ALLOWED,51
+disposition,TRANSFERRED TO CITY CIVIL COURT,51
+disposition,30-EX-PARTY   @ ADM.STAGE,49
+disposition,"DISPOSAL BCZ FILE SHIFTED TO AFT, KOLKATA",49
+disposition,BAIL CANCELLED,48
+disposition,Dismissal for Non Compliance of Office Objections,48
+disposition,ALLOWED - REMITTED,46
+disposition,CLOSED WITH OBSERVATION,46
+disposition,ABATED-,45
+disposition,INFRUCTIOUS,45
+disposition,DISMISSED AND CONVICTION CONFIRMED,44
+disposition,Dismissed as withdrawn,44
+disposition,Dismissed As Not Maintainable,42
+disposition,Speaking To Minutes,41
+disposition,CLOSED WITH COSTS,41
+disposition,CONDITIONAL ORDER,41
+disposition,Lok Adalat Disposal,41
+disposition,ANTICIPATORY BAIL REJECTED,39
+disposition,Disposed On Motion date after hearing the both sides,38
+disposition,Leave to Appeal Granted,38
+disposition,NOT CONFIRMED,38
+disposition,Proceedings closed/dropped,38
+disposition,Transferred to High Court,38
+disposition,Transferred to Indore Bench,38
+disposition,DISMISSED FOR NON-PROSECUTION/DEFAULT,37
+disposition,APPEAL CONFIRMED,36
+disposition,ALLOWED WITH COST,36
+disposition,TRANSFERRED TO NATIONAL GREEN TRIBUNAL,36
+disposition,APPEAL DISMISSED AT ADMISSION STAGE,35
+disposition,DISPOSED OF WITH OBSERVATION,35
+disposition,Remanded for retrial,35
+disposition,Reversed,35
+disposition,COMPROMISED,34
+disposition,Reference Answered,33
+disposition,DISMISSED IN LIMINE,33
+disposition,59-RULE ISSUED & RULE DISCHARGED/DISMISSED@FH,32
+disposition,DEREGISTERED,32
+disposition,TRANSFER LOWER COURT,31
+disposition,Petition made absolute,31
+disposition,Dismissed AS Infractous,31
+disposition,SETTLED IN MEDIATION,29
+disposition,Infructuos,29
+disposition,PARTLY ALLOWED WITH COSTS,29
+disposition,ADJUDICATED,28
+disposition,DISPOSED/ CASE TRANSFERED TO MP HIGH COURT,28
+disposition,51-TRANSFERRED TO SC / OTHER HC,28
+disposition,DE-REGISTERED,28
+disposition,Dismissed for Non Prosecution,28
+disposition,Transfer to other Tribunals,27
+disposition,Compramised,26
+disposition,TRANSFER TO OTHER COURT AT FINAL HEARING STAGE,26
+disposition,ALLOWED & REMANDED,26
+disposition,TRANSFERRED TO KERALA ADMINISTRATIVE TRIBUNAL,26
+disposition,41-COMPROMISE @ FH,25
+disposition,DE-REGISTER THE CASE,24
+disposition,Compromised.,24
+disposition,Application granted,24
+disposition,Verify,23
+disposition,AG and OT,22
+disposition,Appeal Is Allowed,22
+disposition,DISMISSED SETTLED OUT OF COURT,21
+disposition,ANNULMENT ORDERED,21
+disposition,DISPOSED OFF / TRANSMITTED BACK TO DISTRICT COURT,21
+disposition,TRANSFERRED TO LOWER COURT,21
+disposition,Transferred to NGT Bhopal,21
+disposition,37-DISMISSED FOR DEFAULT @ ADMISSION,20
+disposition,OTHERS (DISPOSE/DISMISSED for court disposal),20
+disposition,Rule Disposed of,20
+disposition,Provisional Bail,20
+disposition,ANSWERED AGAINST ASSESSE,19
+disposition,Modification,19
+disposition,AT THE TIME OF HEARING,18
+disposition,EXPEDEDIT,18
+disposition,CASE DISPOSED BY THE SUPREME COURT OF INDIA,18
+disposition,CLOSED AS ABATED,18
+disposition,NOT MAINTAINABLE/RETURN THE FILE,18
+disposition,I. O. Set a Side,17
+disposition,Registration Refused.,17
+disposition,Disposed Off As Infractous,17
+disposition,45-TRANSFERRED TO CAT @ FH,16
+disposition,RESTORED,16
+disposition,DISPOSED OF AS WITHDRAWN,16
+disposition,Disposed off as abated,16
+disposition,Not Pressed,15
+disposition,DISPOSED OFF AT ADMISSION STAGE,14
+disposition,INJUNCTION VACATED,14
+disposition,REMANDED FOR RETRIAL,14
+disposition,Stay,14
+disposition,Transferred to NCLT,14
+disposition,ALLOWED TO BE WITHDRWAN AT FINAL HEARING STAGE,13
+disposition,BAIL GRANTED / REJECTED,13
+disposition,DOES NOT SURVICE(MAIN MATTER DISPOSED OFF),13
+disposition,MODIFIED AND DISMISSED,13
+disposition,PLAINT REJECTED,13
+disposition,TRANSFER CASES TO PRINCIPAL SEAT,13
+disposition,TRANSFER TO TRIBUNAL,13
+disposition,29-COMPROMISE @ ADM.STAGE,13
+disposition,COMPROMISE ORDERED,13
+disposition,Dismiss For Default/Want of Prosecution,13
+disposition,55-TRANSFER TO DEBT RECO.TRIBUNAL,12
+disposition,ANSWERED IN FAVOUR OF REVENUE,12
+disposition,ANSWERED IN THE AFFIRMATIVE,12
+disposition,NOT-PRESSED,12
+disposition,ORDERED IN TERMS OF DECREE OF COMPR,12
+disposition,OTHERS DISPOSED- OFF,12
+disposition,SET ASIDE,12
+disposition,CONFIRMED,12
+disposition,REFERENCE ANSWERED,12
+disposition,Transferred to Allahabad High Court,11
+disposition,DISPOSED OF ON CONDITION,11
+disposition,34-TRANSFERRED TO CAT /TRIBUNAL,10
+disposition,ANSWERED IN FAVOUR OF ASSESSE,10
+disposition,Special Leave to Appeal Granted,10
+disposition,ALLOWED WITH OBSERVATION,10
+disposition,Disposed Off as Withdrawn,10
+disposition,Petition Is Allowed,10
+disposition,"Transfer to Armed Forces Tribunal Bench, Jammu",10
+disposition,Transferred to principal bench,10
+disposition,ALLOWED & REMITTED,9
+disposition,ARBIRTATION APPOINTMENT,9
+disposition,INTELLECTUAL PROP. APPELLATE BD.,9
+disposition,DECREE ON ADMISSION,9
+disposition,DISPOSAL BCZ FILE SHIFTED TO SUPREMECOURT,9
+disposition,Data not available in the software,9
+disposition,Direction for District Court,9
+disposition,Permission to File SLP/Appeal-allowed and matter dismissed(including all pending IAs),9
+disposition,"Transfer to Central Administrative Branch, Jammu",9
+disposition,DISMMISSED/BY CIRCULATION IN CHAMBER,8
+disposition,DISPOSED AS ABATED,8
+disposition,Remanded Back,8
+disposition,STAY VACATED,8
+disposition,TERMINATED,8
+disposition,60-DISMISSED FOR DEFAULT @ ADMISSION STAGE,8
+disposition,PARTLY ALLOWED @ ADMISSION STAGE,8
+disposition,R and P TRANSFERED TO RAILWAY TRIBUNAL,8
+disposition,TRANSFERED TO LOK ADALAT,8
+disposition,Condoned,8
+disposition,TRANSFERRED TO CAT,8
+disposition,DISCHARGE ORDERED,7
+disposition,DISMISSED AS REMANDED,7
+disposition,DISPOSED AS TRANSFERRED TO JALPAIGURI CIRCUIT BENCH,7
+disposition,Interim Bail made Absolute,7
+disposition,PERMITTED,7
+disposition,Stay Granted,7
+disposition,Dismissed for non prosecution,6
+disposition,PARTLY ALLOWED & PARTLY DISMISSED,6
+disposition,Partly Success,6
+disposition,52-TRANSFERRED TO DISTRICT/SESSION COURT,6
+disposition,DISMISS IN DEFAULT,6
+disposition,Order on PUD/Clerical error,6
+disposition,32-NO ORDER @ ADM STAGE,5
+disposition,ALLOWED TO WITHDRAWN,5
+disposition,Dismissed For default,5
+disposition,R and P TRANSFERED TO NAGPUR BENCH,5
+disposition,TRANSFERED TO SPECIAL COURT,5
+disposition,Transferred to Lucknow Bench of Allahabad High Court,5
+disposition,DISPOSED OFF (CONVERTED TO CIVIL),5
+disposition,DISPOSED/ORDERED (Sr.Citizen Case),5
+disposition,STAY ORDERED,5
+disposition,TRANSFERED TO FAMILY COURT,5
+disposition,Transferred to Gulbarga,5
+disposition,Transferred to Jabalpur Bench,5
+disposition,BAIL ON CONDITION,4
+disposition,CANCELED,4
+disposition,Closed For Judgment - CAV,4
+disposition,INJUNCTION ORDERED,4
+disposition,RETAIN,4
+disposition,RETURNED TO UNANSWERED,4
+disposition,Refused,4
+disposition,TRANSFERD TO SUPREME COURT,4
+disposition,Disposed off as Withdrawn,4
+disposition,Allowed with modification,4
+disposition,Transferred to Dharwad,4
+disposition,CHANGED/CONVERTED TO CH/S,3
+disposition,COMPROMISE AT ADMISSION STAGE,3
+disposition,DE-NUMBERED,3
+disposition,DISMISSED AS INFRACTUOUS,3
+disposition,DISMISSED ON MERITS,3
+disposition,DISPOSAL WITH REMARK,3
+disposition,DISPOSED AS TRANSFERRED TO CIRCUIT BENCH AT PORT BLAIR,3
+disposition,DISPOSED OFF AT N/M STAGE,3
+disposition,Dismissed for default,3
+disposition,ORG. PAPERS RETURNED TO PLAINTIFF,3
+disposition,Proceeding Closed,3
+disposition,TRANSFERRED TO TRIBUNAL,3
+disposition,Transfer,3
+disposition,BAIL IN PART,3
+disposition,Addl. Ground,3
+disposition,Returned to Counsel,3
+disposition,TRANSFERRED TO ARMED FORCE TRIBUNAL,3
+disposition,Transfer to Armed Forces Tribunal Bench,3
+disposition,Transferred to Gwalior Bench,3
+disposition,Transfrd to Dharwad(Disposed),3
+disposition,Transfrd to Gulbarga(Disposed),3
+disposition,76-NOTE FILED BY OFFICE,2
+disposition,AWAIT,2
+disposition,DISPOSED AS WITHDRAWN,2
+disposition,NONE,2
+disposition,PARTLY WITHDRAWN,2
+disposition,PETITION REMITTED BACK FOR FRESH CONSIDERATION,2
+disposition,REFER TO ARBITRATION,2
+disposition,REFER TO TRIBUNAL,2
+disposition,REVERSED AND REMANDED,2
+disposition,SANCTIONED,2
+disposition,STRUCK OFF,2
+disposition,TRANSFER TO ALLAHABAD HC,2
+disposition,Transfer to Aurangabad Bench.,2
+disposition,"Transferred to NCLT, Hyderabad",2
+disposition,WRONGLY ENTERED IN S/W,2
+disposition,65-REGISTRATION REFUSED,2
+disposition,TRANSFERRED TO PONDICHERRY,2
+disposition,Appeal Is Partly Allowed,2
+disposition,DEATH SENTENCE CONFIRMED,2
+disposition,DISMISSED ON CONDITION,2
+disposition,DISPOSED AS NOT PRESSED,2
+disposition,For Purpose of Compliance,2
+disposition,Petition Is Dismissed/rejected,2
+disposition,Returned to Lower Court,2
+disposition,Transferred,2
+disposition,Transferred to Principal Bench,2
+disposition,Transferred to Srinagar Wing,2
+disposition,64-NOTE DISPOSED OFF,1
+disposition,80-AS PER THE DIRECTION OF HONOURABLE SUPREME COURT,1
+disposition,89-TRANSFERRED TO CIVIL COURT,1
+disposition,ADDL. GROUND,1
+disposition,ADMITTED,1
+disposition,AFFIRMATIVE AGAINST ASSESSEE,1
+disposition,AWARD RETURN TO ARBITRATOR,1
+disposition,Accepted,1
+disposition,BAIL,1
+disposition,CASE CONVERSION BY COURT ORDER,1
+disposition,COMPROMISE AT FINAL HEARING STAGE,1
+disposition,DISMISSED FOR WANT OF PROSECUTION,1
+disposition,DISMISSED ON CONTEST,1
+disposition,DISPOSED AS NOT MAINTAINABLE,1
+disposition,DISPOSED OFF-`Reporting Compliance`,1
+disposition,Decree Set aside,1
+disposition,Disposed off as per Administrative Order,1
+disposition,Plaint Returned,1
+disposition,REMAND,1
+disposition,RULE ISSUED AND PARTLY ALLOWED,1
+disposition,"TR ARMED FORCES TRIBUNAL,CHENNAI",1
+disposition,"TR GREEN TRIBUNAL, CHENNAI",1
+disposition,TRANSFERED TO DELHI HIGH COURT,1
+disposition,TRANSFERRED TO ARMY TRIBUNAL,1
+disposition,TRANSFERRED TO CIRCUIT BENCH JALPAIGURI,1
+disposition,Transfer To Supreme Court,1
+disposition,UNWANTED,1
+disposition,Withdrawn as infructuous,1
+disposition,CONVERTED AS WP(C),1
+disposition,Case Converted To Another Case Type,1
+disposition,DECREED EX-PARTY,1
+disposition,DISMISSED IN ADALAT,1
+disposition,Dismiss By Prem.order,1
+disposition,Dismissed as not pressed,1
+disposition,Dismissed with peremptory order,1
+disposition,Not pressed,1
+disposition,REVIEWED,1
+disposition,T-Dharwad to Gulbarga,1
+disposition,Transferred to NGT New Delhi,1

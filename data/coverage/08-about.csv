@@ -1,0 +1,22 @@
+,About this data
+,Position as at July 2026.
+,Definitions
+,Judgment,"One decision of one court, held in full text. Judgments are counted once each, however long they are."
+,Matter,"One case before a tribunal or regulator, counted once however many documents were issued in it."
+,Document,"One file held for a matter, as issued by the forum. This includes reasoned judgments, interim and procedural orders, order sheets and case status records, which is why documents exceed matters."
+,Enactment,"One Act, ordinance, rule set, regulation, circular or notification, counted once regardless of how many sections it contains."
+,Section,"One section, rule or regulation within an enactment, held and searched as a separate unit so a search returns the specific provision."
+,Main period,"The span of years containing 90% of a court's judgments. Most courts hold a small number of much older decisions, so the single oldest judgment overstates how far back usable coverage runs."
+,How the figures were compiled
+,Basis,"Every figure is a complete count of the material we hold, taken directly from it. Nothing is sampled, estimated or projected, with one exception which is labelled as an estimate on the Tribunals sheet."
+,Counting,"Counts are of distinct decisions, matters and enactments. Where the same judgment is held more than once it is counted once."
+,Verification,Every count was checked against a separately maintained record of the same material. The two agree to within 0.01%.
+,Reasoned decisions,"The one estimated column. Tribunal files range from full judgments to one line procedural orders, so the share of reasoned decisions was measured on a random sample of 150 documents per forum. It is accurate to about 8 percentage points either way and is labelled as an estimate."
+,Points to note
+,Depth varies by court,"Coverage is deepest from the mid 2000s onward, when courts began publishing judgments electronically as a matter of course. Earlier material is held but is not continuous. The Courts sheet gives the position for each court."
+,Forums differ,"Tribunals publish very differently from one another. Some post every order, others only final judgments, and some began publishing electronically only recently."
+,Recent months,"The most recent months of any year are lighter than they will eventually be, because decisions are added as courts and forums publish them."
+,Search status,"Judgments and legislation are fully searchable in text. Tribunal material is searchable by case index, with the full document available to open and read. Full text search across tribunal material is in progress."
+,Overlap,Every row on the Regulators sheet is also inside the Central row on the Legislation sheet. Do not add the two together.
+,Questions
+,Contact,"We are happy to confirm coverage for any specific court, forum, period or subject area on request."

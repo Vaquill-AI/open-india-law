@@ -1,0 +1,16 @@
+{
+ "legal_corpus_v1": {
+  "points": 19595718,
+  "index_points": 19534503,
+  "is_empty": 61175,
+  "reachable_by_date_range": 19534503,
+  "present_but_unparseable": 40
+ },
+ "legal_corpus_v2": {
+  "points": 11823753,
+  "index_points": 11427723,
+  "is_empty": 24838,
+  "reachable_by_date_range": 11427723,
+  "present_but_unparseable": 371192
+ }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "open-india-law",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Scrapers for Indian primary law: Central and State legislation, tribunal and regulator decisions.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "scrape:indiacode": "tsx scripts/legislation/indiacode-scraper.ts",
+    "scrape:nclt": "tsx scripts/tribunals/nclt-efiling-scraper.ts",
+    "scrape:itat": "tsx scripts/tribunals/itat-scraper.ts",
+    "scrape:sebi": "tsx scripts/regulators/sebi-scraper.ts"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cheerio": "^1.0.0",
+    "p-limit": "^6.1.0",
+    "playwright": "^1.47.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
