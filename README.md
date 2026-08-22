@@ -16,6 +16,8 @@ District and trial court decisions are **not** included.
 
 ## Just want to read the documents?
 
+
+
 Parquet is for pipelines. If you want to open an actual judgment or Act:
 
 - **[Browse 22,264 Acts and regulations](https://oss-data-in.vaquill.ai/browse.html)** - pick a
@@ -33,77 +35,9 @@ Parquet is for pipelines. If you want to open an actual judgment or Act:
   [Supreme Court](https://registry.opendata.aws/indian-supreme-court-judgments/)); we do not
   re-host them.
 
-## Download
-
-```python
-from datasets import load_dataset
-
-judgments = load_dataset("vaquill/open-india-law", "judgments", split="train")
-acts      = load_dataset("vaquill/open-india-law", "legislation", split="train")
-regs      = load_dataset("vaquill/open-india-law", "regulations", split="train")
-
-kerala    = load_dataset("vaquill/open-india-law", data_files="in_kerala_judgments.parquet")
-sebi      = load_dataset("vaquill/open-india-law", data_files="in_sebi_regulations.parquet")
-```
-
-**[huggingface.co/datasets/vaquill/open-india-law](https://huggingface.co/datasets/vaquill/open-india-law)**
-· mirror at [oss-data-in.vaquill.ai](https://oss-data-in.vaquill.ai/index.html)
-
-Snapshot `v2026.08`: 26 judgment files (32,572,660 chunks, 53.6 GB), 37 legislation files
-and 12 regulator files (1,098,269 provisions between them). Judgment rows are one per **chunk** - group by `case_id` and order by
-`chunk_index` to reassemble a judgment.
-
-You do not need to run any scraper below to use the data. They are here so the corpus is
-reproducible and auditable.
-
-## Vector embeddings
-
-Every chunk is published with its embedding, as Qdrant per-shard snapshots.
-
-| Collection | Points | Shards | Size | Content |
-| --- | --- | --- | --- | --- |
-| `legal_corpus_v1` | 19,595,718 | 4 | 272.8 GB | High Court and Supreme Court judgment chunks |
-| `legal_corpus_v2` | 11,823,753 | 4 | 179.6 GB | Tribunal and regulator decision chunks |
-| `acts_india` | 1,098,577 | 2 | 11.2 GB | Legislation and regulatory provisions |
-
-**32,518,048 vectors, 463.6 GB**, taken from Qdrant 1.16.3.
-Embeddings are Voyage AI **voyage-4 series**, 1024 dimensions, cosine distance.
-Each collection also carries a named sparse vector used for BM25 hybrid search.
-
-> **Embed your queries with the voyage-4 series.**
-> Vectors from a different model live in a different space, so similarity scores against them are not meaningful.
-
-### Import into Qdrant
-
-Snapshots are per-shard, so create the collection first with a matching `shard_number`, then recover each shard.
-Qdrant fetches each snapshot itself and verifies the published SHA256 before accepting it.
-
-```bash
-# 1. create the collection
-curl -X PUT http://localhost:6333/collections/legal_corpus_v1 \
-  -H 'Content-Type: application/json' -d '{
-    "shard_number": 4,
-    "vectors": {"dense": {"size": 1024, "distance": "Cosine", "on_disk": true,
-      "quantization_config": {"scalar": {"type": "int8", "quantile": 0.99}}}},
-    "sparse_vectors": {"sparse": {}}
-  }'
-
-# 2. recover each shard straight from the mirror
-BASE=https://oss-data-in.vaquill.ai/qdrant/legal_corpus_v1
-for N in 0 1 2 3; do
-  SNAP=$(curl -s "$BASE/shard-$N/index.json" | jq -r .snapshot)
-  SUM=$(curl -s "$BASE/shard-$N/$SNAP.checksum")
-  curl -X PUT "http://localhost:6333/collections/legal_corpus_v1/shards/$N/snapshots/recover" \
-    -H 'Content-Type: application/json' \
-    -d "{\"location\": \"$BASE/shard-$N/$SNAP\", \"checksum\": \"$SUM\", \"priority\": \"snapshot\"}"
-done
-```
-
-Use `shard_number: 2` for `acts_india`.
-Manifest of every shard, size and checksum: [qdrant/index.json](https://oss-data-in.vaquill.ai/qdrant/index.json).
-Full guide including verification and disk requirements: [data/QDRANT_RESTORE.md](data/QDRANT_RESTORE.md).
-
 ## Courts
+
+
 
 | Court | Judgments | Earliest | Latest |
 |---|---:|---|---|
@@ -135,6 +69,8 @@ Full guide including verification and disk requirements: [data/QDRANT_RESTORE.md
 | Sikkim High Court | 453 | 2000 | 2025 |
 
 ## Tribunals and regulators
+
+
 
 **Matters** are distinct cases. **Reasoned decisions** is the estimated subset that is a
 substantive decision rather than a procedural order sheet, from a sample of 150 documents per
@@ -171,6 +107,8 @@ legal PDFs through this pipeline. Email **contact@vaquill.ai**.
 
 ## Regulators
 
+
+
 Each regulator ships as its own file, `in_<body>_regulations.parquet`, so you can take the
 Securities and Exchange Board of India without pulling the Reserve Bank of India.
 
@@ -190,6 +128,8 @@ Securities and Exchange Board of India without pulling the Reserve Bank of India
 | [Central Board of Indirect Taxes and Customs (CBIC)](scripts/regulators/cbic-scraper.ts) | 169 | 4,806 |
 
 ## Legislation
+
+
 
 Sourced from India Code. Every section is held and indexed separately.
 
@@ -242,10 +182,14 @@ Scrapers: [Acts crawler](scripts/legislation/indiacode-scraper.ts) ·
 
 ## Parliament
 
+
+
 Lok Sabha debates, Law Commission reports and gazette records:
 [download-lok-sabha-debates.py](scripts/parliament/download-lok-sabha-debates.py).
 
 ## Document pipeline
+
+
 
 Indian courts and tribunals publish PDFs, very often scanned with no text layer. Turning
 those into clean, section-aware, citable text is the hard part, and it is what this project
@@ -266,27 +210,9 @@ actually contributes.
 A court-structure-aware variant is in [scripts/pipeline/court/](scripts/pipeline/court/);
 chunking tests in [scripts/pipeline/tests/](scripts/pipeline/tests/).
 
-## Quick start
-
-```bash
-pip install -r requirements.txt
-npm install                       # the TypeScript scrapers
-
-cp .env.example .env              # optional - only proxies and OCR need keys
-
-# Legislation: India Code (Central + State Acts)
-OUT_DIR=./data npx tsx scripts/legislation/indiacode-scraper.ts
-
-# A tribunal (the Income Tax Appellate Tribunal):
-OUT_DIR=./data npx tsx scripts/tribunals/itat-scraper.ts
-
-# Turn scraped PDFs/HTML into normalized section records
-OUT_DIR=./data python scripts/legislation/pipeline/run-pipeline.py --help
-```
-
-Every script is self-documenting - run it with `--help`, or read its module docstring for the exact source and options.
-
 ## What you get (output format)
+
+
 
 Scrapers write **JSONL** - one normalized record per line - to `$OUT_DIR` (default `./data`), plus source PDFs where the forum publishes them.
 No database, no cloud storage, no credentials required.
@@ -315,7 +241,105 @@ Tribunal records:
 | `doc_type` / `is_judgment` | Order, judgment, notice |
 | `source_pdf_url` | Back-link to the tribunal's own PDF |
 
+## Download
+
+
+
+```python
+from datasets import load_dataset
+
+judgments = load_dataset("vaquill/open-india-law", "judgments", split="train")
+acts      = load_dataset("vaquill/open-india-law", "legislation", split="train")
+regs      = load_dataset("vaquill/open-india-law", "regulations", split="train")
+
+kerala    = load_dataset("vaquill/open-india-law", data_files="in_kerala_judgments.parquet")
+sebi      = load_dataset("vaquill/open-india-law", data_files="in_sebi_regulations.parquet")
+```
+
+**[huggingface.co/datasets/vaquill/open-india-law](https://huggingface.co/datasets/vaquill/open-india-law)**
+· mirror at [oss-data-in.vaquill.ai](https://oss-data-in.vaquill.ai/index.html)
+
+Snapshot `v2026.08`: 26 judgment files (32,572,660 chunks, 53.6 GB), 37 legislation files
+and 12 regulator files (1,098,269 provisions between them). Judgment rows are one per **chunk** - group by `case_id` and order by
+`chunk_index` to reassemble a judgment.
+
+You do not need to run any scraper below to use the data. They are here so the corpus is
+reproducible and auditable.
+
+## Vector embeddings
+
+
+
+Every chunk is published with its embedding, as Qdrant per-shard snapshots.
+
+| Collection | Points | Shards | Size | Content |
+| --- | --- | --- | --- | --- |
+| `legal_corpus_v1` | 19,595,718 | 4 | 272.8 GB | High Court and Supreme Court judgment chunks |
+| `legal_corpus_v2` | 11,823,753 | 4 | 179.6 GB | Tribunal and regulator decision chunks |
+| `acts_india` | 1,098,577 | 2 | 11.2 GB | Legislation and regulatory provisions |
+
+**32,518,048 vectors, 463.6 GB**, taken from Qdrant 1.16.3.
+Embeddings are Voyage AI **voyage-4 series**, 1024 dimensions, cosine distance.
+Each collection also carries a named sparse vector used for BM25 hybrid search.
+
+> **Embed your queries with the voyage-4 series.**
+> Vectors from a different model live in a different space, so similarity scores against them are not meaningful.
+
+### Import into Qdrant
+
+Snapshots are per-shard, so create the collection first with a matching `shard_number`, then recover each shard.
+Qdrant fetches each snapshot itself and verifies the published SHA256 before accepting it.
+
+```bash
+# 1. create the collection
+curl -X PUT http://localhost:6333/collections/legal_corpus_v1 \
+  -H 'Content-Type: application/json' -d '{
+    "shard_number": 4,
+    "vectors": {"dense": {"size": 1024, "distance": "Cosine", "on_disk": true,
+      "quantization_config": {"scalar": {"type": "int8", "quantile": 0.99}}}},
+    "sparse_vectors": {"sparse": {}}
+  }'
+
+# 2. recover each shard straight from the mirror
+BASE=https://oss-data-in.vaquill.ai/qdrant/legal_corpus_v1
+for N in 0 1 2 3; do
+  SNAP=$(curl -s "$BASE/shard-$N/index.json" | jq -r .snapshot)
+  SUM=$(curl -s "$BASE/shard-$N/$SNAP.checksum")
+  curl -X PUT "http://localhost:6333/collections/legal_corpus_v1/shards/$N/snapshots/recover" \
+    -H 'Content-Type: application/json' \
+    -d "{\"location\": \"$BASE/shard-$N/$SNAP\", \"checksum\": \"$SUM\", \"priority\": \"snapshot\"}"
+done
+```
+
+Use `shard_number: 2` for `acts_india`.
+Manifest of every shard, size and checksum: [qdrant/index.json](https://oss-data-in.vaquill.ai/qdrant/index.json).
+Full guide including verification and disk requirements: [data/QDRANT_RESTORE.md](data/QDRANT_RESTORE.md).
+
+## Quick start
+
+
+
+```bash
+pip install -r requirements.txt
+npm install                       # the TypeScript scrapers
+
+cp .env.example .env              # optional - only proxies and OCR need keys
+
+# Legislation: India Code (Central + State Acts)
+OUT_DIR=./data npx tsx scripts/legislation/indiacode-scraper.ts
+
+# A tribunal (the Income Tax Appellate Tribunal):
+OUT_DIR=./data npx tsx scripts/tribunals/itat-scraper.ts
+
+# Turn scraped PDFs/HTML into normalized section records
+OUT_DIR=./data python scripts/legislation/pipeline/run-pipeline.py --help
+```
+
+Every script is self-documenting - run it with `--help`, or read its module docstring for the exact source and options.
+
 ## Sourcing and provenance
+
+
 
 Government-only. Every record traces to a court, tribunal or government publisher, and keeps
 the source URL it was ingested from. No commercial law reporter and no third-party aggregator
@@ -340,6 +364,8 @@ Still out of scope: the citation graph, which is coupled to our own infrastructu
 
 ## What has been removed, and why
 
+
+
 **Identifying detail that a statute bars from publication.** Indian courts anonymize
 sexual-offence victims in the large majority of cases, so this dataset does **not** exclude by
 statute category: doing so would remove roughly 180,000 judgments that are lawful to publish
@@ -363,6 +389,8 @@ Counts of what each rule removed are published with each snapshot.
 
 ## Reporting a problem
 
+
+
 If this corpus contains material that should not be public, write to **contact@vaquill.ai**
 with the subject line `Open India Law - redaction request`. Directions of Indian courts and
 tribunals are honoured. Because a published snapshot is a fixed artifact with published
@@ -370,6 +398,8 @@ checksums, corrections are made by publishing a superseding snapshot rather than
 in place.
 
 ## Important caveats
+
+
 
 **1. Several sources serve Indian traffic only.** India Code in particular returns "The specified URL is inaccessible at this time" to non-Indian IPs while serving its homepage normally.
 Run those scrapers from an Indian host, or configure a proxy in `.env`.
@@ -392,6 +422,8 @@ This is **not legal advice**.
 
 ## Licensing and commercial use
 
+
+
 - **Scripts** - Apache-2.0 ([`LICENSE`](LICENSE)). Free, including commercial use.
 - **Data / compilation** - CC BY 4.0 ([`data/LICENSE.md`](data/LICENSE.md)). Free with attribution.
 - **The underlying legal text** - a Government work under s.17(d) of the Copyright Act 1957, reproducible under s.52(1)(q). We hold no rights in it and grant none; your right to use it comes from the statute.
@@ -403,6 +435,8 @@ That is why this corpus is CC BY rather than CC0.
 
 ## Want it built for you?
 
+
+
 The dataset is free and always will be. Separately, we build legal data pipelines under
 contract: bulk extraction from scanned or non-machine-readable sources, OCR at scale,
 normalization into a schema you can query, and ongoing refresh.
@@ -411,6 +445,8 @@ That is what produced this corpus. If a law firm, publisher or legal-research pr
 data at this scale and cannot get there from the raw sources, email **contact@vaquill.ai**.
 
 ## Contributing
+
+
 
 New-source parsers, coverage fixes, and - especially - **repairs to scrapers that broke when a government site changed** are welcome.
 Open a PR against the relevant script in the tables above.
@@ -423,6 +459,8 @@ Particularly useful: verified copyright and terms pages for the forums still mar
 from outside India, and each one unblocks a corpus.
 
 ## Maintained by
+
+
 
 [Vaquill AI](https://www.vaquill.ai). Full measured coverage, including year-by-year tables
 and the held-vs-embedded reconciliation, is in [COVERAGE.md](COVERAGE.md).
