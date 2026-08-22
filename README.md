@@ -56,6 +56,53 @@ and 12 regulator files (1,098,269 provisions between them). Judgment rows are on
 You do not need to run any scraper below to use the data. They are here so the corpus is
 reproducible and auditable.
 
+## Vector embeddings
+
+Every chunk is published with its embedding, as Qdrant per-shard snapshots.
+
+| Collection | Points | Shards | Size | Content |
+| --- | --- | --- | --- | --- |
+| `legal_corpus_v1` | 19,595,718 | 4 | 272.8 GB | High Court and Supreme Court judgment chunks |
+| `legal_corpus_v2` | 11,823,753 | 4 | 179.6 GB | Tribunal and regulator decision chunks |
+| `acts_india` | 1,098,577 | 2 | 11.2 GB | Legislation and regulatory provisions |
+
+**32,518,048 vectors, 463.6 GB**, taken from Qdrant 1.16.3.
+Embeddings are Voyage AI **voyage-4 series**, 1024 dimensions, cosine distance.
+Each collection also carries a named sparse vector used for BM25 hybrid search.
+
+> **Embed your queries with the voyage-4 series.**
+> Vectors from a different model live in a different space, so similarity scores against them are not meaningful.
+
+### Import into Qdrant
+
+Snapshots are per-shard, so create the collection first with a matching `shard_number`, then recover each shard.
+Qdrant fetches each snapshot itself and verifies the published SHA256 before accepting it.
+
+```bash
+# 1. create the collection
+curl -X PUT http://localhost:6333/collections/legal_corpus_v1 \
+  -H 'Content-Type: application/json' -d '{
+    "shard_number": 4,
+    "vectors": {"dense": {"size": 1024, "distance": "Cosine", "on_disk": true,
+      "quantization_config": {"scalar": {"type": "int8", "quantile": 0.99}}}},
+    "sparse_vectors": {"sparse": {}}
+  }'
+
+# 2. recover each shard straight from the mirror
+BASE=https://oss-data-in.vaquill.ai/qdrant/legal_corpus_v1
+for N in 0 1 2 3; do
+  SNAP=$(curl -s "$BASE/shard-$N/index.json" | jq -r .snapshot)
+  SUM=$(curl -s "$BASE/shard-$N/$SNAP.checksum")
+  curl -X PUT "http://localhost:6333/collections/legal_corpus_v1/shards/$N/snapshots/recover" \
+    -H 'Content-Type: application/json' \
+    -d "{\"location\": \"$BASE/shard-$N/$SNAP\", \"checksum\": \"$SUM\", \"priority\": \"snapshot\"}"
+done
+```
+
+Use `shard_number: 2` for `acts_india`.
+Manifest of every shard, size and checksum: [qdrant/index.json](https://oss-data-in.vaquill.ai/qdrant/index.json).
+Full guide including verification and disk requirements: [data/QDRANT_RESTORE.md](data/QDRANT_RESTORE.md).
+
 ## Courts
 
 | Court | Judgments | Earliest | Latest |
@@ -288,8 +335,8 @@ on the AWS Open Data Registry - [High Court](https://registry.opendata.aws/india
 published by Dattam Labs. Re-hosting 1.36 TB of already-public files would add nothing, so
 this project publishes the layer they lack: extracted text, chunking, provenance and metadata.
 
-Also out of scope: the retrieval layer (embeddings, semantic index, citation graph), which is
-coupled to our own infrastructure.
+The embeddings ARE published, as Qdrant snapshots. See [Vector embeddings](#vector-embeddings).
+Still out of scope: the citation graph, which is coupled to our own infrastructure.
 
 ## What has been removed, and why
 
