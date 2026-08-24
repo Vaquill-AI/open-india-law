@@ -130,7 +130,13 @@ tribunals:
       - "PDF coverage partial: 36,080 of 63,487 matters have a pdf_url; source_pdf_url empty on all"
   itat:
     official_source: https://itat.gov.in
-    terms_status: unknown
+    terms_status: amber
+    terms-quote: >-
+      "Material on this site is subject to copyright protection... may be
+      downloaded without requiring specific prior permission. Any other
+      proposed use of the material is subject to the approval of the Income
+      Tax Appellate Tribunal"
+    terms_url: https://itati.gov.in/page/website_policy
     terms_note: "copyright policy page returns 403; site requires JS. MUST verify before release."
     matters: 115074
     coverage_verified: false
