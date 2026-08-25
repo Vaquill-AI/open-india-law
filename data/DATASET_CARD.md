@@ -470,19 +470,41 @@ normalization into a schema you can query, and ongoing refresh.
 That is what produced this corpus. If a law firm, publisher or legal-research product needs
 data at this scale and cannot get there from the raw sources, email **contact@vaquill.ai**.
 
+## Help keep this current
+
+This release is a snapshot, `v2026.08`. Left alone it goes stale.
+
+The corpus is built by **54 scrapers pointed at government portals**, 30 for tribunals, 17 for
+regulators, 5 for legislation and 2 for Parliament.
+Those portals change without warning, and when one does, its scraper breaks quietly.
+A scraper that returns nothing looks a lot like a source that published nothing.
+
+We publish every scraper so anyone can rebuild the corpus from scratch.
+Rebuilding it on a schedule is a different problem, and it needs more hands than we have.
+
+**The most useful thing you can do is adopt one source.**
+Pick a forum or a regulator you already care about, watch its scraper, and send a PR when it
+breaks. One person watching one court is worth more than an occasional sweep across all of them,
+because you will notice the change in a week rather than at the next release.
+
+Also genuinely useful, and quick:
+
+- **Verified copyright and terms pages for the 24 sources still marked `terms_status: unknown`
+  in [coverage.yml](https://github.com/Vaquill-AI/open-india-law/blob/main/coverage.yml).** Most are unreachable from outside India, so this needs
+  someone on an Indian IP. Each one unblocks a corpus.
+- **Coverage gaps.** If you know a court or regulator publishes something we have not captured,
+  open an issue with the URL.
+- **Bad records.** A wrong section number, a truncated judgment, a mislabelled status. Open an
+  issue with the `act_id` or `case_id` and we can trace it.
+
+If enough sources get adopted we will move to a regular refresh rather than one-off snapshots.
+That is the goal, and it is the part we cannot do alone.
+
 ## Contributing
 
-
-
-New-source parsers, coverage fixes, and - especially - **repairs to scrapers that broke when a government site changed** are welcome.
+New-source parsers, coverage fixes, and especially **repairs to scrapers that broke when a
+government site changed** are welcome.
 Open a PR against the relevant script in the tables above.
-
-Particularly useful right now: **verified copyright/terms pages for the forums marked `unverified` in [`coverage.yml`](https://github.com/Vaquill-AI/open-india-law/blob/main/coverage.yml)**, captured from an Indian IP.
-Most of those pages are unreachable from outside India, and each one unblocks a corpus.
-
-Particularly useful: verified copyright and terms pages for the forums still marked
-`unknown` in [coverage.yml](https://github.com/Vaquill-AI/open-india-law/blob/main/coverage.yml), captured from an Indian IP. Most are unreachable
-from outside India, and each one unblocks a corpus.
 
 ## Maintained by
 
