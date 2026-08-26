@@ -292,6 +292,20 @@ and 12 regulator files (1,098,269 provisions between them). Judgment rows are on
 You do not need to run any scraper below to use the data. They are here so the corpus is
 reproducible and auditable.
 
+### Snapshot v2026.08.1
+
+`v2026.08.1` supersedes `v2026.08` and is what the mirror and HuggingFace now serve.
+The change is attribution, and nothing else.
+
+| Field | v2026.08 | v2026.08.1 |
+| --- | --- | --- |
+| `source_url` | our mirror copy of the document | the publisher's own page, on 83.3% of rows |
+| `source_publisher` | absent | the issuing body, on every row |
+| `mirror_url` | absent | the previous mirror link, preserved |
+
+`v2026.08` remains published and unchanged, and its checksums stay valid.
+We do not edit a release in place; corrections ship as a superseding snapshot.
+
 ## Vector embeddings
 
 

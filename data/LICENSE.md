@@ -70,10 +70,13 @@ A CC0 dedication would purport to release downstream users from a condition our 
 Redistribution of this corpus must preserve acknowledgement of the originating publisher.
 The dataset card and the tables in the README name the issuing body for every corpus, and that is
 where attribution currently lives.
-Be aware of two gaps we are correcting: per-record `source_url` resolves to our mirror copy of the
-source document rather than to the publisher's own page, and there is no `source_publisher` field in
-the published schema.
-If you redistribute a single file on its own, carry the publisher name from the card yourself.
+As of snapshot **v2026.08.1** every legislation and regulator row also carries `source_publisher`,
+the issuing body, and `source_url` resolves to the publisher's own page rather than to our mirror.
+That covers 914,443 of 1,098,269 rows (83.3%).
+The remainder carry `source_publisher` but an empty `source_url`, because MCA and CBIC store no
+usable link at source and the Law Commission, State GST and TRAI sets are largely empty.
+The previous mirror link is preserved on every row as `mirror_url`.
+Judgment rows carry the issuing court in `court` rather than `source_publisher`.
 
 ## Not covered by the Government Open Data License (GODL-India)
 
