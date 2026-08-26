@@ -68,7 +68,12 @@ A CC0 dedication would purport to release downstream users from a condition our 
 ## Attribution to the sources themselves
 
 Redistribution of this corpus must preserve acknowledgement of the originating publisher.
-Per-record `source_url` and `source_publisher` fields carry that information, and the dataset card lists the publisher for each corpus.
+The dataset card and the tables in the README name the issuing body for every corpus, and that is
+where attribution currently lives.
+Be aware of two gaps we are correcting: per-record `source_url` resolves to our mirror copy of the
+source document rather than to the publisher's own page, and there is no `source_publisher` field in
+the published schema.
+If you redistribute a single file on its own, carry the publisher name from the card yourself.
 
 ## Not covered by the Government Open Data License (GODL-India)
 

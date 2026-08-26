@@ -377,7 +377,16 @@ Bank of India on `rbi.org.in`, the Pension Fund Regulatory and Development Autho
 `pfrda.org.in`, the Delhi Real Estate Regulatory Authority on `erera.co.in`, and the Bar
 Council of India's All India Bar Examination on `allindiabarexamination.com`.
 
-Scrapers identify as `VaquillLegalBot/1.0` and respect each site's `robots.txt`.
+Scrapers identify as `VaquillLegalBot/1.0`.
+
+Most sources either publish no `robots.txt` or permit the paths we fetch.
+Two do not.
+IRDAI disallows all crawling, and CPCB permits only `/web/`, which is not where its circulars and
+directions live.
+We fetched both anyway and relied on section 52(1)(q) rather than on the file.
+That is a deliberate call, recorded here rather than dressed up as blanket compliance we do not have.
+The PFRDA scraper, which faced the same blanket disallow and produced no published data, has been
+removed.
 
 **The source judgment PDFs are not republished here.** They are already public under CC BY 4.0
 on the AWS Open Data Registry - [High Court](https://registry.opendata.aws/indian-high-court-judgments/)

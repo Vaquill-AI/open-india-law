@@ -25,8 +25,8 @@ snapshot:
   legal_review: >-
     Release cleared by counsel, August 2026. The per-source terms_status fields
     below remain a factual record of what WE were able to fetch and verify
-    directly - several government policy pages are unreachable from outside
-    India - and are kept for provenance rather than as an outstanding blocker.
+    directly - several government policy pages sit behind a WAF and some publish no
+    policy page at all (verified 2026-08-26 FROM an Indian IP, so this is not geo-blocking) - and are kept for provenance rather than as an outstanding blocker.
   basis: >-
     Copyright Act 1957 s.52(1)(q). The underlying text is a Government work
     under s.17(d); reproduction is non-infringing under s.52(1)(q). See
@@ -64,8 +64,7 @@ legislation:
       stock DSpace install; robots.txt disallows /discover and /simple-search
       but not /browse or /handle/*. Reliance is on s.52(1)(q)(ii), not on any
       site grant. ACTION: capture disclaimer.jsp and the Legislative Department
-      copyright policy from an Indian IP and archive them before release - both
-      are unreachable from outside India.
+      copyright policy from an Indian IP and archive them before release - both sit behind a WAF; verified 2026-08-26 from an Indian IP, so this is not geo-blocking.
     s52_1_q_ii_condition: >-
       Satisfied by section-level structure, hierarchy, stable identifiers,
       cross-references, amendment history and status classification.
@@ -163,7 +162,7 @@ tribunals:
   drt:      { terms_status: unknown, matters: 108395, coverage_verified: false }
   aptel:    { terms_status: unknown, matters: 2707,   coverage_verified: false }
   atfp:     { terms_status: unknown, matters: 3359,   coverage_verified: false }
-  cci:      { terms_status: unknown, matters: 2944,   coverage_verified: false }
+  cci:      { terms_status: amber,   matters: 2944,   coverage_verified: false, note: "Copyright policy requires prior permission by email, identical wording to SEBI. Verified live 2026-08-26 at /contents/copyright. Permission not yet requested." }
   tdsat:    { terms_status: unknown, matters: 1348,   coverage_verified: false }
   ibbi:     { terms_status: unknown, matters: 1580,   coverage_verified: false }
   gst_aar:  { terms_status: unknown, matters: 2618,   coverage_verified: false }
@@ -178,8 +177,8 @@ regulators:
       taking proper permission by sending a mail to us."
     terms_url: https://www.sebi.gov.in/website-policy.html
     blocking_note: >-
-      SEBI is the only source found that conditions reuse on PRIOR WRITTEN
-      PERMISSION. Either obtain it in writing and record the reference here, or
+      SEBI and CCI both condition reuse on PRIOR WRITTEN PERMISSION,
+      in identical wording. Either obtain it in writing and record the reference here, or
       exclude SEBI from the release. Do not ship on the assumption that
       s.52(1)(q)(i)/(iv) overrides the site policy.
     access_note: >-
@@ -198,7 +197,7 @@ regulators:
   mca:    { terms_status: unknown, coverage_verified: false }
   irdai:  { terms_status: unknown, coverage_verified: false }
   trai:   { terms_status: unknown, coverage_verified: false }
-  pfrda:  { terms_status: unknown, coverage_verified: false }
+  pfrda:  { terms_status: red, coverage_verified: false, note: "robots.txt blanket-disallows all crawling. Scraper REMOVED 2026-08-26. No PFRDA-sourced data published; the PFRDA Act and rules in the corpus came via DFS." }
   dgft:   { terms_status: unknown, coverage_verified: false }
   cpcb:   { terms_status: unknown, coverage_verified: false }
   moefcc: { terms_status: unknown, coverage_verified: false }
