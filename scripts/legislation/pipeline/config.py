@@ -4,6 +4,7 @@ Configuration constants for the IndiaCode legislation RAG pipeline.
 Chunk sizes, section type priorities, regex patterns, R2 paths.
 """
 
+import os
 import re
 
 # ---------------------------------------------------------------------------
