@@ -373,7 +373,7 @@ def run_extraction(entries: list[dict], workers: int = DEFAULT_WORKERS):
     PDF_TIMEOUT = 180      # 3 min max per PDF (kills hung workers)
     RAM_LIMIT_GB = 20      # pause if Python > 20GB RSS
 
-    ctx = mp.get_context("fork")  # explicit fork — don't rely on global setting
+    ctx = mp.get_context("spawn" if os.name == "nt" else "fork")
 
     success = 0
     failed = 0
