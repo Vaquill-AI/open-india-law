@@ -14,6 +14,8 @@ individual section. Normalized to one schema, exclusively from official governme
 
 District and trial court decisions are **not** included.
 
+[![Discord](https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?logo=discord&logoColor=white)](https://discord.gg/GQtnwxf8nQ)
+
 ## Just want to read the documents?
 
 
@@ -524,7 +526,7 @@ Open a PR against the relevant script in the tables above.
 [Vaquill AI](https://www.vaquill.ai). Full measured coverage, including year-by-year tables
 and the held-vs-embedded reconciliation, is in [COVERAGE.md](COVERAGE.md).
 
-Questions, ideas, or want to help? DM me on [LinkedIn](https://www.linkedin.com/in/zriyansh/).
+Questions, ideas, or want to help? Join the [Discord](https://discord.gg/GQtnwxf8nQ), or DM me on [LinkedIn](https://www.linkedin.com/in/zriyansh/).
 
 ---
 
