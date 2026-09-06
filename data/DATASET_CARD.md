@@ -314,9 +314,19 @@ Every chunk is published with its embedding, as Qdrant per-shard snapshots.
 
 | Collection | Points | Shards | Size | Content |
 | --- | --- | --- | --- | --- |
-| `legal_corpus_v1` | 19,595,718 | 4 | 272.8 GB | High Court and Supreme Court judgment chunks |
-| `legal_corpus_v2` | 11,823,753 | 4 | 179.6 GB | Tribunal and regulator decision chunks |
+| `legal_corpus_v1` | 19,595,718 | 4 | 272.8 GB | High Court judgment chunks. Older ingest, no citation field |
+| `legal_corpus_v2` | 11,823,753 | 4 | 179.6 GB | Supreme Court and High Court judgment chunks. Newer ingest, carries citations |
 | `acts_india` | 1,098,577 | 2 | 11.2 GB | Legislation and regulatory provisions |
+
+> **Restore both judgment collections.**
+> They are not two versions of the same data, and neither one contains the other.
+> Each court's bulk sits in exactly one of them, and the Supreme Court is only in `legal_corpus_v2`.
+> Restoring `legal_corpus_v1` on its own gives you no Supreme Court judgments at all, and almost nothing from
+> Kerala, Karnataka, Rajasthan, Punjab and Haryana, Jharkhand, Madhya Pradesh, Orissa, Jammu and Kashmir, Manipur or Meghalaya.
+> We query both together. See [which courts are in which collection](QDRANT_RESTORE.md#which-courts-are-in-which-collection).
+
+Tribunal and regulator matters are in the case index only.
+None of them are embedded in these collections.
 
 **32,518,048 vectors, 463.6 GB**, taken from Qdrant 1.16.3.
 Embeddings are Voyage AI **voyage-4 series**, 1024 dimensions, cosine distance.

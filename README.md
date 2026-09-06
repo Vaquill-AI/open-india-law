@@ -288,9 +288,19 @@ Every chunk is published with its embedding, as Qdrant per-shard snapshots.
 
 | Collection | Points | Shards | Size | Content |
 | --- | --- | --- | --- | --- |
-| `legal_corpus_v1` | 19,595,718 | 4 | 272.8 GB | High Court and Supreme Court judgment chunks |
-| `legal_corpus_v2` | 11,823,753 | 4 | 179.6 GB | Tribunal and regulator decision chunks |
+| `legal_corpus_v1` | 19,595,718 | 4 | 272.8 GB | High Court judgment chunks. Older ingest, no citation field |
+| `legal_corpus_v2` | 11,823,753 | 4 | 179.6 GB | Supreme Court and High Court judgment chunks. Newer ingest, carries citations |
 | `acts_india` | 1,098,577 | 2 | 11.2 GB | Legislation and regulatory provisions |
+
+> **Restore both judgment collections.**
+> They are not two versions of the same data, and neither one contains the other.
+> Each court's bulk sits in exactly one of them, and the Supreme Court is only in `legal_corpus_v2`.
+> Restoring `legal_corpus_v1` on its own gives you no Supreme Court judgments at all, and almost nothing from
+> Kerala, Karnataka, Rajasthan, Punjab and Haryana, Jharkhand, Madhya Pradesh, Orissa, Jammu and Kashmir, Manipur or Meghalaya.
+> We query both together. See [which courts are in which collection](data/QDRANT_RESTORE.md#which-courts-are-in-which-collection).
+
+Tribunal and regulator matters are in the case index only.
+None of them are embedded in these collections.
 
 **32,518,048 vectors, 463.6 GB**, taken from Qdrant 1.16.3.
 Embeddings are Voyage AI **voyage-4 series**, 1024 dimensions, cosine distance.
@@ -305,27 +315,31 @@ Snapshots are per-shard, so create the collection first with a matching `shard_n
 Qdrant fetches each snapshot itself and verifies the published SHA256 before accepting it.
 
 ```bash
-# 1. create the collection
-curl -X PUT http://localhost:6333/collections/legal_corpus_v1 \
-  -H 'Content-Type: application/json' -d '{
-    "shard_number": 4,
-    "vectors": {"dense": {"size": 1024, "distance": "Cosine", "on_disk": true,
-      "quantization_config": {"scalar": {"type": "int8", "quantile": 0.99}}}},
-    "sparse_vectors": {"sparse": {}}
-  }'
+# Restore all three. legal_corpus_v1 on its own is NOT the full judgment corpus.
+for C in legal_corpus_v1 legal_corpus_v2 acts_india; do
+  SHARDS=4; [ "$C" = acts_india ] && SHARDS=2
 
-# 2. recover each shard straight from the mirror
-BASE=https://oss-data-in.vaquill.ai/qdrant/legal_corpus_v1
-for N in 0 1 2 3; do
-  SNAP=$(curl -s "$BASE/shard-$N/index.json" | jq -r .snapshot)
-  SUM=$(curl -s "$BASE/shard-$N/$SNAP.checksum")
-  curl -X PUT "http://localhost:6333/collections/legal_corpus_v1/shards/$N/snapshots/recover" \
-    -H 'Content-Type: application/json' \
-    -d "{\"location\": \"$BASE/shard-$N/$SNAP\", \"checksum\": \"$SUM\", \"priority\": \"snapshot\"}"
+  # 1. create the collection, with a shard_number matching the snapshots
+  curl -X PUT "http://localhost:6333/collections/$C" \
+    -H 'Content-Type: application/json' -d "{
+      \"shard_number\": $SHARDS,
+      \"vectors\": {\"dense\": {\"size\": 1024, \"distance\": \"Cosine\", \"on_disk\": true,
+        \"quantization_config\": {\"scalar\": {\"type\": \"int8\", \"quantile\": 0.99}}}},
+      \"sparse_vectors\": {\"sparse\": {}}
+    }"
+
+  # 2. recover each shard straight from the mirror
+  BASE=https://oss-data-in.vaquill.ai/qdrant/$C
+  for N in $(seq 0 $((SHARDS - 1))); do
+    SNAP=$(curl -s "$BASE/shard-$N/index.json" | jq -r .snapshot)
+    SUM=$(curl -s "$BASE/shard-$N/$SNAP.checksum")
+    curl -X PUT "http://localhost:6333/collections/$C/shards/$N/snapshots/recover" \
+      -H 'Content-Type: application/json' \
+      -d "{\"location\": \"$BASE/shard-$N/$SNAP\", \"checksum\": \"$SUM\", \"priority\": \"snapshot\"}"
+  done
 done
 ```
 
-Use `shard_number: 2` for `acts_india`.
 Manifest of every shard, size and checksum: [qdrant/index.json](https://oss-data-in.vaquill.ai/qdrant/index.json).
 Full guide including verification and disk requirements: [data/QDRANT_RESTORE.md](data/QDRANT_RESTORE.md).
 
