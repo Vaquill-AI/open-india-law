@@ -306,7 +306,35 @@ None of them are embedded in these collections.
 
 **32,518,048 vectors, 463.6 GB**, taken from Qdrant 1.16.3.
 Embeddings are Voyage AI **voyage-4 series**, 1024 dimensions, cosine distance.
-Each collection also carries a named sparse vector used for BM25 hybrid search.
+Each collection also carries a named `sparse` vector for BM25 hybrid search.
+It is built with FastEmbed [`Qdrant/bm25`](https://huggingface.co/Qdrant/bm25) at its default parameters: `k1=1.2`, `b=0.75`, `avg_len=256`, English stopwords, Snowball English stemming, `token_max_length=40`.
+Token ids are hashes of the stemmed token, so there is no vocabulary file to download.
+
+IDF is applied server-side by Qdrant through `"modifier": "idf"` on the collection.
+The stored values carry only the term-frequency and length-normalisation half of BM25, so create the collection with that modifier set.
+Without it, sparse ranking falls back to raw term frequency and common words score as highly as rare ones.
+
+> **Encode queries with `query_embed()`, not `embed()`.**
+> `embed()` applies the document-side saturation and length normalisation, which double-counts against server-side IDF.
+
+```python
+from fastembed import SparseTextEmbedding
+from qdrant_client import models
+
+sparse = SparseTextEmbedding(model_name="Qdrant/bm25")
+q = next(sparse.query_embed("maintenance of wife after divorce"))
+
+client.query_points(
+    collection_name="acts_india",
+    prefetch=[
+        models.Prefetch(
+            query=models.SparseVector(indices=q.indices.tolist(), values=q.values.tolist()),
+            using="sparse", limit=50),
+        models.Prefetch(query=dense_vector, using="dense", limit=50),
+    ],
+    query=models.FusionQuery(fusion=models.Fusion.RRF),
+)
+```
 
 > **Embed your queries with the voyage-4 series.**
 > Vectors from a different model live in a different space, so similarity scores against them are not meaningful.
@@ -327,7 +355,8 @@ for C in legal_corpus_v1 legal_corpus_v2 acts_india; do
       \"shard_number\": $SHARDS,
       \"vectors\": {\"dense\": {\"size\": 1024, \"distance\": \"Cosine\", \"on_disk\": true,
         \"quantization_config\": {\"scalar\": {\"type\": \"int8\", \"quantile\": 0.99}}}},
-      \"sparse_vectors\": {\"sparse\": {}}
+      \"sparse_vectors\": {\"sparse\": {\"modifier\": \"idf\",
+        \"index\": {\"on_disk\": true, \"full_scan_threshold\": 5000}}}
     }"
 
   # 2. recover each shard straight from the mirror
