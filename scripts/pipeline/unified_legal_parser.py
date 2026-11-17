@@ -79,7 +79,9 @@ logger = logging.getLogger(__name__)
 # =============================================================================
 # PyMuPDF Pro Setup (PDF Extraction)
 # =============================================================================
-PYMUPDF_PRO_API_KEY = "K9WIj3z//IAMYAMYwAZGUshC"
+import os
+
+PYMUPDF_PRO_API_KEY = os.environ.get("PYMUPDF_PRO_API_KEY", "")
 
 PYMUPDF_PRO_AVAILABLE = False
 OCR_AVAILABLE = False

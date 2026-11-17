@@ -61,8 +61,10 @@ import sys
 from pathlib import Path
 from typing import Dict, Any, List
 
-# PyMuPDF Pro API Key (3-month unlimited trial)
-PYMUPDF_PRO_API_KEY = "K9WIj3z//IAMYAMYwAZGUshC"
+# PyMuPDF Pro API key (read from the environment)
+import os
+
+PYMUPDF_PRO_API_KEY = os.environ.get("PYMUPDF_PRO_API_KEY", "")
 
 # IMPORTANT: Unlock PyMuPDF Pro FIRST, then import layout module
 PYMUPDF_PRO_AVAILABLE = False

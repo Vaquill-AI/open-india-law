@@ -22,8 +22,10 @@ Usage:
     )
 """
 
-# PyMuPDF Pro API Key (3-month unlimited trial)
-PYMUPDF_PRO_API_KEY = "K9WIj3z//IAMYAMYwAZGUshC"
+# PyMuPDF Pro API key (read from the environment)
+import os
+
+PYMUPDF_PRO_API_KEY = os.environ.get("PYMUPDF_PRO_API_KEY", "")
 
 # Unlock PyMuPDF Pro before importing pymupdf
 try:
