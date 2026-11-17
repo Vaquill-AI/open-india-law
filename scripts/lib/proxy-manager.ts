@@ -148,8 +148,8 @@ const PROVIDER_DEFINITIONS: Record<ProxyProvider, ProviderDefinition> = {
     // Webshare Rotating Residential Proxy
     // Docs: https://proxy2.webshare.io/docs/rotating-residential
     // For rotating proxy, username already includes '-rotate' suffix
-    // Format: username-rotate:password@p.webshare.io:80
-    // Example: aimuzkqq-rotate:puylkk0mcm15@p.webshare.io:80
+    // Format: username-rotate:<password>@p.webshare.io:80
+    // Example: <username>-rotate:<password>@p.webshare.io:80
     endpoint: 'p.webshare.io:80',
     formatUrl: (user, pass, _session, _country) => {
       // Webshare rotating residential proxies:
